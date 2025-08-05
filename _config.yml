@@ -95,7 +95,6 @@ callouts:
 plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
-  - jekyll-sitemap
 
 kramdown:
   syntax_highlighter_opts:
