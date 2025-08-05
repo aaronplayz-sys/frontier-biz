@@ -34,6 +34,7 @@ gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
 gh_edit_repository: "https://github.com/aaronplayz-sys/frontier-biz" # the github URL for your repo
 gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
 
 back_to_top: true
 back_to_top_text:  "Back to top"
