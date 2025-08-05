@@ -3,7 +3,7 @@ title: Home
 layout: home
 ---
 
-#Frontier Biz
+# Frontier Biz
 ## Guides for Frontier Defense on TitainFall 2
 
 Some information may be unique and while others will have the same information in more than one depending on how universal mechanic is. Rest assured that everything is covered.
