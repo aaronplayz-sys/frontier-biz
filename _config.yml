@@ -4,7 +4,6 @@ theme: just-the-docs
 color_scheme: dark
 
 url: 
-repository: aaronplayz-sys/frontier-biz
 permalink: pretty
 
 defaults:
@@ -95,7 +94,6 @@ callouts:
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-github-metadata
   - jekyll-include-cache
   - jekyll-sitemap
 
