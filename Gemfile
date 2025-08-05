@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-#gemspec
+gemspec
 
 gem "base64"
 gem "csv"
