@@ -1,6 +1,6 @@
 ---
 layout: default
-Title: Credits
+title: Credits
 nav_order: 2
 nav_enabled: true
 ---
