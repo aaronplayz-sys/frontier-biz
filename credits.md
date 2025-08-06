@@ -1,4 +1,5 @@
 ---
+layout: default
 Title: Credits
 nav_order: 2
 ---
