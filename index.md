@@ -3,33 +3,20 @@ title: Home
 layout: home
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# Frontier Biz
+## Guides for Frontier Defense on TitainFall 2
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+Some information may be unique and while others will have the same information in more than one depending on how universal mechanic is. Rest assured that everything is covered.
 
-More specifically, the created site:
+There is a lot of information to cover, for those that are wiling to read... If you are new to Frontier Defense[^1] or looking to get over skill plateaus, this is the right place for you!
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+{: .important }
+> Assume all guides are for Insane or Master Frontier Defense difficulty unless stated otherwise. We attempted to include all multiplayer mechanics.
+>
+> If you have additional information that is factual, join our [discord server] and create a post in guide-discussions and the guide writers will take a look. Or open an issue on [GitHub]. Be prepared to debate and defend your points, statements and opinions about guides on what should be added, edited/changed or removed. Others can join in on the discussions.
+>
+> On a final note, everyone has different skill sets and perspectives, two people can be right at the same time while both are wrong. Enjoy reading and get better, be respectful and have fun. 
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
-
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-To get started with creating a site, simply:
-
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
-
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+[^1]: Frontier Defense may be referenced as FD throughout our guide.
+[discord server]: https://discord.gg/xGFkBv9a5X
+[GitHub]: https://github.com/aaronplayz-sys/frontier-biz/issues

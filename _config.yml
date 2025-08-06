@@ -1,8 +1,25 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Frontier Biz
+description: A group of Titainfall 2 players with a focus on forming partys to tackle PvE modes such as Insane or Master. 
 theme: just-the-docs
-
-url: https://just-the-docs.github.io
+color_scheme: dark
+logo: "/assets/img/logo.png"
+favicon_ico: "/assets/img/favicon.ico"
+url: https://aaroplayzgaming.com/frontier-biz/
+permalink: pretty
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Discord: https://discord.gg/xGFkBv9a5X
+  Github: https://github.com/aaronplayz-sys/frontier-biz/
+aux_links_new_tab: true
+
+nav_enabled: true
+heading_anchors: true
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/aaronplayz-sys/frontier-biz" # the github URL for your repo
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
