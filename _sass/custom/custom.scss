@@ -1,0 +1,8 @@
+// Lighten callout backgrounds in dark mode
+@media (prefers-color-scheme: dark) {
+    .callout {
+      &.note, &.tip, &.warning, &.danger {
+        background-color: hsla(var(--color-base-h), var(--color-base-s), calc(var(--color-base-l) + 15%), 0.2);
+      }
+    }
+  }   
