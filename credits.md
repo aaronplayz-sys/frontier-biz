@@ -10,7 +10,7 @@ nav_enabled: true
 We would like make honorary mentions to the people who have made and edited these guides.
 
 - Jacksonkilled Author & Founder of Fronter Biz
-- AaronPlayz Editor & Discord Administrator
+- AaronPlayz Editor, Discord Administrator, and Github Repo owner
 - Bomperwomper Author
 - Boartamer Author
 - Nikovbn Author & Instructor
