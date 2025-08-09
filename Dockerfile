@@ -1,30 +1,29 @@
-FROM ruby:3.3-alpine
+FROM ruby:3.3-slim
 
-# Install build tools and dependencies
-RUN apk add --no-cache \
-  build-base \
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+  build-essential \
   libffi-dev \
-  protobuf-dev \
+  protobuf-compiler \
   nodejs \
   python3 \
-  git
+  git \
+  && rm -rf /var/lib/apt/lists/*
 
+# Set working directory
 WORKDIR /usr/src/app
 
-# Create Bundler config for persistent gem path
+# Bundler config for persistent gem path
 RUN mkdir -p .bundle \
  && echo 'BUNDLE_PATH: "/usr/local/bundle"' > .bundle/config
 
- # gem cache
 ENV BUNDLE_PATH=/usr/local/bundle
 
-# copy gemfile & gemfile.lock first
+# Copy Gemfile and lock file first for caching
 COPY Gemfile Gemfile.lock ./
+RUN gem install bundler -v 2.5.9 && bundle install
 
-# install gems (cached unless Gemfile changes)
-RUN gem install bundler && bundle install
-
-# copy remaining files in folder (files or directories in .dockerignore wont be copied)
+# Copy the rest of the project
 COPY . .
 
 EXPOSE 4000
