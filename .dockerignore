@@ -1,0 +1,7 @@
+_site
+.bundle
+node_modules
+*.log
+*.tmp
+*.swp
+.DS_Store
