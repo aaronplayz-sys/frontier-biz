@@ -56,9 +56,9 @@ Various kits that buff or add new abilities to help the pilot. (The [kit guide] 
 
 Tacticals serve as the main ability that the pilot has, with many different uses for each tactical, long cooldowns with different character models associated with each. (Refer to the [tactical guide] for more detail).
 
-## Ordinance
+## Ordnance
 
-Throwable weapons that detonate releasing harmful effects in an area. (Look to into the [ordinance guide] for more information.)
+Throwable weapons that detonate releasing harmful effects in an area. (Look to into the [ordnance guide] for more information.)
 
 ## Battery
 
@@ -92,7 +92,7 @@ After 100 Titan meter is earned by a pilot the pilot can initiate a Titan fall a
 [Mods and weapon sights guide]: /frontier-biz/pilotguide/weapon-mod-and-sights/
 [kit guide]: /frontier-biz/pilotguide/kit/
 [tactical guide]: /frontier-biz/pilotguide/tactical/
-[ordinance guide]: /frontier-biz/pilotguide/ordinance/
+[ordnance guide]: /frontier-biz/pilotguide/ordnance/
 [economy and armory guide]: /frontier-biz/pilotguide/economy-armory/
 [boost guide]: /frontier-biz/pilotguide/
 [Loadout guide]: /frontier-biz/pilotguide/
