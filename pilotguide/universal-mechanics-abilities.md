@@ -89,11 +89,11 @@ After 100 Titan meter is earned by a pilot the pilot can initiate a Titan fall a
 [primary weapons guide]: /frontier-biz/pilotguide/primary-and-sidearm/
 [Anti weapons guide]: /frontier-biz/pilotguide/anti-titain-weapon/
 [mod and sight guide]: /frontier-biz/pilotguide/weapon-mod-and-sights/
-[Mods and weapon sights guide]: /frontier-biz/pilotguide/weapon-mod-and-sights
-[kit guide]: /frontier-biz/pilotguide/
-[tactical guide]: /frontier-biz/pilotguide/tactical
-[ordinance guide]: /frontier-biz/pilotguide/
-[economy and armory guide]: /frontier-biz/pilotguide/
+[Mods and weapon sights guide]: /frontier-biz/pilotguide/weapon-mod-and-sights/
+[kit guide]: /frontier-biz/pilotguide/kit/
+[tactical guide]: /frontier-biz/pilotguide/tactical/
+[ordinance guide]: /frontier-biz/pilotguide/ordinance/
+[economy and armory guide]: /frontier-biz/pilotguide/economy-armory/
 [boost guide]: /frontier-biz/pilotguide/
 [Loadout guide]: /frontier-biz/pilotguide/
 [^1]: This will be linked to the respective guide when it is available.

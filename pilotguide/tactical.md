@@ -10,7 +10,7 @@ nav_order: 5
 
 Tacticals are the main and most important ability pilots will use. They vary from use to use. They will play the biggest role in the pilots playstyle. 
 
-There are 7 to choose from
+There are 7 to choose from:
 
 - TOC
 {:toc}
