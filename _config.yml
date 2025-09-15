@@ -1,7 +1,7 @@
 title: Frontier Biz
 description: A group of Titainfall 2 players with a focus on forming partys to tackle PvE modes such as Insane or Master. 
 theme: just-the-docs
-color_scheme: dark
+color_scheme: fbiz
 logo: "/assets/img/logo.png"
 favicon_ico: "/assets/img/favicon.ico"
 url: https://aaroplayzgaming.com/frontier-biz/
@@ -29,7 +29,7 @@ callouts:
     color: yellow
   important:
     title: Important
-    color: blue
+    color: orange
   new:
     title: New
     color: green
