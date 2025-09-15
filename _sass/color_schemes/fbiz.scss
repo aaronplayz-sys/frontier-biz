@@ -1,0 +1,6 @@
+@import "./color_schemes/dark";
+
+$link-color: #1E90FF; // Bright orange
+$link-hover-color: darken(#ff4c4c, 10%);
+$link-hover-shadow: 0 0 5px rgba($link-color, 0.7);
+$nav-child-link-color: $link-color;
