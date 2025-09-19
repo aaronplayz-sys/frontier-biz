@@ -15,8 +15,8 @@ FYI you can change loadout names.
 
 Some multiplayer focused loadouts are good too, like for Last titan standing, attrition or other game modes.
 
-![loadout1](../assets/img/pilotguide/loadout/loadout-1.png)
-![loadout2](../assets/img/pilotguide/loadout/loadout-2.png)
+![](../assets/img/pilotguide/loadout/loadout-1.png)
+![](../assets/img/pilotguide/loadout/loadout-2.png)
 
 
 
