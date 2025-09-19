@@ -5,6 +5,8 @@ parent: Pilot Guide
 nav_order: 10
 ---
 
+# Loadout
+
 Loadouts allow for pilots to optimize gameplay. They are also a good way to prevent yourself from changing weapons or abilities constantly during intermission or during death respawn time. A good pilot will have specific loadouts for builds, maps and gamemodes. What will those be? That will be up to you to figure out but I will provide a template and examples below to help. 
 
 Generally you will want two main loadouts, one for wave 1 and one for wave 2 - 5, Wave 1 loadout will consist of a anti titan and small enemy loadout usually with grenade launchers equipped. Since no titans can be called during wave 1 make sure to optimize loadout as such. 

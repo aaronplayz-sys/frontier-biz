@@ -85,7 +85,7 @@ The Titan meter is the bottom left meter that measures boost and titanfall progr
 After 100 Titan meter is earned by a pilot the pilot can initiate a Titan fall at any time. Titan falls land where the pilot aims so for accurate landings aim where you want it. If it is not initiated on flat terrain it will do the next clear spot, often somewhere distant. Do be careful, make sure there isn’t a ceiling where you plan to call down to reduce the risk of a deviant titanfall. Titan falls will not hurt you or your allies. (If you need more information about Titanfalls go to the Titanfalls and their kits guide[^1]).
 
 [movement guide]: /frontier-biz/pilotguide/movement/
-[rodeo guide]: /frontier-biz/pilotguide/
+[rodeo guide]: /frontier-biz/pilotguide/rodeo/
 [primary weapons guide]: /frontier-biz/pilotguide/primary-and-sidearm/
 [Anti weapons guide]: /frontier-biz/pilotguide/anti-titain-weapon/
 [mod and sight guide]: /frontier-biz/pilotguide/weapon-mod-and-sights/
@@ -94,6 +94,6 @@ After 100 Titan meter is earned by a pilot the pilot can initiate a Titan fall a
 [tactical guide]: /frontier-biz/pilotguide/tactical/
 [ordnance guide]: /frontier-biz/pilotguide/ordnance/
 [economy and armory guide]: /frontier-biz/pilotguide/economy-armory/
-[boost guide]: /frontier-biz/pilotguide/
-[Loadout guide]: /frontier-biz/pilotguide/
+[boost guide]: /frontier-biz/pilotguide/boost/
+[Loadout guide]: /frontier-biz/pilotguide/loadout
 [^1]: This will be linked to the respective guide when it is available.
