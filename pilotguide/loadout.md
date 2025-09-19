@@ -15,7 +15,9 @@ FYI you can change loadout names.
 
 Some multiplayer focused loadouts are good too, like for Last titan standing, attrition or other game modes.
 
-![loadout1](/assets/img/pilotguide/loadout/loadout-1.png)
-![loadout2](/assets/img/pilotguide/loadout/loadout-2.png)
+![loadout1](frontier-biz/assets/img/pilotguide/loadout/loadout-1.png)
+![loadout2](frontier-biz/assets/img/pilotguide/loadout/loadout-2.png)
+
+
 
 These are examples taken from the our discord, just know that your loadout can help you greatly with your playstyle depending on the situation.
