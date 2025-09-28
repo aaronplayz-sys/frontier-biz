@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Universal Mechanics and Abilities
+parent: Titan Guide
 nav_order: 16
-nav_enabled: true
 ---
 
 # Universal Mechanics And Abilities

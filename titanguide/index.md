@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Titain Guide
+title: Titan Guide
 nav_order: 15
 nav_enabled: true
 ---
