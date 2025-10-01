@@ -21,17 +21,17 @@ Kit one has the most playstyle influenced perks/abilities.
 
 Tactical has a shorter cooldown
 
-Power cell is perfect for those who rely on tactical abilities often, it can also help with long cooldown like cloak, A-wall or stim. A good pick for any situation and map. Power cell acts like an investment. 
+Power cell is perfect for those who rely on tactical abilities often, it can also help with long cooldown like cloak, A-wall or stim. A good pick for any situation and map. Power cell acts like an investment.
 
 ### Fast Regen
 
 Health regeneration begins sooner
 
-Fast Regen is a good kit for those who are newer and who do close combat. Since it only has value if the pilot is damaged, this is not as optimal on master and insane difficulties, where you need to do the maximum amount of damage as soon as possible. 
+Fast Regen is a good kit for those who are newer and who do close combat. Since it only has value if the pilot is damaged, this is not as optimal on master and insane difficulties, where you need to do the maximum amount of damage as soon as possible.
 
 ### Ordnance Expert
 
-Ordnance has a faster cooldown and enables you to see the projected trajectory of your ordnance. 
+Ordnance has a faster cooldown and enables you to see the projected trajectory of your ordnance.
 
 Very useful for pilots who use ordnance often, it can benefit less skilled players who use this kit. Particularly useful for pilots who use satchels, faster cooldown means more damage overall.
 
@@ -49,7 +49,7 @@ Kit 2 kits offer a different and sometimes a niche set of benefits
 
 Enemy death locations are marked by skulls on the map.
 
-Kill report has no use on frontier defense because there are no enemy pilots to fight, never pick this kit if you are going to play on FD. 
+Kill report has no use on frontier defense because there are no enemy pilots to fight, never pick this kit if you are going to play on FD.
 
 ### Wall Hang
 
@@ -59,15 +59,15 @@ Wall hang has its advantages and disadvantages, The ability to stay in one spot 
 
 ### Hover
 
-Hovers if the pilot aims in mid air. 
+Hovers if the pilot aims in mid air.
 
-Hover is wall hang but better, it allows you to stay mid air while aiming letting you get better shots in. This can make it easy for enemies to target you so be cautious. Without the need to wall ride you can use hover on any map. Hover cant be used twice in mid air so if you activate it make sure to use it for its whole duration but can be canceled whenever. Hover can be very useful to avoid nuke rodeo deaths that cause other nuke titans to detonate by hovering way above the air and avoiding the explosions. Hover goes well with the SMR weapon. Have extreme caution when using hover on master and insane on because stalkers can one shot you mid air. 
+Hover is wall hang but better, it allows you to stay mid air while aiming letting you get better shots in. This can make it easy for enemies to target you so be cautious. Without the need to wall ride you can use hover on any map. Hover cant be used twice in mid air so if you activate it make sure to use it for its whole duration but can be canceled whenever. Hover can be very useful to avoid nuke rodeo deaths that cause other nuke titans to detonate by hovering way above the air and avoiding the explosions. Hover goes well with the SMR weapon. Have extreme caution when using hover on master and insane on because stalkers can one shot you mid air.
 
 ### Low Profile
 
-Hides jump jet trails and allows for a quieter rodeo climbing. 
+Hides jump jet trails and allows for a quieter rodeo climbing.
 
-Low profile has no uses in frontier defense, do not equip this. It does have very good use when in combo with cloak making you very hard to detect. 
+Low profile has no uses in frontier defense, do not equip this. It does have very good use when in combo with cloak making you very hard to detect.
 
 ### Titan Hunter
 

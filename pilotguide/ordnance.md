@@ -17,7 +17,7 @@ The 6 ordnances are:
 
 ## Frag Grenade
 
- A cookable explosive.
+A cookable explosive.
 
 Frag grenades are the default ordnance that pilots will unlock upon starting a new profile or regenerating. The frag grenade has some uses in that it will do serious damage towards groups of enemies. Frag grenades don’t have utility but they can do some damage to titans and reapers. Learn to cook the frags and throw in time for instant kills. Be warned though that cooking for too long causes you to detonate yourself causing death. Frag grenade is a stable ordinance however there are better options to use than this ordnance so keep that in mind.
 
@@ -31,13 +31,13 @@ Arc grenades have a lot of utility to offer that the game does not tell you. Arc
 
 Thermite ninja star
 
-Firestar is an accurate fast throwing projectile that erupts into thermite wherever it hits. With little AOE pilots must aim when using Firestar. Firestar and thermite will kill whatever it hits and will prevent stalkers self destruction. The firestar won't kill high health reapers and titans so it is a good counter for stalkers and such, aim for the exits of drop pods for maximum efficiency. For titans hitting a WPV and cockpits can cause a lot of damage to the titan and blind it. In summary the firestar is a good ordnance for any map or build. What it lacks in AOE it makes up for in concentrated damage allowing you to instantly kill ticks and other small enemies in less than a second. 
+Firestar is an accurate fast throwing projectile that erupts into thermite wherever it hits. With little AOE pilots must aim when using Firestar. Firestar and thermite will kill whatever it hits and will prevent stalkers self destruction. The firestar won't kill high health reapers and titans so it is a good counter for stalkers and such, aim for the exits of drop pods for maximum efficiency. For titans hitting a WPV and cockpits can cause a lot of damage to the titan and blind it. In summary the firestar is a good ordnance for any map or build. What it lacks in AOE it makes up for in concentrated damage allowing you to instantly kill ticks and other small enemies in less than a second.
 
 ## Gravity Star
 
 Pulls in enemies and projectiles before exploding.
 
-The gravity star is a highly accurate ninja star like the Firestar that will erupt a singularity that pulls all projectiles and small enemies into it. This is perfect for any ground fight involving tons of enemies. The gravity star will pull ally and enemy projectiles into it as well so keep that in mind. The gravity star can save the harvester from ticks and running stalkers. The only weakness of the Gravity star is that it does little to nothing against titans and reapers. Gravity star doesn't do much damage to stalkers so make sure to kill them while they are suspended. Overall gravity star is a decent choice to use but is out damaged by other ordinances. Gravity star pairs well with AOE weapons. When firing inside a gravity star singularity you will notice that your bullets and Projectiles bend, if you ever wonder why you aren’t hitting your target inside the singularity it is because the singularity is bending your bullet above your target. Therefore you should aim at their feet so the bullet angles up making you hit your target. This is also affected by how high you are, EPG and thunderbolt projectiles can be manipulated in the air with gravity Star. It is recommended that you test on a private server on how the singularity manipulates objects. 
+The gravity star is a highly accurate ninja star like the Firestar that will erupt a singularity that pulls all projectiles and small enemies into it. This is perfect for any ground fight involving tons of enemies. The gravity star will pull ally and enemy projectiles into it as well so keep that in mind. The gravity star can save the harvester from ticks and running stalkers. The only weakness of the Gravity star is that it does little to nothing against titans and reapers. Gravity star doesn't do much damage to stalkers so make sure to kill them while they are suspended. Overall gravity star is a decent choice to use but is out damaged by other ordinances. Gravity star pairs well with AOE weapons. When firing inside a gravity star singularity you will notice that your bullets and Projectiles bend, if you ever wonder why you aren’t hitting your target inside the singularity it is because the singularity is bending your bullet above your target. Therefore you should aim at their feet so the bullet angles up making you hit your target. This is also affected by how high you are, EPG and thunderbolt projectiles can be manipulated in the air with gravity Star. It is recommended that you test on a private server on how the singularity manipulates objects.
 
 ## Electric Smoke Grenade
 

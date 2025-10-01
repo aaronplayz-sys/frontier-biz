@@ -41,11 +41,11 @@ Shotguns in frontier defense are one of the weakest class of weapons other than 
 
 ### Pistols (Primary)
 
-Pistols (of the primary class) are more of a niche class of weapons. They have lower bullet capacity but each bullet will deal way more damage per hit and are accurate. Pistols offer no way to give you kills, you must earn them, being accurate is a must when using the pistol weapons. Pistol weapons generally have a quicker reload and a short bullet fall off distance. Skilled pilots should only use pistols. 
+Pistols (of the primary class) are more of a niche class of weapons. They have lower bullet capacity but each bullet will deal way more damage per hit and are accurate. Pistols offer no way to give you kills, you must earn them, being accurate is a must when using the pistol weapons. Pistol weapons generally have a quicker reload and a short bullet fall off distance. Skilled pilots should only use pistols.
 
 ### Sidearms
 
-Lastly are the sidearms, these should only be used as a backup and not as a primary way of killing enemies, Sidearms have extremely short bullet fall off so distant battles are not viable at all, only use sidearms as a means to finish off enemies if your primary has run out of ammo. After your sidearm you should equip your primary weapon as soon as possible. 
+Lastly are the sidearms, these should only be used as a backup and not as a primary way of killing enemies, Sidearms have extremely short bullet fall off so distant battles are not viable at all, only use sidearms as a means to finish off enemies if your primary has run out of ammo. After your sidearm you should equip your primary weapon as soon as possible.
 
 To conclude the summary, there will be weapons that are more viable than others but it all comes down to pilot skill. Some weapons will kill everything easier than others, when doing an insane or master difficulty match don't throw the game by using a weapon you are weak at unless you have a good team. For the maps that contain 1 or less titans on the first wave, these will allow more freedom in what you may choose as a primary.
 
@@ -71,13 +71,13 @@ The G2 is a Semi auto precision rifle, anyone with good aim who doesn't want to 
 
 #### V-47 Flatline
 
-The Flatline is an assault rifle that has stronger bullets with a slower fire rate compared to the R-201. The Flatline has a higher bullet capacity and more damage per bullet meaning that the flatline can kill many enemies with a single magazine. Its accuracy while aiming is pretty good so use it at medium range, pilots should tap fire or burst fire for long distance targets. The Flatline’s recoil is very unique in that it only spreads side to side hence the name Flatline, Flatline can be used for run and gun, if you do go run and gun make sure to get close to your enemies since the accuracy decreases. Overall the flatline can kill everything you come across, Flatline can kill reapers with a mag dump, especially if it's amped. Flatline can damage a titans weak point moderately compared to other primaries. Even with all of its strengths the flatline is actually a lower mid tier weapon due to its slow fire rate compared to other primaries. The Flatline is a solid choice for those who like automatic rifles. The speedloader is a good mod for the Flatline. 
+The Flatline is an assault rifle that has stronger bullets with a slower fire rate compared to the R-201. The Flatline has a higher bullet capacity and more damage per bullet meaning that the flatline can kill many enemies with a single magazine. Its accuracy while aiming is pretty good so use it at medium range, pilots should tap fire or burst fire for long distance targets. The Flatline’s recoil is very unique in that it only spreads side to side hence the name Flatline, Flatline can be used for run and gun, if you do go run and gun make sure to get close to your enemies since the accuracy decreases. Overall the flatline can kill everything you come across, Flatline can kill reapers with a mag dump, especially if it's amped. Flatline can damage a titans weak point moderately compared to other primaries. Even with all of its strengths the flatline is actually a lower mid tier weapon due to its slow fire rate compared to other primaries. The Flatline is a solid choice for those who like automatic rifles. The speedloader is a good mod for the Flatline.
 
 ### SubMachine Guns
 
 #### CAR
 
-For those who like a very accurate sub machine gun, the CAR will be your best choice.  The Car has very little recoil, in fact so little that you can use the CAR as a rifle. The CAR is the most versatile SMG so you can use it in pretty much every playstyle other than sharpshooting. Since it has a high fire rate and fast reload you can hold down the trigger to kill anything in your way, reapers and titans will be mowed down especially if it's amped. Pilots who use the CAR should use the speedloader for a very fast reload. The CAR is an upper tier weapon for its accuracy, dps and fast reload. The CAR is a solid choice for a primary if you don't want a grenade launcher. The extra ammo mod will make the CAR almost have as much ammo as the R-97 while having the insane accuracy. The CAR doesn't have any big weaknesses other than not being a grenade launcher, pilots can be overrunned but with proper movement and ordnance use this is negated. Overall the CAR is an excellent choice when picking a non grenade launcher primary.
+For those who like a very accurate sub machine gun, the CAR will be your best choice. The Car has very little recoil, in fact so little that you can use the CAR as a rifle. The CAR is the most versatile SMG so you can use it in pretty much every playstyle other than sharpshooting. Since it has a high fire rate and fast reload you can hold down the trigger to kill anything in your way, reapers and titans will be mowed down especially if it's amped. Pilots who use the CAR should use the speedloader for a very fast reload. The CAR is an upper tier weapon for its accuracy, dps and fast reload. The CAR is a solid choice for a primary if you don't want a grenade launcher. The extra ammo mod will make the CAR almost have as much ammo as the R-97 while having the insane accuracy. The CAR doesn't have any big weaknesses other than not being a grenade launcher, pilots can be overrunned but with proper movement and ordnance use this is negated. Overall the CAR is an excellent choice when picking a non grenade launcher primary.
 
 #### Alternator
 
@@ -99,7 +99,7 @@ Spitfire is the bread and butter for frontier defense, a heavy punching weapon w
 
 #### L-STAR
 
-L-STAR is the unique light machine gun out of the two. Operating on a battery instead of a magazine allows the L-STAR to effectively perform suppressive fire indefinitely. The L-STAR can overheat causing a very long reload animation so keep an eye out for overheating. Burst fire can be a good way to prevent overheating. Each projectile that is fired from L-STAR has a wider hit box making it easier to hit targets. The L-STAR “bullets” travel slower than normal bullets making it harder to use on longer distance battles, therefore make sure to lead your bullets. L-STAR is a powerful LMG with more damage per bullet than most guns. L-STAR is a good choice over most guns other than Light machine guns or grenade launchers. If you are looking for a LMG to run and gun with the L-STAR is a good pick. 
+L-STAR is the unique light machine gun out of the two. Operating on a battery instead of a magazine allows the L-STAR to effectively perform suppressive fire indefinitely. The L-STAR can overheat causing a very long reload animation so keep an eye out for overheating. Burst fire can be a good way to prevent overheating. Each projectile that is fired from L-STAR has a wider hit box making it easier to hit targets. The L-STAR “bullets” travel slower than normal bullets making it harder to use on longer distance battles, therefore make sure to lead your bullets. L-STAR is a powerful LMG with more damage per bullet than most guns. L-STAR is a good choice over most guns other than Light machine guns or grenade launchers. If you are looking for a LMG to run and gun with the L-STAR is a good pick.
 
 #### X-55 Devotion
 
@@ -117,7 +117,7 @@ Twin barrel Sniper rifle, will one shot most small enemies, fast reload and it b
 
 #### Longbow DMR
 
-The DMR is a semi auto sniper rifle, the DMR deals just under 100 damage but it makes up for  a better and faster option than the Kraber. The DMR has a fast fire rate but slow reload and a small magazine capacity, so getting speedloader and extra ammo will help considerably. The DMR has bullet penetration and can take out most small targets in 1 or 2 bullets, a pilot with good aim can massacre anything that spawns. For titans and reapers, the DMR can take out reapers quite effectively and can damage titans if weak points are hit. The DMR is a 2nd good option for sniper enthusiasts other than the double take.
+The DMR is a semi auto sniper rifle, the DMR deals just under 100 damage but it makes up for a better and faster option than the Kraber. The DMR has a fast fire rate but slow reload and a small magazine capacity, so getting speedloader and extra ammo will help considerably. The DMR has bullet penetration and can take out most small targets in 1 or 2 bullets, a pilot with good aim can massacre anything that spawns. For titans and reapers, the DMR can take out reapers quite effectively and can damage titans if weak points are hit. The DMR is a 2nd good option for sniper enthusiasts other than the double take.
 
 ### Shotguns
 
@@ -141,7 +141,7 @@ Single high damage direct projectile. Does moderate area of effect, slow project
 
 #### R-6P Softball
 
-Launcher that shoots sticky grenades, reloads by chambering each missing grenade by hand. Slow reload but huge AOE. Recommended mods are  extra ammo and speedloader to negate the long reload, each grenade is reloaded individually, softball has weak direct damage towards reapers and titans. Hard to hit plasma drones and cloaked drones. Softball is the best grunt, stalker, specter and tick killer. Very efficient in killing swarms of enemies. Good for newer players who want an easy killing machine. Your own grenades will harm you.
+Launcher that shoots sticky grenades, reloads by chambering each missing grenade by hand. Slow reload but huge AOE. Recommended mods are extra ammo and speedloader to negate the long reload, each grenade is reloaded individually, softball has weak direct damage towards reapers and titans. Hard to hit plasma drones and cloaked drones. Softball is the best grunt, stalker, specter and tick killer. Very efficient in killing swarms of enemies. Good for newer players who want an easy killing machine. Your own grenades will harm you.
 
 #### EM-4 Cold War
 
@@ -151,7 +151,7 @@ The Cold War is a very unique grenade launcher that has a charge up time that ca
 
 #### Wingman Elite
 
-Very highly skilled revolver with pixel perfect accuracy to where the crosshair is. Will one shot or 2 shot most enemies if the body is hit. Headshots will kill stalkers, specters and 2 shots for drones. Wingman elite will also penetrate one enemy causing double kills often. Wingman elite leaves little to no room for mistakes, you either hit or miss. I recommend getting the mods: speedloader and extra ammo. Wingman elite can kill reapers effectively especially if it's amped. Wingman reflects the pilot's skills. Not effective for some master maps since grenade launchers do better to titans like in rise. Has damage fall off so make sure to get closer if need be. Wingman is a clutch weapon, equip it if you dare. You are a boss if you do. 
+Very highly skilled revolver with pixel perfect accuracy to where the crosshair is. Will one shot or 2 shot most enemies if the body is hit. Headshots will kill stalkers, specters and 2 shots for drones. Wingman elite will also penetrate one enemy causing double kills often. Wingman elite leaves little to no room for mistakes, you either hit or miss. I recommend getting the mods: speedloader and extra ammo. Wingman elite can kill reapers effectively especially if it's amped. Wingman reflects the pilot's skills. Not effective for some master maps since grenade launchers do better to titans like in rise. Has damage fall off so make sure to get closer if need be. Wingman is a clutch weapon, equip it if you dare. You are a boss if you do.
 
 #### SA-3 Mozambique
 
@@ -165,7 +165,7 @@ Automatic sidearm pistol. Good for quick burst damage.
 
 #### Hammond P2016
 
-Semi Automatic handgun, good sidearm for those who want a strong precision pistol. Does. Surprisingly high amount of damage. 
+Semi Automatic handgun, good sidearm for those who want a strong precision pistol. Does. Surprisingly high amount of damage.
 
 #### B3 Wingman
 

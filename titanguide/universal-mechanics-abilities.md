@@ -39,11 +39,11 @@ Not to be mistaken with Titan meter which is the meter you have as a pilot, core
 
 All piloted titans gain an ability called electric smoke once a 20-core meter is earned. When electric smoke activates it will carpet and spread out all around the Titan that casted it. Electric smoke activates with (c or another key). Electric smoke can only be earned once (or twice with the counter-ready kit) per core making it a rare and valuable ability. Only 5 electric smokes can be reserved for use, any more will disappear once earned unless an electric smoke is used before 20 core meter is earned. Electric smoke does not do friendly fire nor damage the user's titan. Electric smoke acts as a detection barrier with an area of effect damage. Essentially making you invisible to all sonar, tone, archer lock-on, smart core lock-on, turret lock-on, removes minimap signature, removes Titan silhouette, and smothers thermite upon activation. Since electric smoke damages enemies it can be used as an ambush and a small enemy cleanup, stalkers will not explode in electric smoke. Drones will die to two electric smokes if moving. Electric smokes generate core meter making it a very good tool to get your core faster, essentially Electric smoke can feed itself if used properly. Electric smoke will visibly block areas for your allies but they can still use all lock-on and sonar abilities. Electric smoke does not block projectiles so fire away if enemies are in it. This also is the reason why you don't necessarily want to stand inside an electric smoke even if it’s an allied one. Electric smoke is hands down one of the best abilities all players must learn to use. On multilayer, it can directly counter hostile Titan rodeos. Its uses shine even more on frontier defense; it makes all enemies unable to “lock and attack” anyone caught inside or behind the electric smoke. Electric smoke is a get-out-of-jail-free card and even more.
 
-Most Titans can combo defensive abilities with electric smoke to make themselves unkillable(more elaborated for each Titan in its respective guides). Electric smoke can buy you and your teams a ton of time making master and insane much easier. Make sure team members communicate how many smokes they have so they can switch around on who smokes the wave. Electric smoke is the ability that keeps experienced players from not dying often, or not at all. Monarch’s electric smokes gain many buffs and utility with the Maelstrom kit the Aegis 2 energized smoke and Aegis 11 energized smoke level 2.  making it an ideal way to do more damage while healing the monarch and its allies. (More elaborated on the monarch guide).
+Most Titans can combo defensive abilities with electric smoke to make themselves unkillable(more elaborated for each Titan in its respective guides). Electric smoke can buy you and your teams a ton of time making master and insane much easier. Make sure team members communicate how many smokes they have so they can switch around on who smokes the wave. Electric smoke is the ability that keeps experienced players from not dying often, or not at all. Monarch’s electric smokes gain many buffs and utility with the Maelstrom kit the Aegis 2 energized smoke and Aegis 11 energized smoke level 2. making it an ideal way to do more damage while healing the monarch and its allies. (More elaborated on the monarch guide).
 
 ## Ejection
 
-All pilots inside Titans have the option to initiate an ejection. Ejections can be initiated manually or automatically depending on the situation. Manually ejecting for specific reasons requires you to press X and then E three times. When doomed your Titan a.I will tell you to eject bypassing pressing X for the entire doomed state, press e three times and you will be ejected saving the pilot and giving the pilot a second chance, when you eject you will be flung up into the air at high speeds. Pilots will hit the ceiling if the ejection is under a ceiling. The pilot will not be harmed. Another type of ejection called nuke eject that can be selected before Titanfall. (Will be elaborated in Titan kit guide). Make sure to eject before death as ejection has a delay. Very good game sense and prediction is needed for quick and last-second ejections. Don’t be surprised if your ejection is too late so it is a good idea to press X while being damaged at very low health before reaching doom state to ensure your survival. Furthermore, that can help you survive enemy nuke ejects. On a final note, when you eject the pilot will be vulnerable in the air to be sniped by sniper titans and tone titans on frontier defense. 
+All pilots inside Titans have the option to initiate an ejection. Ejections can be initiated manually or automatically depending on the situation. Manually ejecting for specific reasons requires you to press X and then E three times. When doomed your Titan a.I will tell you to eject bypassing pressing X for the entire doomed state, press e three times and you will be ejected saving the pilot and giving the pilot a second chance, when you eject you will be flung up into the air at high speeds. Pilots will hit the ceiling if the ejection is under a ceiling. The pilot will not be harmed. Another type of ejection called nuke eject that can be selected before Titanfall. (Will be elaborated in Titan kit guide). Make sure to eject before death as ejection has a delay. Very good game sense and prediction is needed for quick and last-second ejections. Don’t be surprised if your ejection is too late so it is a good idea to press X while being damaged at very low health before reaching doom state to ensure your survival. Furthermore, that can help you survive enemy nuke ejects. On a final note, when you eject the pilot will be vulnerable in the air to be sniped by sniper titans and tone titans on frontier defense.
 
 ## Titan AI
 
@@ -59,26 +59,21 @@ All titans and reapers have weak point vulnerabilities. WPVs are easily seen by 
 
 ## All titans arsenals consist of these abilities that are categorized
 
-
 ### Primary Weapon
 
-The main weapon that the Titan carries, will always have a primary fire and a secondary aim/alt fire. 
-
+The main weapon that the Titan carries, will always have a primary fire and a secondary aim/alt fire.
 
 ### Ordnance Ability
 
-Offensive focused ability, these usually do burst damage and/or apply debuffs. 
-
+Offensive focused ability, these usually do burst damage and/or apply debuffs.
 
 ### Tactical Ability
 
-Utility focused ability, these have the most variance. They can be used for combos, self buff and such with the goal to enhance the titans mechanics that suit the titans play style. 
-
+Utility focused ability, these have the most variance. They can be used for combos, self buff and such with the goal to enhance the titans mechanics that suit the titans play style.
 
 ### Defensive Ability
 
-Defensive abilities focus on preventing damage by means of blocking projectiles or by crowd control methods. 
-
+Defensive abilities focus on preventing damage by means of blocking projectiles or by crowd control methods.
 
 ### Core
 

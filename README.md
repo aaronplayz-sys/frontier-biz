@@ -1,9 +1,11 @@
-# Frontier Biz 
+# Frontier Biz
+
 ## Titanfall 2 Guides
 
 Some information may be unique and while others will have the same information in more than one depending on how universal mechanic is. Rest assured that everything is covered...
 
 ## Contributions
+
 All contributions are welcomed. You may open a issue or pull request. Feel free to join our discord server to engage withthe comunity.
 
 https://discord.gg/xGFkBv9a5X

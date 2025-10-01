@@ -8,18 +8,18 @@ nav_order: 3
 # Anti Titain Weapons
 {: .no_toc}
 
-All Pilots are given access to anti titan weapons, anti Titan weapons are an incredible tool for pilots in multiplayer and frontier defense. Every pilot will enter the battlefield with one. Picking the right anti titan weapon for the pilot’s skill and play-style varies but all anti titan weapons do the same thing, easily damage titans and reapers.  Normally primary weapons must hit weak point vulnerabilities to do damage but the anti Titan weapons do not have this problem. All anti Titan weapons still benefit from hitting WPV.
+All Pilots are given access to anti titan weapons, anti Titan weapons are an incredible tool for pilots in multiplayer and frontier defense. Every pilot will enter the battlefield with one. Picking the right anti titan weapon for the pilot’s skill and play-style varies but all anti titan weapons do the same thing, easily damage titans and reapers. Normally primary weapons must hit weak point vulnerabilities to do damage but the anti Titan weapons do not have this problem. All anti Titan weapons still benefit from hitting WPV.
 
 There are a total of 4 Anti titan weapons to choose from.
 
 - TOC
 {:toc}
 
-On easy, normal and hard the anti titan weapons will have infinite ammo but on master and insane they will have the multilayer equivalent of reserve ammunition. If you die or every time you eject from your doomed titan your reserves get replenished. 
+On easy, normal and hard the anti titan weapons will have infinite ammo but on master and insane they will have the multilayer equivalent of reserve ammunition. If you die or every time you eject from your doomed titan your reserves get replenished.
 
 ## Charge Rifle
 
-Clipless anti titan sniper rifle that is hit scan, the charge rifle requires a charge up then automatically fires once charge is full. Charge rifle favors pilots who are further back and who rely on range to attack titans. Make sure to hit headshots for maximum damage. Charge rifle requires more aim skill than other anti-titan weapons. Extra ammo and gun ready mod are recommended when using a charge rifle. Charge hack mod should be used on hard or below difficulties for more dps, because of the limited ammo you want the shots to do more damage. Or if you have amped weapons then use charge hack for quicker Titan meter. 
+Clipless anti titan sniper rifle that is hit scan, the charge rifle requires a charge up then automatically fires once charge is full. Charge rifle favors pilots who are further back and who rely on range to attack titans. Make sure to hit headshots for maximum damage. Charge rifle requires more aim skill than other anti-titan weapons. Extra ammo and gun ready mod are recommended when using a charge rifle. Charge hack mod should be used on hard or below difficulties for more dps, because of the limited ammo you want the shots to do more damage. Or if you have amped weapons then use charge hack for quicker Titan meter.
 
 ## MGL-Mag Launcher
 
@@ -27,7 +27,7 @@ The mag launcher is a projectile magnetic launcher. It is the perfect run and gu
 
 ## LG-97-Thunderbolt
 
-The Thunderbolt has the highest damage potential out of all of the anti titan weapons. Upon pulling the trigger, it will shoot a ball of electricity that moves slowly to where the pilot aims, if an enemy gets nearby they will get damaged. If an enemy gets hit directly it will take a chunk of damage off but the bolt disappears. It is perfect for maps with long pathways. Thunderbolt shines when multiple titans and reapers clump up together. A good placed thunderbolt shot can earn a titanfall in less than a second. The only weakness is that the projectile can be dodged easily and you have limited ammo so you need to place shots carefully so titans can run into them before running out of ammo. It also has 1 firing capacity so each shot will need to do a reload before firing again. Subsequently It is not the best to use on a single titan but it will deal huge damage to a lot of titans if they are squished together. If you are fighting a single titan make sure to get direct hits for maximum damage. A unique and high skill trick with satchels is by predicting where a Titan will be by shooting thunderbolt then throwing the satchel on the same path as thunderbolt causing the satchel and thunderbolt to collide causing it to detonate mid air. This makes for a cool high skill combo. 
+The Thunderbolt has the highest damage potential out of all of the anti titan weapons. Upon pulling the trigger, it will shoot a ball of electricity that moves slowly to where the pilot aims, if an enemy gets nearby they will get damaged. If an enemy gets hit directly it will take a chunk of damage off but the bolt disappears. It is perfect for maps with long pathways. Thunderbolt shines when multiple titans and reapers clump up together. A good placed thunderbolt shot can earn a titanfall in less than a second. The only weakness is that the projectile can be dodged easily and you have limited ammo so you need to place shots carefully so titans can run into them before running out of ammo. It also has 1 firing capacity so each shot will need to do a reload before firing again. Subsequently It is not the best to use on a single titan but it will deal huge damage to a lot of titans if they are squished together. If you are fighting a single titan make sure to get direct hits for maximum damage. A unique and high skill trick with satchels is by predicting where a Titan will be by shooting thunderbolt then throwing the satchel on the same path as thunderbolt causing the satchel and thunderbolt to collide causing it to detonate mid air. This makes for a cool high skill combo.
 
 ## Archer
 

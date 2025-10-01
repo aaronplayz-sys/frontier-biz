@@ -6,14 +6,15 @@ nav_order: 5
 ---
 
 # Tactical
+
 {: .no_toc}
 
-Tacticals are the main and most important ability pilots will use. They vary from use to use. They will play the biggest role in the pilots playstyle. 
+Tacticals are the main and most important ability pilots will use. They vary from use to use. They will play the biggest role in the pilots playstyle.
 
 There are 7 to choose from:
 
 - TOC
-{:toc}
+  {:toc}
 
 ## Cloak
 
@@ -23,9 +24,9 @@ Cloak is the default and very useful ability on Titanfall 2, On frontier defense
 
 ## Pilse Blade
 
-Expose all enemies through surfaces with a sonar emitting throwing knife. 
+Expose all enemies through surfaces with a sonar emitting throwing knife.
 
-Pulse blade can be useful on insane but is outshined by many other tacticals as this one provides no pilot buff. Additionally if the sonar blade hits a small enemy or pilot it is an instant kill. Sonar blades can work well with good players and communication. Pulse blade can make openings for plays by revealing enemies. Enemies revealed by pulse blade Overall this tactical is not recommended. Sonar blade will contribute to support score. 
+Pulse blade can be useful on insane but is outshined by many other tacticals as this one provides no pilot buff. Additionally if the sonar blade hits a small enemy or pilot it is an instant kill. Sonar blades can work well with good players and communication. Pulse blade can make openings for plays by revealing enemies. Enemies revealed by pulse blade Overall this tactical is not recommended. Sonar blade will contribute to support score.
 
 ## Grapple
 
@@ -35,7 +36,7 @@ Grapple is the perfect all around parkour ability. There is a learning curve to 
 
 Quickly heals and boosts your speed for a short time.
 
-Stim is the bread and butter for run and gun pilots. Being able to get an instant momentum boost while giving you a boost to healing can help in many ways. Stim can help you evade death such as a nuke ejection. Stim can be used as a quick way to regain health. Since stim has a long cooldown using the Power Cell kit can help. When you plan to use stim avoid grabbing onto ledges as it will cancel your momentum. Avoid using your jump kit to change direction, only if you must as it will cease all momentum from stim. Wall riding and crouch hopping will allow the pilot to get the most out of the speed boost. Stim is excellent for pilot-only runs where you need to reach point A to point B fast. Many weapons do well with stim like alternator or shotguns, or any weapon with the Gunrunner mod, assuming the pilot has the skill for certain weapons. Stim can clear the distance and decrease death when rodeoing enemy titans. A perfect tactical for those who like the fast paced pilot gameplay. 
+Stim is the bread and butter for run and gun pilots. Being able to get an instant momentum boost while giving you a boost to healing can help in many ways. Stim can help you evade death such as a nuke ejection. Stim can be used as a quick way to regain health. Since stim has a long cooldown using the Power Cell kit can help. When you plan to use stim avoid grabbing onto ledges as it will cancel your momentum. Avoid using your jump kit to change direction, only if you must as it will cease all momentum from stim. Wall riding and crouch hopping will allow the pilot to get the most out of the speed boost. Stim is excellent for pilot-only runs where you need to reach point A to point B fast. Many weapons do well with stim like alternator or shotguns, or any weapon with the Gunrunner mod, assuming the pilot has the skill for certain weapons. Stim can clear the distance and decrease death when rodeoing enemy titans. A perfect tactical for those who like the fast paced pilot gameplay.
 
 ## A-Wall
 
@@ -62,6 +63,5 @@ Pulling a battery will instantly refresh your tactical
 Adding a battery to friendly Titan replenishes tactical cooldown
 
 A useful hidden tip when you rodeo, if you activate your tactical or if your tactical is on cooldown already and do a hostile rodeo, you will gain back your lost cooldown time when on the titan(only if your tactical is active during rodeo sequence) and reduced cooldown time. This is most apparent on cloak since it gives a big bounty once successful, continuing your already long cloak timer. This is useful for pilots who use stim as well since its cooldown passes fast. Essentially you can do multiple rodeos at the same time while spamming your tactical, this is most useful with stim, cloak and grapple.
-
 
 [movement guide]: /frontier-biz/pilotguide/

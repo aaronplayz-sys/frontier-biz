@@ -21,28 +21,28 @@ Boosts can be earned with the temporary Titan meter but will not be accessible i
 
 These are the 12 boosts with each activation cost:
 
-| Boost | Activation Cost |
-| :---: | :---:           |
-| Amped Weapons | 80% |
-| Ticks | 65% |
-| Pilot Sentry | 72% |
-| Map Hack | 70% |
-| Battery Backup | 80% |
-| Radar Jammer | 40% |
-| Titan Sentry | 35% |
-| Smart Pistol | 60% |
-| Phase Rewind | 24% |
-| Hard Cover | 20% |
-| Holo Pilot Nova | 40% |
-| Dice Roll | 50% |
+|      Boost      | Activation Cost |
+| :-------------: | :-------------: |
+|  Amped Weapons  |       80%       |
+|      Ticks      |       65%       |
+|  Pilot Sentry   |       72%       |
+|    Map Hack     |       70%       |
+| Battery Backup  |       80%       |
+|  Radar Jammer   |       40%       |
+|  Titan Sentry   |       35%       |
+|  Smart Pistol   |       60%       |
+|  Phase Rewind   |       24%       |
+|   Hard Cover    |       20%       |
+| Holo Pilot Nova |       40%       |
+|    Dice Roll    |       50%       |
 
 ## Amped Weapons
 
-Upon activation Amped weapons give you a damage buff to all of your equipped weapons for a limited time. Does not affect your ordinances or tactics. Will not stack with an amped wall. Amped weapons will be removed if dead or the timer runs out. This boost is great for any map and play style, anti Titan loadouts get buffed especially. 
+Upon activation Amped weapons give you a damage buff to all of your equipped weapons for a limited time. Does not affect your ordinances or tactics. Will not stack with an amped wall. Amped weapons will be removed if dead or the timer runs out. This boost is great for any map and play style, anti Titan loadouts get buffed especially.
 
 ## Ticks
 
-Upon activation 2 ticks will be placed in your inventory, activate the appropriate button to throw a tick just like an ordnance, after a short activation time they will go around towards enemies. Ticks will explode near enemies and will do friendly fire towards you. After a certain amount of time, they will run out of time and explode. Ticks are a funny boost to add chaos on the battlefield, essentially walking land mines they can kill an unaware pilot fast. Make sure to stay at a distance to destroy any hostile ticks. 
+Upon activation 2 ticks will be placed in your inventory, activate the appropriate button to throw a tick just like an ordnance, after a short activation time they will go around towards enemies. Ticks will explode near enemies and will do friendly fire towards you. After a certain amount of time, they will run out of time and explode. Ticks are a funny boost to add chaos on the battlefield, essentially walking land mines they can kill an unaware pilot fast. Make sure to stay at a distance to destroy any hostile ticks.
 
 ## Pilot Sentry
 
@@ -50,7 +50,7 @@ A stationary sentry that attacks enemies automatically, the pilot sentry will ki
 
 ## Map Hack
 
-Shows the silhouettes of all enemies to you and allies through walls for a short time. Very useful for intel and ambush plays, map hack will be announced to enemy team. 
+Shows the silhouettes of all enemies to you and allies through walls for a short time. Very useful for intel and ambush plays, map hack will be announced to enemy team.
 
 ## Battery Backup
 
@@ -58,7 +58,7 @@ Upon activation will put a battery on the pilots back, this is an extremely usef
 
 ## Radar Jammer
 
-Jamms the enemies minimap radar by making it go black. Perfect for giving your team a tactical edge. 
+Jamms the enemies minimap radar by making it go black. Perfect for giving your team a tactical edge.
 
 ## Titan Sentry
 
@@ -78,7 +78,7 @@ The hard cover is a non amped version of the amped wall. Provides 360 protection
 
 ## Holo Pilot Nova
 
-Upon activation, a small army of holograms will go in all directions. Funny boost that can save your life. 
+Upon activation, a small army of holograms will go in all directions. Funny boost that can save your life.
 
 ## Dice Roll
 

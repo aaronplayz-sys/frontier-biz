@@ -4,6 +4,7 @@ title: Universal Mechanics and Abilities
 parent: Pilot Guide
 nav_order: 1
 ---
+
 # Universal Mechanics and Abilities
 {: .no_toc}
 
@@ -96,4 +97,5 @@ After 100 Titan meter is earned by a pilot the pilot can initiate a Titan fall a
 [economy and armory guide]: /frontier-biz/pilotguide/economy-armory/
 [boost guide]: /frontier-biz/pilotguide/boost/
 [Loadout guide]: /frontier-biz/pilotguide/loadout
+
 [^1]: This will be linked to the respective guide when it is available.
