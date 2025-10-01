@@ -6,7 +6,6 @@ nav_order: 5
 ---
 
 # Tactical
-
 {: .no_toc}
 
 Tacticals are the main and most important ability pilots will use. They vary from use to use. They will play the biggest role in the pilots playstyle.
@@ -14,7 +13,7 @@ Tacticals are the main and most important ability pilots will use. They vary fro
 There are 7 to choose from:
 
 - TOC
-  {:toc}
+{:toc}
 
 ## Cloak
 
