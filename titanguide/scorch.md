@@ -37,13 +37,13 @@ Flame Wall
 
 Scorch Titan immediately slams his hand on the ground making an extended line of thermite. Flame wall travels to wherever scorch Titan is looking. Thermite stays for a short time. Flame wall will be blocked by objects and defensive abilities.
 
-### Tactical Ability:
+### Tactical Ability
 
 Incendiary Trap
 
 Upon activation Scorch launches a big gas canister that spews out flammable gas. Once thermite of any source, that being allies or enemies can ignite an incendiary trap. It will detonate causing a large portion of an area to have thermite for a time. Incendiary trap has 2 charges. Incendiary traps will bounce off walls and titans.
 
-### Defensive Ability:
+### Defensive Ability
 
 Thermal Shield 
 
@@ -61,19 +61,19 @@ Scorch slams the ground producing a wave of thermite for insane burst damage tha
 
 Thermite launcher does more direct damage and the thermite produced spreads farther and lasts longer.
 
-### Tempered Plating:
+### Tempered Plating
 
 Scorch gains immunity to crits and his own thermite. 
 
-### Inferno Shield: 
+### Inferno Shield
 
 Thermal shield duration and damage are increased, cooldown remains the same. Does not produce thermite. 
 
-### Fuel For Fire: 
+### Fuel For Fire
 
 Flame wall cooldown is reduced by 2 seconds. 
 
-### Scorched Earth: 
+### Scorched Earth
 
 Flame core leaves thermite on the ground. Thermite from flame core will not earn core meter and will self inflict damage.
 
