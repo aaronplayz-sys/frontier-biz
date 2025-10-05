@@ -5,7 +5,7 @@ nav_order: 3
 nav_enabled: true
 ---
 
-# A list of terms commonly used in Titianfall 2 and general games. This is here for thoes who do not know.
+# A list of terms commonly used in Titianfall 2 and general games. This is here for theos who do not know.
 
 |              Term              |                                                                                   Meaning                                                                                    |
 | :----------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
