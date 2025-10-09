@@ -5,8 +5,6 @@ nav_order: 15
 nav_enabled: true
 ---
 
-## Remember, all guides in this section assumes Frontier Defense gamemode with the difficulty of Master or Insane.
+# Titan Guide
 
-# W.I.P
-
-## Guide import from our discord is in progress
+## All guides in this section assumes Frontier Defense gamemode ONLY with the difficulty of Master or Insane.

@@ -1,3 +1,6 @@
+@import "./responsive-images";
+@import "./zoom";
+
 // Lighten callout backgrounds in dark mode
 @media (prefers-color-scheme: dark) {
   .callout {

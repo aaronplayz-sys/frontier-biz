@@ -1,0 +1,34 @@
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.img-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.img-col-12 { width: 100%; }
+.img-col-6 { width: calc(50% - 0.5rem); }
+.img-col-4 { width: calc(33.33% - 0.67rem); }
+.img-col-3 { width: calc(25% - 0.75rem); }
+
+@media (max-width: 850px) {
+  .img-col-6,
+  .img-col-4,
+  .img-col-3 {
+    width: 100%;
+  }
+}
+
+.caption {
+  color: var(--color-base-70);
+  font-size: 0.875em;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}

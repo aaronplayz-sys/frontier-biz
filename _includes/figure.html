@@ -1,0 +1,28 @@
+{% if include.width %}
+  {% assign width = include.width %}
+{% else %}
+  {% assign width = "100" %}
+{% endif %}
+
+<div class="img-row">
+  <div class="img-col-{{ width | divided_by: 8.33 | round }}">
+    <img class="img-fluid zoom" src="{{ include.path | relative_url }}" alt="{{ include.alt | default: '' }}">
+    {% if include.caption %}
+    <div class="caption">
+      {{ include.caption }}
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<!-- For multiple images in a row -->
+<!--<div class="img-row">
+  <div class="img-col-6">
+    <img class="img-fluid" src="path/to/image1.jpg" alt="Image 1">
+    <div class="caption">Image 1 caption</div>
+  </div>
+  <div class="img-col-6">
+    <img class="img-fluid" src="path/to/image2.jpg" alt="Image 2">
+    <div class="caption">Image 2 caption</div>
+  </div>
+</div>-->
