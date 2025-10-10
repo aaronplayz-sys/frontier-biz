@@ -9,7 +9,7 @@ services:
       - .:/usr/src/app
       - bundle_cache:/usr/local/bundle
     environment:
-      JEKYLL_ENV: development
+      JEKYLL_ENV: production
 
 volumes:
   bundle_cache:
