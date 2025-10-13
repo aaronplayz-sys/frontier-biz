@@ -18,13 +18,13 @@ FYI you can change loadout names.
 Some multiplayer focused loadouts are good too, like for Last titan standing, attrition or other game modes.
 
 {% include figure.html 
-  path="https://aaronplayzgaming.com/frontier-biz/assets/img/pilotguide/loadout/loadout-1.png"
+  path="/assets/img/pilotguide/loadout/loadout-1.png"
   alt="Loadout example 1"
   width="100"
 %}
 
 {% include figure.html 
-  path="https://aaronplayzgaming.com/frontier-biz/assets/img/pilotguide/loadout/loadout-2.png"
+  path="/assets/img/pilotguide/loadout/loadout-2.png"
   alt="Loadout example 2"
   width="100"
 %}
