@@ -13,7 +13,7 @@ nav_order: 28
 
 ## Introduction
 
-This guide will go into detail about the unique functions and behavior of each of the 7 Titans as an Auto Titan. Auto titans have a few restrictions, but with some hidden abilities that are only visible to someone who really pays attention. We will go into the Pros and Cons below. More information will be on the #pilot-only-auto-titan for the pilot side of things.
+This guide will go into detail about the unique functions and behavior of each of the 7 Titans as an Auto Titan. Auto titans have a few restrictions, but with some hidden abilities that are only visible to someone who really pays attention. We will go into the Pros and Cons below. More information will be on the [pilot-only-auto-titan] for the pilot side of things.
 
 ## Pros
 
@@ -76,3 +76,5 @@ Monarch is hands down the worst auto titan to pick out of any of the titans, her
   alt="Auto Titan Tierlist"
   width="100"
 %}
+
+[pilot-only-auto-titan]: /frontier-biz/pilotguide//pilot-only-auto-titan/
