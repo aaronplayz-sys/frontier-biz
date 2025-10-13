@@ -1,27 +1,45 @@
 # Frontier Biz
 
-## Titanfall 2 Guides
+Titanfall 2 — Frontier Defense guides and reference content.
 
-Some information may be unique and while others will have the same information in more than one depending on how universal mechanic is. Rest assured that everything is covered...
+## Quick overview
+A collection of guides for Frontier Defense on Titanfall 2: pilots, titans, kits, aegis progression, economy, and more.
 
-## Contributions
+## Quick start (development)
+Requirements: Docker / Docker Compose.
 
-All contributions are welcomed. You may open a issue or pull request. Feel free to join our discord server to engage withthe comunity.
+Start the local dev server (builds the site in a container and serves with Jekyll):
 
-https://discord.gg/xGFkBv9a5X
+```sh
+docker compose up -d
+```
+
+Access the site at http://localhost:4000.
+
+If you modify Ruby gems or want to run locally without Docker, make sure you are using Ruby version 3.4.2:
+
+```sh
+gem install bundler
+bundle install --gemfile Gemfile
+bundle exec jekyll serve --host 0.0.0.0
+```
+
+(See project [Dockerfile](Dockerfile) and [docker-compose.yml](docker-compose.yml).)
 
 ## Deployment
+Production is compatible with GitHub Pages or Netlify. This repository ships a Jekyll site using the `just-the-docs` theme (see [Gemfile](Gemfile)). There is no docker image to use for production, help is welcomed.
 
-### Production
+## Contributing
+- Open an issue or submit a pull request.
+- Join the community on Discord: https://discord.gg/xGFkBv9a5X
+- Follow repository conventions: update nav_order/front matter and include images via `_includes/figure.html`.
 
-Currently GitHub Pages and Netlify are known to work well. Might provide a docker image or docker files in the future.
+## Useful files
+- [Dockerfile](Dockerfile)
+- [docker-compose.yml](docker-compose.yml)
+- [Gemfile](Gemfile)
+- [LICENSE](LICENSE)
+- Site entry: [index.md](index.md)
 
-### Testing and development
-
-My favorite option to use is docker compose, files are already in the repository. Simply clone this repository and navigate to the folder and use the terminal to build the local image. This image is meant for development and testing purposes only.
-
-An attempt was done to cache gems to an volume called bundle cache to reduce constant downloads from a cdn.
-
-To run the container type `docker compose up -d`
-
-Improvement to are welcomed.
+## License
+This project uses the MIT license — see [LICENSE](LICENSE) for details.
