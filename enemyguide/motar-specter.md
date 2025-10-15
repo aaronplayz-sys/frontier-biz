@@ -51,11 +51,4 @@ Mortar specters are easy to dispatch since they are infantry so ordinances and a
 
 ## Battlefield Photo Captures
 
-<div class="img-row">
-  <div class="img-col-6">
-    <img class="img-fluid zoom" src="/assets/img/enemyguide/motar-specter/motar-specter-roof.jpg" alt="Motar Specters on a roof">
-  </div>
-  <div class="img-col-6">
-    <img class="img-fluid zoom" src="/assets/img/enemyguide/motar-specter/distance-specter.png" alt="Motar Specters at a distance">
-  </div>
-</div>
+{% include figure.html images=site.data.motarspecter_gallery %}
