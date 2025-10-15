@@ -1,0 +1,16 @@
+- path: assets/img/enemyguide/drone/drone-1.png
+  alt: Plasma Drone POV 1
+  caption: Front view of a Plasma Drone
+  width: 25
+- path: assets/img/enemyguide/drone/drone-2.png
+  alt: Plasma Drone POV 2
+  caption: Side view showing plasma rockets
+  width: 25
+- path: assets/img/enemyguide/drone/drone-3.png
+  alt: Plasma Drone POV 3
+  caption: Circular attack pattern demonstration
+  width: 25
+- path: assets/img/enemyguide/drone/drone-4.png
+  alt: Plasma Drone POV 4
+  caption: Typical swarm formation
+  width: 25

@@ -1,0 +1,12 @@
+- path: assets/img/enemyguide/stalker/stalkers.jpg
+  alt: stalkers up close
+  caption: Stalkers up close
+  width: 33
+- path: assets/img/enemyguide/stalker/stalker2.png
+  alt: Stalker POV 2
+  caption: Stalker preparing to sprint
+  width: 33
+- path: assets/img/enemyguide/stalker/runningstalker.png
+  alt: Stalker POV 3
+  caption: Stalker sprinting towards target
+  width: 33
