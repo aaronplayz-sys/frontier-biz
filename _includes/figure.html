@@ -4,16 +4,31 @@
   {% assign width = "100" %}
 {% endif %}
 
-<div class="img-row">
-  <div class="img-col-{{ width | divided_by: 8.33 | round }}">
-    <img class="img-fluid zoom" src="{{ include.path | relative_url }}" alt="{{ include.alt | default: '' }}">
-    {% if include.caption %}
-    <div class="caption">
-      {{ include.caption }}
-    </div>
-    {% endif %}
+{% if include.images %}
+  <div class="img-row">
+    {% for image in include.images %}
+      <div class="img-col-{{ image.width | default: width | divided_by: 8.33 | round }}">
+        <img class="img-fluid zoom" src="{{ image.path | relative_url }}" alt="{{ image.alt | default: '' }}">
+        {% if image.caption %}
+        <div class="caption">
+          {{ image.caption }}
+        </div>
+        {% endif %}
+      </div>
+    {% endfor %}
   </div>
-</div>
+{% else %}
+  <div class="img-row">
+    <div class="img-col-{{ width | divided_by: 8.33 | round }}">
+      <img class="img-fluid zoom" src="{{ include.path | relative_url }}" alt="{{ include.alt | default: '' }}">
+      {% if include.caption %}
+      <div class="caption">
+        {{ include.caption }}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}
 
 <!-- For multiple images in a row -->
 <!--<div class="img-row">

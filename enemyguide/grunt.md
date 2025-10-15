@@ -53,11 +53,4 @@ Grunts by themselves die very easily by pretty much every method of weaponry. Al
 
 ## Battlefield Photo Captures
 
-<div class="img-row">
-  <div class="img-col-6">
-    <img class="img-fluid zoom" src="/assets/img/enemyguide/grunt/grunt-pov1.png" alt="Grunt POV 1">
-  </div>
-  <div class="img-col-6">
-    <img class="img-fluid zoom" src="/assets/img/enemyguide/grunt/grunt-pov2.png" alt="Grunt POV 2">
-  </div>
-</div>
+{% include figure.html images=site.data.example_gallery %}
