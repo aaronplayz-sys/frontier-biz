@@ -1,0 +1,20 @@
+- path: assets/img/enemyguide/cdrone/cdrone1.png
+  alt: CloakDrone flying
+  caption: Cloak Drone flying
+  width: 33
+- path: assets/img/enemyguide/cdrone/cdrone2.png
+  alt: Cloak Drone attacking
+  caption: Cloak Drone attacking
+  width: 33
+- path: assets/img/enemyguide/cdrone/cdrone3.png
+  alt: Cloak Drone close-up at a distance
+  caption: Cloak Drone close-up at a distance
+  width: 33
+- path: assets/img/enemyguide/cdrone/cdrone4.png
+  alt: Cloak Drone in flight
+  caption: Cloak Drone in flight
+  width: 33
+- path: assets/img/enemyguide/cdrone/cdrone5.png
+  alt: Cloak Drone scanning
+  caption: Cloak Drone scanning
+  width: 33
