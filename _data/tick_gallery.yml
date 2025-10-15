@@ -1,0 +1,12 @@
+- path: assets/img/enemyguide/tick/tickfall.png
+  alt: Ticks falling from Reaper
+  caption: Ticks falling from Reaper
+  width: 33
+- path: assets/img/enemyguide//tick/tickdmg.png
+  alt: Tick explosion
+  caption: Tick explosion causing damage to harvestor
+  width: 33
+- path: assets/img/enemyguide/tick/ticktitanview.png
+  alt: Ticks at a distance
+  caption: Tick view from inside a Titan cockpit
+  width: 33

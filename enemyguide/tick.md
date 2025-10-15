@@ -52,17 +52,5 @@ As a pilot when on roofs you must be aware that ticks can jump near you and surp
 
 ## Battlefield Photo Captures
 
-<div class="img-row">
-  <div class="img-col-6">
-    <img class="img-fluid zoom" src="/assets/img/enemyguide/tick/tickfall.png" alt="Ticks falling from Reaper">
-    <div class="caption">Ticks falling from reaper</div>
-  </div>
-  <div class="img-col-6">
-    <img class="img-fluid zoom" src="/assets/img/enemyguide/tick/tickdmg.png" alt="Tick explosion">
-    <div class="caption">Tick explosion causing damage to harvestor</div>
-  </div>
-  <div class="img-col-6">
-    <img class="img-fluid zoom" src="/assets/img/enemyguide/tick/ticktitanview.png" alt="Ticks at a distance">
-    <div class="caption">Tick view from inside a Titan cockpit</div>
-  </div>
-</div>
+
+{% include figure.html images=site.data.tick_gallery %}
