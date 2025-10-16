@@ -1,0 +1,12 @@
+- path: assets/img/enemyguide/ion/ion1.jpg
+  alt: Ion side view
+  caption: Ion side view
+  width: 33
+- path: assets/img/enemyguide/ion/ion2.jpg
+  alt: Ion front view
+  caption: Ion front view
+  width: 33
+- path: assets/img/enemyguide/ion/ion3.jpg
+  alt: Ion back view with dome shield
+  caption: Ion back view with dome shield
+  width: 33

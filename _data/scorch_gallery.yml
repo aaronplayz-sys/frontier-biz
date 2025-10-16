@@ -1,0 +1,21 @@
+---
+- path: assets/img/enemyguide/scorch/scorch1.png
+  alt: Scorch front view with thermal shield
+  caption: Scorch front view with thermal shield
+  width: 33
+- path: assets/img/enemyguide/scorch/scorch2.png
+  alt: Scorch side view
+  caption: Scorch side view
+  width: 33
+- path: assets/img/enemyguide/scorch/scorch3.png
+  alt: Scorch view at a distance
+  caption: Scorch view at a distance
+  width: 33
+- path: assets/img/enemyguide/scorch/scorch4.png
+  alt: Scorch back view
+  caption: Scorch back view
+  width: 33
+- path: assets/img/enemyguide/scorch/scorch5.png
+  alt: Scorch side view 2
+  caption: Scorch side view 2
+  width: 33
