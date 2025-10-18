@@ -53,4 +53,4 @@ Tone titans are vulnerable with flanking and close quarters combat, be warned th
 
 ## Battlefield Photo Captures
 
-{% include figure.html images=site.data.arc_gallery %}
+{% include figure.html images=site.data.tone_gallery %}
