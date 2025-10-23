@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Northstar(Sniper Titan)
+title: Northstar (Sniper Titan)
 parent: Enemy Guide
 nav_order: 42
 ---
 
-# Northstar(Sniper Titan)
+# Northstar (Sniper Titan)
 {: .no_toc}
 
 - TOC

@@ -8,6 +8,9 @@ nav_order: 13
 # Pilot Only
 {: .no_toc}
 
+{: .important }
+> This guide is under going a complete rework, new information found and is pending to be added
+
 - TOC
 {:toc}
 
