@@ -2,7 +2,7 @@
 layout: default
 title: Battery Farming
 parent: Pilot Guide
-nav_order: 12
+nav_order: 13
 ---
 
 # Battery Farming

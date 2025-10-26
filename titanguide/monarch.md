@@ -2,7 +2,7 @@
 layout: default
 title: Monarch
 parent: Titan Guide
-nav_order: 27
+nav_order: 28
 ---
 
 # Monarch

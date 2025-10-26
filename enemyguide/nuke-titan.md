@@ -2,7 +2,7 @@
 layout: default
 title: Nuke Titan
 parent: Enemy Guide
-nav_order: 49
+nav_order: 50
 ---
 
 # Nuke Titan

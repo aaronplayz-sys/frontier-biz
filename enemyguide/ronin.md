@@ -2,7 +2,7 @@
 layout: default
 title: Ronin
 parent: Enemy Guide
-nav_order: 43
+nav_order: 44
 ---
 
 # Ronin

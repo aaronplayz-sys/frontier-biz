@@ -2,7 +2,7 @@
 layout: default
 title: Threat Tier Lists
 parent: Enemy Guide
-nav_order: 32
+nav_order: 33
 ---
 
 # Threat Tier Lists

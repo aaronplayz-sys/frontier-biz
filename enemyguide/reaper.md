@@ -2,7 +2,7 @@
 layout: default
 title: Reaper
 parent: Enemy Guide
-nav_order: 39
+nav_order: 40
 ---
 
 # Reaper

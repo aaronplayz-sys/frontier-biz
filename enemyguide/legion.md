@@ -2,7 +2,7 @@
 layout: default
 title: Legion
 parent: Enemy Guide
-nav_order: 48
+nav_order: 49
 ---
 
 # Legion

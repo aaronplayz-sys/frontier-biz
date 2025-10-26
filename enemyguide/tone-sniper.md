@@ -2,7 +2,7 @@
 layout: default
 title: Tone (Sniper Titan)
 parent: Enemy Guide
-nav_order: 46
+nav_order: 47
 ---
 
 # Tone (Sniper Titan)

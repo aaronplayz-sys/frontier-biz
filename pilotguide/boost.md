@@ -2,7 +2,7 @@
 layout: default
 title: Boost
 parent: Pilot Guide
-nav_order: 14
+nav_order: 9
 ---
 
 # Boost

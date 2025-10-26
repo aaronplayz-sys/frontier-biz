@@ -2,7 +2,7 @@
 layout: default
 title: Universal Mechanics and Abitlies
 parent: Enemy Guide
-nav_order: 31
+nav_order: 32
 ---
 
 # Universal Mechanics and Abitlies

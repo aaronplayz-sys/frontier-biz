@@ -2,7 +2,7 @@
 layout: default
 title: Guide Terms
 parent: Enemy Guide
-nav_order: 30
+nav_order: 31
 ---
 
 # Guide Terms

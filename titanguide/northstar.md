@@ -2,7 +2,7 @@
 layout: default
 title: Northstar
 parent: Titan Guide
-nav_order: 23
+nav_order: 24
 ---
 
 # Northstar

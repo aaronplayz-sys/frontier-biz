@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Enemy Guide
-nav_order: 29
+nav_order: 30
 nav_enabled: true
 ---
 

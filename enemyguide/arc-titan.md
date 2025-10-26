@@ -2,7 +2,7 @@
 layout: default
 title: Arc Titan
 parent: Enemy Guide
-nav_order: 44
+nav_order: 45
 ---
 
 # Arc Titan

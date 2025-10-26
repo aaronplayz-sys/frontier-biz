@@ -2,7 +2,7 @@
 layout: default
 title: Minimap
 parent: Map Guide
-nav_order: 52
+nav_order: 53
 ---
 
 # Minimap

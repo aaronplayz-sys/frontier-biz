@@ -2,7 +2,7 @@
 layout: default
 title: Economy and Armory
 parent: Pilot Guide
-nav_order: 8
+nav_order: 10
 ---
 
 # Economy and Armory

@@ -2,14 +2,11 @@
 layout: default
 title: Pilot Only
 parent: Pilot Guide
-nav_order: 13
+nav_order: 14
 ---
 
 # Pilot Only
 {: .no_toc}
-
-{: .important }
-> This guide is under going a complete rework, new information found and is pending to be added
 
 - TOC
 {:toc}
