@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Credits
-parent: t
 nav_order: 2
 nav_enabled: true
 ---
