@@ -2,7 +2,7 @@
 layout: default
 title: Northstar (Sniper Titan)
 parent: Enemy Guide
-nav_order: 43
+nav_order: 13
 ---
 
 # Northstar (Sniper Titan)

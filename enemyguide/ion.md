@@ -2,7 +2,7 @@
 layout: default
 title: Ion
 parent: Enemy Guide
-nav_order: 41
+nav_order: 11
 ---
 
 # Ion

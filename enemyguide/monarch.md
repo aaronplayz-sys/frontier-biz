@@ -2,7 +2,7 @@
 layout: default
 title: Monarch
 parent: Enemy Guide
-nav_order: 51
+nav_order: 21
 ---
 
 # Monarch

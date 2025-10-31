@@ -2,7 +2,7 @@
 layout: default
 title: Stalker
 parent: Enemy Guide
-nav_order: 38
+nav_order: 8
 ---
 
 # Stalker

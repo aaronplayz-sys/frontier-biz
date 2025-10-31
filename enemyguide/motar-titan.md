@@ -2,7 +2,7 @@
 layout: default
 title: Motar Titan
 parent: Enemy Guide
-nav_order: 48
+nav_order: 18
 ---
 
 # Motar Titan

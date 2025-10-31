@@ -2,7 +2,7 @@
 layout: default
 title: Grunt
 parent: Enemy Guide
-nav_order: 34
+nav_order: 4
 ---
 
 # Grunt

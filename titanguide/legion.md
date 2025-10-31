@@ -2,7 +2,7 @@
 layout: default
 title: Legion
 parent: Titan Guide
-nav_order: 27
+nav_order: 11
 ---
 
 # Legion

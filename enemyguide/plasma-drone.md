@@ -2,7 +2,7 @@
 layout: default
 title: Plasma Drone
 parent: Enemy Guide
-nav_order: 37
+nav_order: 7
 ---
 
 # Plasma Drone

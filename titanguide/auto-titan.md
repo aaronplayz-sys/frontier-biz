@@ -2,7 +2,7 @@
 layout: default
 title: Auto Titan
 parent: Titan Guide
-nav_order: 29
+nav_order: 13
 ---
 
 # Auto Titan

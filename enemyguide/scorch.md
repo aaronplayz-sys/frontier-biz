@@ -2,7 +2,7 @@
 layout: default
 title: Scorch
 parent: Enemy Guide
-nav_order: 42
+nav_order: 12
 ---
 
 # Scorch

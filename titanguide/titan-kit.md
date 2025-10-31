@@ -2,7 +2,7 @@
 layout: default
 title: Titan Kit
 parent: Titan Guide
-nav_order: 19
+nav_order: 3
 ---
 
 # Titan Kit

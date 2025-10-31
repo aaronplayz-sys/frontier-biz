@@ -2,7 +2,7 @@
 layout: default
 title: Cloak Drone
 parent: Enemy Guide
-nav_order: 39
+nav_order: 9
 ---
 
 # Cloak Drone

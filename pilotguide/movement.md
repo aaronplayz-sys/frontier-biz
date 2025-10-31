@@ -5,7 +5,7 @@ parent: Pilot Guide
 nav_order: 11
 ---
 
-[null]
+# Movement
 
 {: .important }
-> The discord channel was empty at the time when importing guides. If completed it will be added.
+> Guide is currently being written. Discord channel is under "Guides In Progress" category.

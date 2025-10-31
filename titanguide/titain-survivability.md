@@ -2,7 +2,7 @@
 layout: default
 title: Titan Survivability
 parent: Titan Guide
-nav_order: 21
+nav_order: 5
 ---
 
 # Titan Survivability

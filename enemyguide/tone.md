@@ -2,7 +2,7 @@
 layout: default
 title: Tone
 parent: Enemy Guide
-nav_order: 46
+nav_order: 16
 ---
 
 # Tone

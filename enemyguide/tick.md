@@ -2,7 +2,7 @@
 layout: default
 title: Tick
 parent: Enemy Guide
-nav_order: 35
+nav_order: 5
 ---
 
 # Tick

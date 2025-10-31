@@ -2,7 +2,7 @@
 layout: default
 title: Scorch
 parent: Titan Guide
-nav_order: 23
+nav_order: 7
 ---
 
 # Scorch

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Map Guide
-nav_order: 52
+nav_order: 7
 nav_enabled: true
 ---
 

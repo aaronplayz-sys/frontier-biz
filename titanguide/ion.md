@@ -2,7 +2,7 @@
 layout: default
 title: Ion
 parent: Titan Guide
-nav_order: 22
+nav_order: 6
 ---
 
 # Ion

@@ -2,7 +2,7 @@
 layout: default
 title: Motar Specter
 parent: Enemy Guide
-nav_order: 36
+nav_order: 6
 ---
 
 # Motar Specter

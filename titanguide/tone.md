@@ -2,7 +2,7 @@
 layout: default
 title: Tone
 parent: Titan Guide
-nav_order: 26
+nav_order: 10
 ---
 
 # Tone
