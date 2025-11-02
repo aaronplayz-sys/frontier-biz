@@ -61,5 +61,6 @@ compress_html:
   startings: []
   blanklines: false
   profile: false
-  # ignore:
-  #   envs: all
+
+# Footer configuration
+footer_content: "Copyright © 2023-2025 Frontier Biz & aaronplayz-sys. All rights reserved."
