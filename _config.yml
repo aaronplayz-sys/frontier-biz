@@ -40,6 +40,19 @@ callouts:
     title: Warning
     color: red
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Dockerfile
+  - bin/
+  - node_modules/
+  - vendor/bundle/
+  - README.md
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - docker-compose.yml
+
 # Jekyll Minifier and Terser Configuration
 plugins:
   - jekyll-terser

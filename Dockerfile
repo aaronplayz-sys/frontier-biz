@@ -1,30 +1,50 @@
 FROM ruby:3.4.2-slim
 
+ENV DEBIAN_FRONTEND noninteractive
+
+LABEL authors="aaronplayz-sys" \
+      description="Docker image for Frontier Biz guides" \
+      version="1.0.0"
+
 # Install system dependencies
-RUN apt-get update && apt-get install -y \
-  build-essential \
-  libffi-dev \
-  protobuf-compiler \
-  nodejs \
-  python3 \
-  git \
-  && rm -rf /var/lib/apt/lists/*
+RUN apt-get update -y && \
+    apt-get install -y --no-install-recommends \
+    build-essential \
+    curl \
+    git \
+    imagemagick \
+    locales \
+    inotify-tools \
+    nodejs \
+    procps \
+    python3-pip \
+    zlib1g-dev
+
+RUN apt-get clean && \
+    apt-get autoremove -y && \
+    rm -rf /var/lib/apt/lists/* /var/cache/apt/archives /tmp/*
+
+RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
+    locale-gen
+
+ENV EXECJS_RUNTIME=Node \
+    JEKYLL_ENV=production \
+    LANG=en_US.UTF-8 \
+    LANGUAGE=en_US:en \
+    LC_ALL=en_US.UTF-8
 
 # Set working directory
 WORKDIR /usr/src/app
 
-# Bundler config for persistent gem path
-RUN mkdir -p .bundle \
- && echo 'BUNDLE_PATH: "/usr/local/bundle"' > .bundle/config
+ADD Gemfile.lock /usr/src/app/
+ADD Gemfile /usr/src/app/
 
-ENV BUNDLE_PATH=/usr/local/bundle
-
-# Copy Gemfile and lock file first for caching
-COPY Gemfile Gemfile.lock ./
-RUN gem install bundler -v 2.5.9 && bundle install
-
-# Copy the rest of the project
-COPY . .
+RUN gem install --no-document jekyll
+RUN gem install --no-document bundler
+RUN bundle install --no-cache
 
 EXPOSE 4000
-CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0"]
+
+COPY bin/entrypoint.sh /tmp/entrypoint.sh
+
+CMD ["/tmp/entrypoint.sh"]
