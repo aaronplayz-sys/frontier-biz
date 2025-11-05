@@ -118,8 +118,3 @@ The grapple swing is a simple mechanic of using a grapple on tall walls/objects 
 ## Grapple floor shot
 
 This slingshot variation requires you to be on a flat surface, for this slingshot technique you will be grappling the floor from a distance then you hold the back button to build up momentum(only if you are too close to the latch on area), once you are flung forward time your jump right when you are above your grappled spot to continue the momentum. This is useful for maps with distant walls and flat plains. This is very useful as a getaway as well if needed. Floor shot is a perfect way to start movement combos, as it allows you to crouch hop with good speed. Although this isn't the fastest slingshot, it still has its uses and viability when needed. 
-
-## Conclusion
-
-[To Be Added]
-
