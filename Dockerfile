@@ -1,10 +1,10 @@
-FROM ruby:3.4.2-slim
+FROM ruby:slim
 
 ENV DEBIAN_FRONTEND noninteractive
 
 LABEL authors="aaronplayz-sys" \
       description="Docker image for Frontier Biz guides" \
-      version="1.0.0"
+      version="1.0.1"
 
 # Install system dependencies
 RUN apt-get update -y && \

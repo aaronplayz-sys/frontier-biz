@@ -103,9 +103,9 @@ PLATFORMS
   x86_64-linux-gnu
 
 DEPENDENCIES
-  jekyll (~> 4.4.1)
+  jekyll (~> 4.4, >= 4.4.1)
   jekyll-terser (~> 1.0)
-  just-the-docs (= 0.10.1)
+  just-the-docs (~> 0.10.1)
 
 BUNDLED WITH
    2.5.9
