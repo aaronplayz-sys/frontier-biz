@@ -19,7 +19,7 @@ To start, Titanfall 2 has an in-game currency called credits. Credits are earned
 
 ## KEEP IN MIND
 
-Merits will not be earned if you are playing in a private server match. If you leave before a match is completed (win or lose), you will lose all merits earned in that match. Excluding weapon and titan leveling. 
+Credits, generation levels, and merits will not be earned if you are playing in a private server match. Outside of that, if you leave any match before a match is completed (win or lose), you will lose all merits earned in that match. Excluding weapon and titan leveling. 
 
 ## Leveling/Merit and Pilot Generation 
 
