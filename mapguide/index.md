@@ -5,7 +5,7 @@ nav_order: 7
 nav_enabled: true
 ---
 
-# Enemy Guide
+# Map Guide
 
 ## All guides in this section assumes Frontier Defense gamemode ONLY with the difficulty of Master or Insane.
 
