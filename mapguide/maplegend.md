@@ -5,29 +5,35 @@ parent: Map Guide
 nav_order: 3
 ---
 
-Squares: Spawns
+## Map Legend
 
-Purple lines: General enemy spawn (grunt, tick, stalker, ronin, monarch, scorch, ion, tone,
-legion, cloaked drone and nuke titans), map callout locations
+Circle: Stationary enemy
 
-Purple circle: Stationary reaper or grunts
+Squares: Spawn Location
 
-Yellow lines: Sniper titan spawns
+Lines: Travel Path
 
-Orange lines: mortar titan spawn and perch, mortar specter movement path
+## IMC Remnants
 
-White lines: Arc trap placement
+<p style="color:#FF00FF">Purple: General enemy spawn (grunt, tick, stalker, ronin, monarch, scorch, ion, tone,
+legion, cloaked drone and nuke titans), map callout locations</p>
 
-Blue lines: Arc titan spawn
+<p style="color:#FF00FF">Purple circle: Stationary reaper or grunts</p>
 
-Green lines: Drone spawn
+<p style="color:#ffff00">Yellow: Sniper titan</p> 
 
-Cyan lines: Turret placement
+<p style="color:#ff7f00">Orange: Mortar specter and mortar titan</p> 
 
-Blue circle: Harvester
+<p style="color:#ffffff">White: Arc trap placement</p>
 
-Circle: Stationary enemy 
+<p style="color:#3399ff">Blue: Arc titan spawn</p>
 
-orange triangles: mortar specters perch 
+<p style="color:#00e600">Green: Drone spawn</p>
 
-purple hexagon : perching reaper that spawns ticks
+## Militia
+
+<p style="color:#ffffff">White X: Arc trap placement</p>
+
+<p style="color:#00FFFF">Cyan O: Turret placement</p>
+
+<p style="color:#1E90FF">Blue: Harvester</p>

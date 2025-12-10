@@ -11,7 +11,7 @@ nav_order: 2
 - TOC
 {:toc}
 
-For frontier defense there are 4 difficulties and a unique difficulty with private matches. 
+For frontier defense there are 5 difficulties and a unique difficulty with private matches. 
 
 ## Easy
 (25) - number representation of difficulty spike. 
@@ -46,3 +46,10 @@ Core gains from doing damage or kills are heavily increased, example a reaper de
 ## Insane
 
 If you are doing insane you should get comfortable using the tab button to see what enemies are left, that with communication should make the game easier.
+
+## Pressing tab
+
+{% include figure.html 
+  path="/assets/img/mapguide/difficulty/Titanfall_2_Screenshot_2025.01.25_-_04.24.04.25.png"
+  width="100"
+%}
