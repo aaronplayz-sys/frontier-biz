@@ -26,9 +26,9 @@ legion, cloaked drone and nuke titans), map callout locations</p>
 
 <p style="color:#ffffff">White: Arc trap placement</p>
 
-<p style="color:#3399ff">Blue: Arc titan spawn</p>
+<p style="color:#3399ff">Blue: Arc titan</p>
 
-<p style="color:#00e600">Green: Drone spawn</p>
+<p style="color:#00e600">Green: Drone</p>
 
 ## Militia
 
