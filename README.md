@@ -19,7 +19,7 @@ environment:
 ```
 
 ### Development
-When doing a git clone or forking, this repository, the docker-compose.yml file is already set to develpment.
+When doing a git clone or fork of this repository, the docker-compose.yml file is already set to develpment.
 
 ```YAML
 environment:
@@ -31,7 +31,7 @@ Start the server (builds and serves the site with Jekyll):
 ```sh
 docker compose up -d
 ```
-It may take a few minutes since the image is being built locally as there is no published image on docker hub.
+It may take a few minutes on the first time since the image is being built locally as there is no published image on docker hub at this time in the future there may be one.
 
 Access the site at http://localhost:4000.
 
@@ -39,6 +39,7 @@ Access the site at http://localhost:4000.
 
 - **LiveReload**: The site will automatically refresh in your browser when you save changes to your Markdown files or stylesheets.
 - **Config Auto-Restart**: Unlike standard Jekyll, this container monitors `_config.yml`. If you modify your site configuration, the Jekyll process will automatically restart inside the container—no manual `docker restart` required.
+- **Force Polling**: Configured to work reliably even across different Operating Systems (Windows/macOS/Linux) via Docker volumes.
 
 ## Local Development (Native Ruby)
 
