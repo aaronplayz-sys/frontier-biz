@@ -1,9 +1,21 @@
 services:
   docs:
-    build: .
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: frontier-biz-docs:latest
     ports:
       - "4000:4000"
+      - "35729:35729" # LiveReload port
     volumes:
       - .:/usr/src/app
+      # This prevents your local gems/metadata from overwriting 
+      # the gems installed inside the container:
+      - /usr/src/app/.jekyll-cache
+      - /usr/src/app/_site
     environment:
-      JEKYLL_ENV: production
+      # Switch to 'development' to enable the auto-restart on _config.yml change
+      - JEKYLL_ENV=development 
+    stdin_open: true # Allows you to interact with the jekyll process if needed
+    tty: true        # Enables colored logs in your terminal
+    

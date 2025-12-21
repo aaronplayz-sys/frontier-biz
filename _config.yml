@@ -47,11 +47,14 @@ exclude:
   - bin/
   - node_modules/
   - vendor/bundle/
+  - vendor
   - README.md
   - LICENSE
   - package.json
   - package-lock.json
   - docker-compose.yml
+  - .jekyll-cache/
+  - _site/
 
 # Jekyll Minifier and Terser Configuration
 plugins:

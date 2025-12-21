@@ -1,10 +1,10 @@
-FROM ruby:slim
+FROM ruby:3.4.2-slim
 
 ENV DEBIAN_FRONTEND noninteractive
 
 LABEL authors="aaronplayz-sys" \
-      description="Docker image for Frontier Biz guides" \
-      version="1.0.1"
+      description="Docker image for Frontier Biz guides (Dev & Prod)" \
+      version="1.0.2"
 
 # Install system dependencies
 RUN apt-get update -y && \
@@ -18,14 +18,14 @@ RUN apt-get update -y && \
     nodejs \
     procps \
     python3-pip \
-    zlib1g-dev
-
-RUN apt-get clean && \
-    apt-get autoremove -y && \
-    rm -rf /var/lib/apt/lists/* /var/cache/apt/archives /tmp/*
-
-RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
-    locale-gen
+    zlib1g-dev && \
+    # Set up locales
+    sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
+    locale-gen en_US.UTF-8 && \
+    # Clean up cache
+    apt-get clean && \
+    apt-get autoclean && \
+    rm -rf /var/lib/apt/lists/* /var/cache/apt/archives /var/tmp/*
 
 ENV EXECJS_RUNTIME=Node \
     JEKYLL_ENV=production \
@@ -36,15 +36,18 @@ ENV EXECJS_RUNTIME=Node \
 # Set working directory
 WORKDIR /usr/src/app
 
-ADD Gemfile.lock /usr/src/app/
-ADD Gemfile /usr/src/app/
+# Install Bundler and handle Gemfiles
+COPY Gemfile Gemfile.lock ./
+RUN gem install --no-document bundler && \
+    bundle install --jobs=4
 
-RUN gem install --no-document jekyll
-RUN gem install --no-document bundler
-RUN bundle install --no-cache
+# Copy the rest of the application code
+COPY . .
+
+# Move entrypoint script and make it executable
+COPY bin/entrypoint.sh /usr/local/bin/entrypoint.sh
+RUN chmod +x /usr/local/bin/entrypoint.sh
 
 EXPOSE 4000
 
-COPY bin/entrypoint.sh /tmp/entrypoint.sh
-
-CMD ["/tmp/entrypoint.sh"]
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
