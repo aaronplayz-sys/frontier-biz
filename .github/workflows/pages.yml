@@ -38,7 +38,7 @@ jobs:
       # 2. Cache processed images
       # This saves the generated .webp files so they aren't re-built every time
       - name: Cache ImageMagick Outputs
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: assets/img/*.webp
           key: ${{ runner.os }}-imagemagick-${{ hashFiles('assets/img/**/*') }}
