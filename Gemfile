@@ -1,8 +1,12 @@
 source 'https://rubygems.org'
 
 gem 'jekyll', '~> 4.4', '>= 4.4.1'
-# gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
+#gem 'webrick'
+gem 'just-the-docs', '~> 0.11.0'
 
-gem 'just-the-docs', '~> 0.10.1'
-# gem "just-the-docs"        # always download the latest release
-gem 'jekyll-terser', '~> 1.0'
+group :jekyll_plugins do
+  gem 'jekyll-terser', '~> 1.0'    # Safe: only touches JS
+  gem 'jekyll-seo-tag'            # Safe: only adds <meta>
+  gem 'jekyll-sitemap'            # Safe: creates a separate file
+  gem 'jekyll-imagemagick'         # Safe: just provides dimensions
+end

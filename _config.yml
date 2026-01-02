@@ -58,7 +58,10 @@ exclude:
 
 # Jekyll Minifier and Terser Configuration
 plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-terser
+  - jekyll-imagemagick
 
 terser:
   compress:
@@ -79,4 +82,26 @@ compress_html:
   profile: false
 
 # Footer configuration
-footer_content: "Copyright © 2023-2025 Frontier Biz & aaronplayz-sys. All rights reserved."
+footer_content: "Copyright © 2023-2026 Frontier Biz & aaronplayz-sys. All rights reserved."
+
+# Sitemap configuration
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
+
+imagemagick:
+  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  widths:
+    - 800
+  input_directories:
+    - assets/img/
+  input_formats:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+    - ".tiff"
+    - ".gif"
+  output_formats:
+    webp: "-quality 85"

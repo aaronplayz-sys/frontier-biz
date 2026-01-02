@@ -4,15 +4,25 @@
   {% assign width = "100" %}
 {% endif %}
 
+{% comment %} Choose which width to use for the standard 'src' (e.g., 800) {% endcomment %}
+{% assign img_width = "-800" %}
+{% assign img_ext = ".webp" %}
+
 {% if include.images %}
   <div class="img-row">
     {% for image in include.images %}
       <div class="img-col-{{ image.width | default: width | divided_by: 8.33 | round }}">
-        <img class="img-fluid zoom" src="{{ image.path | relative_url }}" alt="{{ image.alt | default: '' }}">
+        {% comment %} Logic to transform 'path/image.png' -> 'path/image-800.webp' {% endcomment %}
+        {% assign base_path = image.path | split: "." | first %}
+        {% assign optimized_path = base_path | append: img_width | append: img_ext %}
+
+        <img class="img-fluid zoom" 
+             src="{{ optimized_path | relative_url }}" 
+             data-zoom-src="{{ image.path | relative_url }}" 
+             alt="{{ image.alt | default: '' }}"
+             onerror="this.onerror=null; this.src='{{ image.path | relative_url }}';">
         {% if image.caption %}
-        <div class="caption">
-          {{ image.caption }}
-        </div>
+        <div class="caption">{{ image.caption }}</div>
         {% endif %}
       </div>
     {% endfor %}
@@ -20,24 +30,17 @@
 {% else %}
   <div class="img-row">
     <div class="img-col-{{ width | divided_by: 8.33 | round }}">
-      <img class="img-fluid zoom" src="{{ include.path | relative_url }}" alt="{{ include.alt | default: '' }}">
+      {% assign base_path = include.path | split: "." | first %}
+      {% assign optimized_path = base_path | append: img_width | append: img_ext %}
+
+      <img class="img-fluid zoom" 
+           src="{{ optimized_path | relative_url }}" 
+           data-zoom-src="{{ include.path | relative_url }}" 
+           alt="{{ include.alt | default: '' }}"
+           onerror="this.onerror=null; this.src='{{ include.path | relative_url }}';">
       {% if include.caption %}
-      <div class="caption">
-        {{ include.caption }}
-      </div>
+      <div class="caption">{{ include.caption }}</div>
       {% endif %}
     </div>
   </div>
 {% endif %}
-
-<!-- For multiple images in a row -->
-<!--<div class="img-row">
-  <div class="img-col-6">
-    <img class="img-fluid" src="path/to/image1.jpg" alt="Image 1">
-    <div class="caption">Image 1 caption</div>
-  </div>
-  <div class="img-col-6">
-    <img class="img-fluid" src="path/to/image2.jpg" alt="Image 2">
-    <div class="caption">Image 2 caption</div>
-  </div>
-</div>-->
