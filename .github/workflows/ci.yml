@@ -6,17 +6,36 @@ on:
   pull_request:
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+
+      # Install ImageMagick and the dev headers required for the Ruby gem
+      - name: Install ImageMagick
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick libmagickwand-dev
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.4.7" # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+          ruby-version: "3.4.7" 
+          bundler-cache: true 
+          cache-version: 1 
+
+      # Cache the generated .webp files so you don't waste CI time 
+      # re-converting images that haven't changed.
+      - name: Cache ImageMagick Outputs
+        uses: actions/cache@v4
+        with:
+          path: assets/img/*.webp
+          key: ${{ runner.os }}-imagemagick-${{ hashFiles('assets/img/**/*') }}
+          restore-keys: |
+            ${{ runner.os }}-imagemagick-
+
       - name: Build with Jekyll
         run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
