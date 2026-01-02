@@ -1,3 +1,7 @@
+<p align="left">
+ <a href="https://github.com/aaronplayz-sys/frontier-biz/actions/workflows/ci.yml"><img src="https://github.com/aaronplayz-sys/frontier-biz/actions/workflows/ci.yml/badge.svg" alt="CI Build status"></a> <a href="https://github.com/aaronplayz-sys/frontier-biz/actions/workflows/pages.yml"><img src="https://github.com/aaronplayz-sys/frontier-biz/actions/workflows/pages.yml/badge.svg" alt="Netlify Status"></a>
+</p>
+
 # Frontier Biz
 
 Titanfall 2 — Frontier Defense guides and reference content.
