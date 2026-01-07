@@ -28,7 +28,6 @@ Wave 1 will have a lot of enemies coming at once. A nuke titan will spawn mid th
   width="100"
 %}
 
-
 ## Wave 2
 
 Wave 2 will start with grunts and an arc titan spawn. The right side will get grunts, and the left side will get enemies as well. Dispatch the arc titan with haste. The majority of this wave will have small enemies and a stream of drones that come in the middle. Consider having a titan that is good for killing drones, like a tone or monarch, in the middle to do enemy cleanup. Mortar titans will spawn on the right and left side, and deal with them when they spawn. Mortar specters will spawn and camp in any of the places on the map(shown below). One pilot should be on the right side, clearing anything in the way. Later in the wave, nuke titans, clocked drones, an arc titan, and a sniper titan spawn (shown on the map). This part is crucial and has resulted in heavy damage or losses if the team doesn't work together. The sniper titan spot should be arc-trapped to buy time to kill the nuke titans. The nuke titans will enter through the left and right sides of the center pillar. 1 pilot should focus on the arc titan that spawns; it will always spawn on the right side. Make sure mortar specters are dealt with as they immediately damage the harvester. Have one pilot focus on the sniper titan.
