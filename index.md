@@ -12,6 +12,9 @@ Some information may be unique and while others will have the same information i
 
 There is a lot of information to cover, for those that are wiling to read... If you are new to Frontier Defense[^1] or looking to get over skill plateaus, this is the right place for you!
 
+{: .note }
+> Images on this site may be a bit blurry, clicking/tapping on the images will render the full resolution.
+
 {: .important }
 
 > Assume all guides are for Insane or Master Frontier Defense difficulty unless stated otherwise. We attempted to include all multiplayer mechanics.
