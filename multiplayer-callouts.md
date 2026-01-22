@@ -69,12 +69,51 @@ Below are callouts for all of the multiplayer maps in titanfall 2. This was made
   width="100"
 %}
 
-{: .note }
-> Todo
-> - Complex
-> - Angel City
-> - Colony
-> - Glitch
-> - Relic
-> - War Games
-> - Rise
+## Complex
+
+{% include figure.html 
+  path="/assets/img/multiplayer-callouts/TF2_Complex_Minimap.png"
+  width="100"
+%}
+
+## Angle City
+
+{% include figure.html 
+  path="/assets/img/multiplayer-callouts/TF2_AngelCity_Minimap.jpg"
+  width="100"
+%}
+
+## Colony
+
+{% include figure.html 
+  path="/assets/img/multiplayer-callouts/TF2_Colony_Minimap.jpg"
+  width="100"
+%}
+
+## Glitch
+
+{% include figure.html 
+  path="/assets/img/multiplayer-callouts/TF2_Glitch_Minimap.jpg"
+  width="100"
+%}
+
+## Relic
+
+{% include figure.html 
+  path="/assets/img/multiplayer-callouts/TF_Relic_Minimap.jpg"
+  width="100"
+%}
+
+## War Games
+
+{% include figure.html 
+  path="/assets/img/multiplayer-callouts/TF_War_Games_Minimap.jpg"
+  width="100"
+%}
+
+## Rise
+
+{% include figure.html 
+  path="/assets/img/multiplayer-callouts/TF_Rise_Minimap.jpg"
+  width="100"
+%}
