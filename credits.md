@@ -36,6 +36,8 @@ We would like make honorary mentions to the people who had any involvement in th
 
 @mika for interacting and providing good scorch support in game, Mika has been interacting with frontier biz for a long time keeping the server alive.
 
+angel_of_deths for the assistance she provided during the illustrations of the Angel City map guide.
+
 A group round of applause for these players who have fought well in game, and were effective teammates on multiplayer or frontier defense modes: @nero @bobby @emakai  @alderich @shadow @daddyultimate @retro @all seeing eye @bubuwubly @BZ @dino wisp @henry @ Kiro and others who have either left or not played for a long time.
 
 Saving the best for last, Jacksonkilled has recognized @aaronplayz for being the server admin, providing technical support, helping anyone if asked, providing and supporting our server bots, managing the music album, being a good friend, and PROOF READING every guide before being published. To finalize he also has made the portrait for our server and was here from the beginning. Aaron has offered a lot of advice when needed. Biggest round of applause for Aaron. >:)
