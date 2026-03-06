@@ -1,10 +1,10 @@
-FROM ruby:3.4.2-slim
+FROM ruby:3.4.7-slim
 
 ENV DEBIAN_FRONTEND noninteractive
 
 LABEL authors="aaronplayz-sys" \
       description="Docker image for Frontier Biz guides (Dev & Prod)" \
-      version="1.0.2"
+      version="1.0.3"
 
 # Install system dependencies
 RUN apt-get update -y && \
@@ -13,11 +13,12 @@ RUN apt-get update -y && \
     curl \
     git \
     imagemagick \
+    libmagickwand-dev \
+    pkg-config \
     locales \
     inotify-tools \
     nodejs \
     procps \
-    python3-pip \
     zlib1g-dev && \
     # Set up locales
     sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
