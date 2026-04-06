@@ -11,10 +11,18 @@ _site/
 vendor/
 .bundle/
 
+# Node
+node_modules/
+
 # Docker files
 Dockerfile
 docker-compose.yml
 .dockerignore
+
+# Editor & CI
+.vscode/
+.github/
+*.log
 
 # OS files
 .DS_Store
