@@ -6,22 +6,20 @@ nav_order: 1
 
 # Frontier Biz
 
-## Guides for Frontier Defense on TitainFall 2
+## The Definitive Guide to Titanfall 2 Frontier Defense & Multiplayer
 
-Some information may be unique and while others will have the same information in more than one depending on how universal mechanic is. Rest assured that everything is covered.
+Welcome to Frontier Biz. Whether you are a Pilot just starting your first wave or a veteran looking to break through a skill plateau, you’ve found the right terminal. 
 
-There is a lot of information to cover, for those that are wiling to read... If you are new to Frontier Defense[^1] or looking to get over skill plateaus, this is the right place for you!
+Our guides are built with a focus on high-level play. While we cover universal mechanics applicable to all levels, **please assume all strategies are optimized for Master and Insane difficulty** unless otherwise specified. 
 
 {: .note }
-> Images on this site may be a bit blurry, clicking/tapping on the images will render the full resolution.
+> **Image Quality:** To ensure fast loading, some thumbnails may appear soft. Click or tap any image to view it in full resolution.
 
-{: .important }
+---
 
-> Assume all guides are for Insane or Master Frontier Defense difficulty unless stated otherwise. We attempted to include all multiplayer mechanics.
->
-> If you have additional information that is factual, join our discord server[^2] and create a post in guide-discussions and the guide writers will take a look. Be prepared to debate and defend your points, statements and opinions about guides on what should be added, edited/changed or removed. Others can join in on the discussions.
->
-> On a final note, everyone has different skill sets and perspectives, two people can be right at the same time while both are wrong. Enjoy reading and get better, be respectful and have fun.
+### Collaborative Intelligence
+The Frontier is always changing. If you have factual data to contribute, we invite you to join our community. 
 
-[^1]: Frontier Defense may be referenced as FD throughout our guide.
-[^2]: Discord link has been removed as we decided to go invite only. Invite link found on github is invalid 
+We recently moved to an **invite-only Discord model** to maintain the quality of our discussions. If you have access, head to the `#guide-discussions` channel to submit edits or new findings. Be prepared to defend your data with evidence as we value rigorous debate to ensure our guides remain the best in the community.
+
+> Perspective is everything. Two Pilots can look at the same map and see two different paths to victory. Be respectful, stay sharp, and have fun.
