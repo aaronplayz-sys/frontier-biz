@@ -1,0 +1,32 @@
+# Default: normalize all text files to LF on checkout
+* text=auto eol=lf
+
+# Explicitly enforce LF for shell scripts
+*.sh text eol=lf
+
+# Explicitly enforce LF for Docker-related files
+Dockerfile text eol=lf
+docker-compose.yml text eol=lf
+.dockerignore text eol=lf
+
+# Gemfiles and Ruby
+Gemfile text eol=lf
+Gemfile.lock text eol=lf
+*.rb text eol=lf
+
+# Web/config files
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.scss text eol=lf
+*.json text eol=lf
+*.js text eol=lf
+
+# Binary files — never touch line endings
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
