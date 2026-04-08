@@ -19,6 +19,13 @@ That being said, sniper titans and other ranged titans can shoot at the harveste
 
 Fortunately, since this map is so open, it makes many titans and builds less punishable, specifically tone and monarch. For pilots, this map makes surviving nuke ejection or nuke rodeo much easier because of the lack of a ceiling. All players, if using ranged titans or weapons, should stay in the middle.
 
+## Map callouts
+
+{% include figure.html 
+  path="/assets/img/mapguide/forwardbasekodai/TF2_Forwardbase_Kodai_Minimap_CALLOUTS.jpg"
+  width="100"
+%}
+
 ## Wave 1
 
 Wave 1 is pretty simple; grunts and stalkers will spawn in the middle in drop pods because stalkers can ambush you if you are caught out in the open. It is recommended that you either be a sniper in the back or stay back with A-wall. A Lot of enemies spawn and will keep spawning at once, so AOE weapons and ordinances excel here. Some grunts will spawn on the left and will enter the building on the ground level. They will go back up to the middle, so be prepared for an ambush if they aren’t dead already. 1 stalker pod will always spawn in the back; they will jump up to the mid area, so keep that in mind. Near the end of the wave, a sniper tone will spawn. Caution is advised if you are going to farm its batteries on master or insane, since the AI will be accurate and aggressive if a battery is pulled. One pilot should grab a battery right after it lands. If the tone detects no pilots it will focus its fire on the harvester dealing lots of damage if left untouched. Do what you will with this information.
@@ -69,10 +76,3 @@ The last wave is a combination of the previous waves. This wave will start in mi
 ## Post Summary
 
 Forward Base Kodai is a pretty easy map, a good map for relaxing and trying out new strategies and builds. Just make sure to keep the middle clear, as that is a staging point for all other operations that will take place. One more thing to remember is that sometimes an enemy will get past the defenses and will shoot at the harvester, making sure to go beyond the short wall to find out. The sniper titans and monarchs that spawn with them will kill the harvester; it’s not a matter of if but when. Tone and Legion are very good on this map. Ions Reflex Canon laser core also has a lot of potential on this map, and of course, Highlander Ronin will dominate easily, so the options are many. Have fun out there, pilots!
-
-## Map callouts
-
-{% include figure.html 
-  path="/assets/img/mapguide/forwardbasekodai/TF2_Forwardbase_Kodai_Minimap_CALLOUTS.jpg"
-  width="100"
-%}

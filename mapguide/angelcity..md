@@ -15,6 +15,8 @@ nav_order: 9
 
 Angel City on Frontier Defense can be an easier map if the pilots know what to do and what to expect. The major threat on this wave is the mortar specters, mortar titans, waves of Arc titans, and the typical tick spawning reaper. The enemies that don't spawn on the Angel City map are Monarch, Legion, Ion, Northstar, ticks(from drop pods), and plasma drones. In Angel City, the pilots will need to move arc traps during intermissions since each wave will have vastly different spawn points for enemies. So whoever buys arc traps will need to keep this in mind. Grapple and sniper rifles will work very well on this map due to the many high vantage points. Titans like Scorch and Northstar will do well in Angel City due to the tight, long corridors. Tone can have some trouble, but she works well most of the time. With the proper roaming and team coordination, this map is a guaranteed win. 
 
+## Map callouts
+
 {% include figure.html 
   path="/assets/img/mapguide/anglecity/Map_Callouts.jpg"
   width="100"

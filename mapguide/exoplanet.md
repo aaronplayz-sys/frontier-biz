@@ -29,6 +29,13 @@ Player skill and knowledge will be tested, so it is heavily recommended that you
 
 Since Exo planet has many mortar titans, this map is a good battery and titan meter farming map, granted the harvester has shields still. If the harvester is healthy, then consider replacing your titan; do not hold onto doomed titans, since you will become a liability. This map is no place to test or to gamble. Don't kill mortar titans if your team needs meter farming, hence why communication is a must for exo planet.
 
+## Map callouts
+
+{% include figure.html 
+  path="/assets/img/mapguide/exoplanet/TF2_Exoplanet_Minimap_Callouts.jpg"
+  width="100"
+%}
+
 ## Wave 1
 
 For wave one, one pilot should be deep mid, one mid, one short right, and one short left. For the pilot that is deep mid, they need to equip an anti-titan-focused loadout. Their focus should be to support mid until either a nuke, reaper, or mortar titan spawns deep mid. These are a priority and should be taken down first. If it's a mortar titan first, kill it immediately. The reaper needs to die soon, or else ticks will spawn. There is some RNG with what spawns first, so keep a lookout. All pilots need to be aware that stalkers pre-fire their shots and can see through the map; shots can be avoided if the pilot moves quickly.
@@ -109,10 +116,3 @@ The left side will be getting lots of action this round. In the beginning, only 
 ## Post Summary
 
 A huge amount of information to digest at once, it is recommended that if you are new to Exo Planet, you should play it on master difficulty first to memorize spawns visually before tackling insane. Good luck with randoms and expect the worst. Harvester shields can carry and are useful for slip-ups. Try to get a capable team together with mics. As said above, this map requires you to be at your best; if one person falls, then the whole plan can fail if crisis control doesn't work. For the best comp, I suggest 3 scorch 1 highlander ronin, or 2 highlander ronin and 2 scorch. Northstar and Ion can be good as well to replace the Ronin. Legion is also an underdog with exo planet, but only very good players should use him. Make sure to farm the titan meter and core with the mortar titans. Good luck out there, pilot, you're gonna need it.
-
-## Map callouts
-
-{% include figure.html 
-  path="/assets/img/mapguide/exoplanet/TF2_Exoplanet_Minimap_Callouts.jpg"
-  width="100"
-%}

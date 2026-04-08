@@ -19,6 +19,17 @@ This map is fairly easy, other than some waves and part of the waves (which will
 
 Pilots will need to make use of electric smoke in drydock to prevent death to themselves or the harvester, so equipping a double counter is wise. The mortar titans that spawn on wave 5 have been the cause of many defeats. Make sure they are arc-trapped (shown below).
 
+## Map callouts
+
+{% include figure.html 
+  path="/assets/img/mapguide/drydock/TF2_Drydock_Minimap_Callouts.jpg"
+  width="100"
+%}
+
+Wave 5 mortar titan locations that can be shot at from a safe distance
+
+{% include figure.html images=site.data.drydock %}
+
 ## Wave 1
 
 Wave 1 will have a lot of grunts, stalkers, and Nuke Titans in the first wave. 1 pilot should focus on the grunts and stalkers that spawn at 5, 6, and 7 o'clock or the back left corner, back, and back right corner. Many groups of stalkers and grunts will go towards the harvester, so make sure AOE is available. Another pilot should kill the grunts that spawn at the left side or 8,9 o'clock. If those grunts are left unchecked, harvester damage will happen. This pilot will assist with the back pilot if needed. For 12 and 1 o'clock, the deep front, front right corner, will have stalkers, reapers, and nuke titans with a Ronin Titan last. The pilot or pilots who cover this area are recommended to have an anti-titan loadout. Since stalkers spawn here, make sure to use cover and stay back to prevent dying. Whoever is back here should make use of the opportunity to farm batteries off the Nuke Titans that spawn. If the Nuke Titan gets passed, you make sure to communicate with the team. Wave 1 can get out of hand fast, so make sure to help each other out if needed. One final note is that a ronin will spawn; this is a good opportunity for the back pilots to get a battery if they wish. Strangely, if the titan is damaged, it will sometimes run off to the area between 10 and 9 o'clock, allowing time to farm batteries.
@@ -70,15 +81,3 @@ They will all go clockwise and will always cross paths with Death Valley. During
 
 Play this map a few times on lower difficulties if you have never played this map before. When confident, do master, and it will become easier as you remember spawns, respect the tick spawns, and you should be fine for the 2nd wave. For the last wave, just make sure to hold down Death Valley. Nothing else of note other than taking down those Mortar Titans, consider having 2 pilots do that while 2 hold down Death Valley. Drydock can be one of the hardest or easiest maps with the proper team. Have fun!
 
-## Map callouts
-
-{% include figure.html 
-  path="/assets/img/mapguide/drydock/TF2_Drydock_Minimap_Callouts.jpg"
-  width="100"
-%}
-
-Wave 5 mortar titan locations that can be shot at from a safe distance
-
-{% include figure.html images=site.data.drydock %}
-
- 

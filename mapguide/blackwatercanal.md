@@ -15,6 +15,8 @@ nav_order: 8
 
 Good day, pilots. Here is another guide for frontier defense. This time, it will be about the map Backwater-Canal. Backwater-Canal is one of the easier maps in Frontier defense because enemy paths are predictable and the corridors are tight. Backwater Canal has some mortar titans, but with proper arc trap placement and good roaming, they won't be an issue. Make sure every player can cover each of the 3 lanes (shown on the map). Waves 4 and 5 will have lots of enemies attacking mid-left, so someone must run there when needed. The biggest asset is the bridge in the center of the map. If any pilots use Tone as a titan, it is recommended that they be on the bridge for most waves. This allows maximum surface area for lock-ons, though they should roam when needed. Legion, Northstar, or almost any titan can fulfill this role, but not as well as Tone. Whoever is on the bridge can support every lane if they are a ranged-focused titan. Scorch is best suited below the bridge. Scorch is useful because the backwater canal has lots of choke points for thermite in all hallways leading to the harvester. The enemies that won't spawn on Backwater Canal are cloak drones, plasma drones, and Monarch titans. 
 
+## Map callouts
+
 {% include figure.html 
   path="/assets/img/mapguide/blackwatercanal/Map_Callouts.jpg"
   width="100"

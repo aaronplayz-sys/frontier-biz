@@ -19,6 +19,13 @@ Homestead can be very difficult for unskilled or incompetent pilots; this map, o
 
 Waves remain manageable until the fifth, which is the ultimate test for the team. Buying arc traps is essential with no exceptions—avoid turrets unless attempting a challenge. Due to Homestead's open design, Tone excels here, and Northstar's tether traps are invaluable for stopping arc titans.
 
+## Map callouts
+
+{% include figure.html 
+  path="/assets/img/mapguide/homestead/TF2_Homestead_Minimap_Callouts.jpg"
+  width="100"
+%}
+
 ## Wave 1
 
 Wave 1 will have a lot of enemies coming at once. A nuke titan will spawn mid that enters the right side of the mid pillar. Make sure to lay satchels and have a pilot focus on killing it. Due to having no arc traps, the nuke titan will run if not engaged, so killing it is the top priority. After the nuke titan spawns, multiple drop pods full of grunts will spawn. The map below shows the many ways they enter to attack the harvester. Drones will spawn, so having a pilot with devotion or another good weapon at the back to kill them is a good idea. Having a sniper at the top of the pillar is a good choice; if a pilot wishes to do so, they can fight from a safe distance. While the grunts spawn, some reapers will spawn. These reapers will run to their respective tick-spawning locations (shown on the map below). These reapers need to die to prevent ticks from spawning. If ticks do spawn, they will run towards the harvester. Make sure to stay clear of the main path and destroy them. Cloak drones will accompany enemies on this wave, and kill them for an easier wave. Halfway through the mission, many mortar specters will spawn, so some pilots must seek and hunt them down. During the final parts of the wave, a mortar titan will spawn, as shown on the map below. Using this titan to farm batteries is highly recommended
@@ -69,12 +76,5 @@ Lots of cloak drones accompany nuke titans, so if you see a cloak drone, assume 
 ## Post summary
 
 Homestead can be a difficult map; make sure arc traps and player positioning are on point, and consider having a roamer or two. Watch out for waves 3 and 5, as those are the waves that cause losses. You either win or lose on this map. Ranged Titans work very well here. If a pilot uses a Scorch Titan, they should hold a lane by themselves, like the right side during wave 3 or mid to kill drones with the thermal shield.
-
-## Map callouts
-
-{% include figure.html 
-  path="/assets/img/mapguide/homestead/TF2_Homestead_Minimap_Callouts.jpg"
-  width="100"
-%}
 
  
