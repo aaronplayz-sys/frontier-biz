@@ -1,3 +1,47 @@
 @import "./responsive-images";
 @import "./zoom";
 @import "./google-translate.scss";
+
+$content-width: 64rem;
+$nav-width: 18rem;
+// Use a cleaner, modern mono stack for code blocks
+$mono-font-family: "JetBrains Mono", "Fira Code", "Cascadia Code", "SFMono-Regular", menlo, consolas, monospace;
+// Tighten the line height for a more "dense" technical look
+$body-line-height: 1.5;
+$content-line-height: 1.5;
+// Custom Scrollbars for that "Cloud Dashboard" feel
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: $grey-dk-300; 
+}
+::-webkit-scrollbar-thumb {
+  background: $grey-dk-100;
+  border-radius: 5px;
+  border: 2px solid $grey-dk-300;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: $blue-000; // Matches blue theme
+}
+// Sharper, more modern borders for callouts
+$border-radius: 2px; // More "technical" than the rounded 4px
+// Integrating the glow into the theme's link variables
+$link-color: #1e90ff; 
+$link-hover-color: lighten($link-color, 50%);
+
+// Adding the physical CSS for the glow (this goes below the variables)
+a:hover {
+  text-shadow: 0 0 8px rgba($link-color, 0.4);
+  transition: all 0.3s ease;
+}
+
+// Custom theme for the enemy guide (Crimson Headings)
+.enemyguide-theme {
+  h1, h2, h3, h4, h5, h6, 
+  .text-alpha, .text-beta, .text-gamma, .text-delta, .text-epsilon, .text-zeta,
+  .text-beta a, .text-gamma a, .text-delta a, .text-epsilon a, .text-zeta a,
+  .fs-9, .fs-8, .fs-7, .fs-6, .fs-5, .fs-4 {
+    color: #dc143c !important; // Crimson Red
+  }
+}

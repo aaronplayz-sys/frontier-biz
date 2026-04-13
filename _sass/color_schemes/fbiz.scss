@@ -1,6 +1,12 @@
 @import "./color_schemes/dark";
 
-$link-color: #1e90ff; // Bright orange
-$link-hover-color: darken(#ff4c4c, 10%);
-$link-hover-shadow: 0 0 5px rgba($link-color, 0.7);
+// Colors
+$cloud-blue: #1e90ff; // The "Dodger Blue" you had
+$cloud-cyan: #00ffff; // Electric Cyan for that "active" feel
+
+// Link Overrides
+$link-color:           $cloud-blue;
 $nav-child-link-color: $link-color;
+
+// Make headers pop slightly to match
+$body-heading-color: lighten($cloud-blue, 20%);
