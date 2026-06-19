@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       # 1. Install ImageMagick system dependencies
       # 'libmagickwand-dev' is required for the Ruby gem to interface with the OS
