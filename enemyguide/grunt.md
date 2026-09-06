@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Grunt
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 4
+custom_class: battlefield-theme
 ---
 
 # Grunt

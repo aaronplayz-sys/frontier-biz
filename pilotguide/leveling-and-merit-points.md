@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Leveling and Merit Points
-parent: Pilot Guide
+parent: 🧑‍✈️ Pilot Guide
 nav_order: 15
+custom_class: pilot-theme
 ---
 
 # Leveling and Merit Points

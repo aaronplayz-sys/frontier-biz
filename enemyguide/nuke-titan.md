@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Nuke Titan
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 20
+custom_class: battlefield-theme
 ---
 
 # Nuke Titan

@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Forward Base Kodai
-parent: Map Guide
+parent: 🗺️ Map Guide
 nav_order: 4
+custom_class: map-theme
 ---
 
 # Forward Base Kodai

@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Battery Farming
-parent: Pilot Guide
+parent: 🧑‍✈️ Pilot Guide
 nav_order: 13
+custom_class: pilot-theme
 ---
 
 # Battery Farming

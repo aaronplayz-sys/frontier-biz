@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Universal Mechanics and Abitlies
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 2
+custom_class: battlefield-theme
 ---
 
 # Universal Mechanics and Abitlies
