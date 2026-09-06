@@ -3,6 +3,7 @@ layout: default
 title: Titanfalls and Their Kits
 parent: 🤖 Titan Guide
 nav_order: 2
+custom_class: titan-theme
 ---
 
 # Titanfalls and Their Kits

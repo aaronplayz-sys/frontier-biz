@@ -3,6 +3,7 @@ layout: default
 title: Ion
 parent: 🤖 Titan Guide
 nav_order: 6
+custom_class: titan-theme
 ---
 
 # Ion

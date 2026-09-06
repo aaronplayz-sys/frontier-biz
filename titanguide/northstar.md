@@ -3,6 +3,7 @@ layout: default
 title: Northstar
 parent: 🤖 Titan Guide
 nav_order: 8
+custom_class: titan-theme
 ---
 
 # Northstar

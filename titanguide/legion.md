@@ -3,6 +3,7 @@ layout: default
 title: Legion
 parent: 🤖 Titan Guide
 nav_order: 11
+custom_class: titan-theme
 ---
 
 # Legion

@@ -3,6 +3,7 @@ layout: default
 title: Ronin
 parent: 🤖 Titan Guide
 nav_order: 9
+custom_class: titan-theme
 ---
 
 # Ronin

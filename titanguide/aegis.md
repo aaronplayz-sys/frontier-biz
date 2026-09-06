@@ -3,6 +3,7 @@ layout: default
 title: Aegis
 parent: 🤖 Titan Guide
 nav_order: 4
+custom_class: titan-theme
 ---
 
 # Aegis

@@ -3,6 +3,7 @@ layout: default
 title: Tone
 parent: 🤖 Titan Guide
 nav_order: 10
+custom_class: titan-theme
 ---
 
 # Tone
