@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Ion
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 11
+custom_class: battlefield-theme
 ---
 
 # Ion

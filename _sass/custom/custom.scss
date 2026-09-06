@@ -1,6 +1,13 @@
 @import "./responsive-images";
 @import "./zoom";
 @import "./google-translate.scss";
+@import "./titanboot.scss";
+@import "./threatcard.scss";
+@import "./hudctrl.scss";
+@import "./navbar.scss";
+@import "./contentlink.scss";
+@import "./deskleftalign.scss";
+@import "./hompage.scss";
 
 $content-width: 64rem;
 $nav-width: 18rem;
@@ -27,8 +34,8 @@ $content-line-height: 1.5;
 // Sharper, more modern borders for callouts
 $border-radius: 2px; // More "technical" than the rounded 4px
 // Integrating the glow into the theme's link variables
-$link-color: #1e90ff; 
-$link-hover-color: lighten($link-color, 50%);
+//$link-color: #c52a9e; 
+//$link-hover-color: lighten($link-color, 75%);
 
 // Adding the physical CSS for the glow (this goes below the variables)
 a:hover {
@@ -43,5 +50,25 @@ a:hover {
   .text-beta a, .text-gamma a, .text-delta a, .text-epsilon a, .text-zeta a,
   .fs-9, .fs-8, .fs-7, .fs-6, .fs-5, .fs-4 {
     color: #dc143c !important; // Crimson Red
+  }
+}
+
+// Custom theme for the titan guide (Orange Headings)
+.titanguide-theme {
+  h1, h2, h3, h4, h5, h6, 
+  .text-alpha, .text-beta, .text-gamma, .text-delta, .text-epsilon, .text-zeta,
+  .text-beta a, .text-gamma a, .text-delta a, .text-epsilon a, .text-zeta a,
+  .fs-9, .fs-8, .fs-7, .fs-6, .fs-5, .fs-4 {
+    color: #ffbc22 !important; // Orange
+  }
+}
+
+// Custom theme for the map guide (Green Headings)
+.mapguide-theme {
+  h1, h2, h3, h4, h5, h6, 
+  .text-alpha, .text-beta, .text-gamma, .text-delta, .text-epsilon, .text-zeta,
+  .text-beta a, .text-gamma a, .text-delta a, .text-epsilon a, .text-zeta a,
+  .fs-9, .fs-8, .fs-7, .fs-6, .fs-5, .fs-4 {
+    color: #83df6c !important; // Green
   }
 }

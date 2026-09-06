@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Rodeo
-parent: Pilot Guide
+parent: 🧑‍✈️ Pilot Guide
 nav_order: 12
+custom_class: pilot-theme
 ---
 
 # Rodeo

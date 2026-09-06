@@ -1,8 +1,9 @@
 ---
 layout: default
 title: BlackWater-Canal
-parent: Map Guide
+parent: 🗺️ Map Guide
 nav_order: 8
+custom_class: map-theme
 ---
 
 # BlackWater-Canal

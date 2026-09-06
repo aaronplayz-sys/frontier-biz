@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Economy and Armory
-parent: Pilot Guide
+parent: 🧑‍✈️ Pilot Guide
 nav_order: 10
+custom_class: pilot-theme
 ---
 
 # Economy and Armory

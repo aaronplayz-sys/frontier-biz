@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Tick
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 5
+custom_class: battlefield-theme
 ---
 
 # Tick

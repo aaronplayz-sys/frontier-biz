@@ -1,0 +1,30 @@
+/* ==========================================================================
+   Main Content Link Customization
+   ========================================================================== */
+
+/* Target inline text links without affecting nav buttons or sidebar elements */
+.main-content a:not(.btn):not(.nav-list-link):not(.site-title):not(.site-button) {
+  color: #00f0ff; /* Bright IMC Cyan */
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(0, 240, 255, 0.6);
+  padding: 0 0.15rem;
+  transition: all 0.2s ease-in-out;
+
+  /* Hover & Focus state */
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background: rgba(0, 240, 255, 0.18);
+    border-bottom: 1px solid #00f0ff;
+    text-shadow: 0 0 8px rgba(0, 240, 255, 0.7);
+    box-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+    border-radius: 2px;
+  }
+
+  /* Visited state - stays high-contrast */
+  &:visited {
+    color: #80d8ff; /* Slightly softer cyan */
+    border-bottom-color: rgba(128, 216, 255, 0.5);
+  }
+}

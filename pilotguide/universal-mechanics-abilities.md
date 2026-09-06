@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Universal Mechanics and Abilities
-parent: Pilot Guide
+parent: 🧑‍✈️ Pilot Guide
 nav_order: 1
+custom_class: pilot-theme
 ---
 
 # Universal Mechanics and Abilities

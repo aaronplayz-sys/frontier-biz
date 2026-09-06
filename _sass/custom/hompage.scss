@@ -1,0 +1,442 @@
+/* Hide navigation menu on the homepage across all screen sizes */
+body.home-page {
+  #site-nav,
+  .site-nav {
+    display: none !important;
+  }
+}
+
+/* ==========================================================================
+   Homepage Custom Layout (Reset & Grid Fix)
+   ========================================================================== */
+
+.homepage-hub {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  width: 100%;
+
+  /* Strip default theme paragraph and heading borders inside the hub */
+  p, div, span, a {
+    background: none;
+  }
+}
+
+/* 2-Column Split for Guides & Wiki */
+.hub-row-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  width: 100%;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Common Card Base Styling */
+.hub-box {
+  position: relative;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none !important;
+  background-color: #090d14 !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  overflow: hidden;
+  clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 14px 100%, 0 calc(100% - 14px));
+  transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), border-color 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+
+  /* Card Heights */
+  &.box-wide {
+    min-height: 160px;
+  }
+
+  &.box-tall {
+    min-height: 380px;
+  }
+
+  .box-bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    filter: grayscale(80%);
+    transition: transform 0.4s ease, opacity 0.4s ease, filter 0.4s ease;
+    z-index: 0;
+  }
+
+  .box-overlay {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at center, rgba(6, 8, 12, 0.3) 0%, rgba(6, 8, 12, 0.85) 100%);
+    z-index: 1;
+  }
+
+  .box-content {
+    position: relative;
+    z-index: 2;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .box-tag {
+      display: block;
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.5rem !important;
+      opacity: 0.85;
+      border: none !important;
+      padding: 0 !important;
+    }
+
+    .box-title {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #ffffff !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      border: none !important; /* Removes dotted theme underline */
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: text-shadow 0.3s ease;
+    }
+  }
+
+  /* Expansion on Hover */
+  &:hover {
+    transform: scale(1.02);
+    z-index: 5;
+
+    .box-bg {
+      transform: scale(1.05);
+      opacity: 0.65;
+      filter: grayscale(0%);
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Hover Color Themes
+   -------------------------------------------------------------------------- */
+
+/* Cyan - Terminology */
+.box-cyan {
+  .box-tag { color: #00f0ff !important; }
+  &:hover {
+    border-color: #00f0ff !important;
+    box-shadow: 0 0 25px rgba(0, 240, 255, 0.35) !important;
+    .box-title { text-shadow: 0 0 12px rgba(0, 240, 255, 0.8); }
+  }
+}
+
+/* Emerald - Guides */
+.box-emerald {
+  .box-tag { color: #00ff66 !important; }
+  &:hover {
+    border-color: #00ff66 !important;
+    box-shadow: 0 0 25px rgba(0, 255, 102, 0.35) !important;
+    .box-title { text-shadow: 0 0 12px rgba(0, 255, 102, 0.8); }
+  }
+}
+
+/* Crimson - Wiki */
+.box-crimson {
+  .box-tag { color: #ff3344 !important; }
+  &:hover {
+    border-color: #ff3344 !important;
+    box-shadow: 0 0 25px rgba(255, 51, 68, 0.35) !important;
+    .box-title { text-shadow: 0 0 12px rgba(255, 51, 68, 0.8); }
+  }
+}
+
+/* Violet - Credits */
+.box-violet {
+  .box-tag { color: #e040fb !important; }
+  &:hover {
+    border-color: #e040fb !important;
+    box-shadow: 0 0 25px rgba(224, 64, 251, 0.35) !important;
+    .box-title { text-shadow: 0 0 12px rgba(224, 64, 251, 0.8); }
+  }
+}
+
+/* ==========================================================================
+   Interactive Card Pop-out Submenu Styling
+   ========================================================================== */
+
+.hub-box-interactive {
+  cursor: pointer;
+
+  .box-content {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .box-hint {
+    display: block;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.7rem;
+    color: #00ff66 !important;
+    margin-top: 0.75rem !important;
+    letter-spacing: 0.12em;
+    opacity: 0.75;
+    border: none !important;
+  }
+
+  /* Submenu Overlay Container */
+  .box-popout {
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.85rem;
+    padding: 1.5rem;
+    background: rgba(6, 9, 14, 0.92);
+    backdrop-filter: blur(6px);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(12px);
+    transition: opacity 0.3s ease, transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+
+  /* Reveal Submenu on Hover */
+  &:hover {
+    .box-content {
+      opacity: 0.15;
+      transform: translateY(-8px);
+    }
+
+    .box-popout {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Tactical Submenu Buttons */
+.popout-link {
+  width: 85%;
+  padding: 0.8rem 1rem;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: rgba(0, 255, 102, 0.08) !important;
+  border: 1px solid rgba(0, 255, 102, 0.4) !important;
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.6rem;
+  transition: all 0.2s ease;
+
+  .link-icon {
+    color: #00ff66;
+    font-size: 0.85rem;
+    transition: transform 0.2s ease;
+  }
+
+  &:hover {
+    background: rgba(0, 255, 102, 0.25) !important;
+    border-color: #00ff66 !important;
+    box-shadow: 0 0 15px rgba(0, 255, 102, 0.4) !important;
+    transform: translateX(4px);
+
+    .link-icon {
+      transform: translateX(3px);
+    }
+  }
+}
+
+/* Adjust background image visibility inside homepage cards */
+.hub-box {
+  
+  .box-bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.80 !important;            /* Increased from 0.3 to make image brighter */
+    filter: grayscale(5%) !important;    /* Reduced grayscale so colors pop */
+    transition: transform 0.4s ease, opacity 0.4s ease, filter 0.4s ease;
+    z-index: 0;
+  }
+
+  .box-overlay {
+    position: absolute;
+    inset: 0;
+    /* Lightened the dark radial overlay gradient */
+    background: radial-gradient(circle at center, rgba(6, 8, 12, 0.25) 0%, rgba(6, 8, 12, 0.65) 100%) !important;
+    z-index: 1;
+  }
+
+  /* Boost text contrast against brighter background */
+  .box-content {
+    .box-title {
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.9) !important;
+    }
+  }
+
+  /* Full brightness on hover */
+  &:hover {
+    .box-bg {
+      opacity: 0.95 !important;
+      filter: grayscale(0%) !important;
+    }
+  }
+}
+
+/* ==========================================================================
+   2-Stage Nested Pop-out Subpanel Engine
+   ========================================================================== */
+
+/* Wrapper for main link + child subpanel */
+.popout-group {
+  width: 85%;
+  position: static;
+
+  /* Parent mode link styling */
+  .popout-link {
+    width: 100%;
+    cursor: pointer;
+    justify-content: space-between !important;
+
+    .arrow-right {
+      font-size: 0.8rem;
+      opacity: 0.6;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+  }
+
+  /* Slide-in Secondary Subpanel */
+  .subpanel {
+    position: absolute;
+    inset: 0;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1.5rem;
+    background: rgba(6, 9, 14, 0.98);
+    backdrop-filter: blur(8px);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(100%);
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.3s ease;
+    border-left: 2px solid #00ff66;
+
+    .subpanel-header {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.75rem;
+      color: #00ff66;
+      letter-spacing: 0.12em;
+      margin-bottom: 0.5rem;
+      opacity: 0.85;
+    }
+  }
+
+  /* Reveal Subpanel on Hovering the Group */
+  &:hover {
+    .popout-link {
+      background: rgba(0, 255, 102, 0.25) !important;
+      border-color: #00ff66 !important;
+      box-shadow: 0 0 15px rgba(0, 255, 102, 0.4) !important;
+
+      .arrow-right {
+        opacity: 1;
+        transform: translateX(4px);
+      }
+    }
+
+    .subpanel {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateX(0);
+    }
+  }
+}
+
+/* Individual Nested Links inside Subpanels */
+.subpanel-link {
+  width: 90%;
+  padding: 0.7rem 1rem;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));
+  text-align: center;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: rgba(0, 255, 102, 0.2) !important;
+    border-color: #00ff66 !important;
+    color: #00ff66 !important;
+    box-shadow: 0 0 12px rgba(0, 255, 102, 0.3) !important;
+    transform: translateY(-2px);
+  }
+}
+
+/* ==========================================================================
+   Frosted Glass Submenu & Artwork Blur
+   ========================================================================== */
+
+.hub-box-interactive {
+
+  /* Blur the background artwork directly on card hover */
+  &:hover {
+    .box-bg {
+      filter: blur(6px) brightness(0.85) !important; /* Applies soft blur while keeping artwork visible */
+      opacity: 0.85 !important;
+    }
+  }
+
+  /* Submenu Overlay Container (Translucent Frosted Glass) */
+  .box-popout {
+    background: rgba(6, 9, 14, 0.4) !important; /* Lightened from 0.92 to reveal artwork */
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  /* Slide-in Secondary Subpanel */
+  .popout-group .subpanel {
+    background: rgba(6, 9, 14, 0.65) !important; /* Translucent background for nested links */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+}
+
+/* Enhanced contrast for submenu buttons over blurred artwork */
+.popout-link {
+  background: rgba(0, 255, 102, 0.12) !important;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+
+  &:hover {
+    background: rgba(0, 255, 102, 0.3) !important;
+    box-shadow: 0 0 18px rgba(0, 255, 102, 0.5) !important;
+  }
+}

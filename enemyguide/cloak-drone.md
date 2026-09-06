@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Cloak Drone
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 9
+custom_class: battlefield-theme
 ---
 
 # Cloak Drone

@@ -1,0 +1,121 @@
+/* Titanfall Boot Sequence Overlay */
+#titan-boot-screen {
+  position: fixed;
+  inset: 0;
+  background-color: #080a0e;
+  color: #00f0ff;
+  font-family: 'Share Tech Mono', monospace;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s ease, visibility 0.5s;
+}
+
+.hud-scanlines {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.35) 50%
+  );
+  background-size: 100% 4px;
+  pointer-events: none;
+}
+
+.terminal-box {
+  position: relative;
+  background: rgba(10, 14, 20, 0.95);
+  border: 1px solid rgba(0, 240, 255, 0.4);
+  padding: 1.75rem;
+  width: 90%;
+  max-width: 520px;
+  clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+  box-shadow: 0 0 25px rgba(0, 240, 255, 0.12);
+}
+
+.hud-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: rgba(0, 240, 255, 0.6);
+  border-bottom: 1px solid rgba(0, 240, 255, 0.2);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#boot-log p {
+  margin: 0.35rem 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  text-shadow: 0 0 5px rgba(0, 240, 255, 0.5);
+}
+
+.progress-track {
+  height: 4px;
+  background: rgba(0, 240, 255, 0.15);
+  margin-top: 1.25rem;
+  overflow: hidden;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%;
+  background: #00f0ff;
+  transition: width 0.3s ease;
+  box-shadow: 0 0 8px #00f0ff;
+}
+
+#skip-btn {
+  background: transparent;
+  border: none;
+  color: rgba(0, 240, 255, 0.5);
+  font-family: inherit;
+  font-size: 0.7rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  float: right;
+}
+
+#skip-btn:hover {
+  color: #00f0ff;
+}
+
+/* Tactical Replay Button */
+.titan-replay-btn {
+  background: rgba(10, 14, 20, 0.7);
+  border: 1px solid rgba(0, 240, 255, 0.35);
+  color: #00f0ff;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.75rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  transition: all 0.2s ease;
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+
+  .btn-bracket {
+    color: rgba(0, 240, 255, 0.4);
+    transition: color 0.2s ease;
+  }
+
+  &:hover {
+    background: rgba(0, 240, 255, 0.15);
+    border-color: #00f0ff;
+    color: #ffffff;
+    box-shadow: 0 0 12px rgba(0, 240, 255, 0.35);
+
+    .btn-bracket {
+      color: #00f0ff;
+    }
+  }
+
+  &:active {
+    transform: scale(0.97);
+  }
+}
