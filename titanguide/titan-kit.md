@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Titan Kit
-parent: Titan Guide
+parent: 🤖 Titan Guide
 nav_order: 3
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ronin
-parent: Titan Guide
+parent: 🤖 Titan Guide
 nav_order: 9
 ---
 
