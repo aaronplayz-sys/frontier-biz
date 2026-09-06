@@ -40,7 +40,7 @@ Perspective is everything. Two Pilots can look at the same map and see two diffe
     <div class="box-bg" style="background-image: url('assets/img/2023031.JPG');"></div>
     <div class="box-overlay"></div>
     <div class="box-content">
-      <span class="box-tag">// SYSTEM ARCHIVE</span>
+      <span class="box-tag">// COMMUNICATION ARCHIVE \\</span>
       <div class="box-title">FBIZ SERVER & GAME TERMINOLOGY</div>
     </div>
   </a>
@@ -55,7 +55,7 @@ Perspective is everything. Two Pilots can look at the same map and see two diffe
       
       <!-- Main Content -->
       <div class="box-content">
-        <span class="box-tag">// COMBAT MANUALS</span>
+        <span class="box-tag">// COMBAT MANUALS \\</span>
         <div class="box-title">GUIDES</div>
         <span class="box-hint">HOVER TO SELECT &darr;</span>
       </div>
@@ -66,24 +66,28 @@ Perspective is everything. Two Pilots can look at the same map and see two diffe
         <!-- Campaign -->
         <div class="popout-group">
           <div class="popout-link">
-            <span class="link-icon">&gt;</span> CAMPAIGN GUIDES <span class="arrow-right">&rarr;</span>
+            <span class="link-icon">&gt;</span> CAMPAIGN <span class="arrow-right">&rarr;</span>
           </div>
           <div class="subpanel">
-            <div class="subpanel-header">// CAMPAIGN MANUALS</div>
+            <div class="subpanel-header">// CAMPAIGN \\</div>
             <a href="./campaign-walkthrough.html" class="subpanel-link">WALKTHROUGH</a>
-            <a href="./campaign-collectibles.html" class="subpanel-link">PILOT HELMETS</a>
+            <a href="./campaign-collectibles.html" class="subpanel-link">COOPER & BT</a>
+            <a href="./filler" class="subpanel-link">ACHIEVEMENTS</a>
+            <a href="./filler" class="subpanel-link">SPEEDRUN</a>
           </div>
         </div>
 
         <!-- Multiplayer -->
         <div class="popout-group">
           <div class="popout-link">
-            <span class="link-icon">&gt;</span> MULTIPLAYER GUIDES <span class="arrow-right">&rarr;</span>
+            <span class="link-icon">&gt;</span> MULTIPLAYER <span class="arrow-right">&rarr;</span>
           </div>
           <div class="subpanel">
-            <div class="subpanel-header">// MULTIPLAYER TACTICS</div>
-            <a href="./mp-pilot-guide.html" class="subpanel-link">PILOT LOADOUTS</a>
-            <a href="./mp-titan-guide.html" class="subpanel-link">TITAN META</a>
+            <div class="subpanel-header">// MULTIPLAYER \\</div>
+            <a href="./mp-pilot-guide.html" class="subpanel-link">PILOT</a>
+            <a href="./mp-titan-guide.html" class="subpanel-link">TITAN</a>
+            <a href="./filler" class="subpanel-link">MINIONS</a>
+            <a href="./filler" class="subpanel-link">MAP & MAP CALLOUTS</a>
           </div>
         </div>
 
@@ -93,10 +97,12 @@ Perspective is everything. Two Pilots can look at the same map and see two diffe
             <span class="link-icon">&gt;</span> FRONTIER DEFENSE <span class="arrow-right">&rarr;</span>
           </div>
           <div class="subpanel">
-            <div class="subpanel-header">// FRONTIER DEFENSE</div>
-            <a href="./pilotguide" class="subpanel-link">PILOT GUIDE</a>
-            <a href="./titanguide" class="subpanel-link">TITAN GUIDE</a>
-            <a href="./mapguide" class="subpanel-link">MAP GUIDE</a>
+            <div class="subpanel-header">// FRONTIER DEFENSE \\</div>
+            <a href="./pilotguide" class="subpanel-link">PILOT</a>
+            <a href="./titanguide" class="subpanel-link">TITAN</a>
+            <a href="./filler" class="subpanel-link">ENEMY</a>
+            <a href="./mapguide" class="subpanel-link">MAP & MAP CALLOUTS</a>
+            <a href="./filler" class="subpanel-link">SPEEDRUN</a>
           </div>
         </div>
 
@@ -108,7 +114,7 @@ Perspective is everything. Two Pilots can look at the same map and see two diffe
       <div class="box-bg" style="background-image: url('assets/img/2023031.JPG');"></div>
       <div class="box-overlay"></div>
       <div class="box-content">
-        <span class="box-tag">// DATABASE INTELLIGENCE</span>
+        <span class="box-tag">// DATABASE INTELLIGENCE \\</span>
         <div class="box-title">WIKI</div>
       </div>
     </a> <!-- END RIGHT CARD -->
@@ -120,7 +126,7 @@ Perspective is everything. Two Pilots can look at the same map and see two diffe
     <div class="box-bg" style="background-image: url('assets/img/2023031.JPG');"></div>
     <div class="box-overlay"></div>
     <div class="box-content">
-      <span class="box-tag">// ACKNOWLEDGEMENTS</span>
+      <span class="box-tag">// ACKNOWLEDGEMENTS \\</span>
       <div class="box-title">CREDITS</div>
     </div>
   </a>
