@@ -49,7 +49,7 @@ Perspective is everything. Two Pilots can look at the same map and see two diffe
   <div class="hub-row-split">
     
     <!-- LEFT CARD: Guides (Interactive Container) -->
-    <div class="hub-box box-tall box-emerald hub-box-interactive">
+    <div class="hub-box box-tall box-emerald hub-box-interactive" tabindex="0">
       <div class="box-bg" style="background-image: url('assets/img/2023031.JPG');"></div>
       <div class="box-overlay"></div>
       
