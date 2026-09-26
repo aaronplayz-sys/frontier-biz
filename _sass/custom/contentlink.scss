@@ -1,9 +1,5 @@
-/* ==========================================================================
-   Main Content Link Customization
-   ========================================================================== */
-
-/* Target inline text links without affecting nav buttons or sidebar elements */
-.main-content a:not(.btn):not(.nav-list-link):not(.site-title):not(.site-button) {
+/* Target inline text links without affecting nav buttons, sidebar, or heading anchor icons */
+.main-content a:not(.btn):not(.nav-list-link):not(.site-title):not(.site-button):not(.anchor-heading) {
   color: #00f0ff; /* Bright IMC Cyan */
   font-weight: 600;
   text-decoration: none;
@@ -26,5 +22,23 @@
   &:visited {
     color: #80d8ff; /* Slightly softer cyan */
     border-bottom-color: rgba(128, 216, 255, 0.5);
+  }
+}
+
+/* Specific styling for heading anchor links & SVGs */
+.main-content a.anchor-heading {
+  border-bottom: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+
+  svg {
+    fill: #00f0ff !important; /* Matches theme cyan */
+    transition: transform 0.15s ease, fill 0.15s ease;
+  }
+
+  &:hover svg {
+    fill: #ffffff !important;
+    filter: drop-shadow(0 0 6px rgba(0, 240, 255, 0.8));
   }
 }
