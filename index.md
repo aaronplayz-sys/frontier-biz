@@ -71,7 +71,8 @@ Perspective is everything. Two Pilots can look at the same map and see two diffe
           <div class="subpanel">
             <div class="subpanel-header">// CAMPAIGN \\</div>
             <a href="./campaign-walkthrough.html" class="subpanel-link">WALKTHROUGH</a>
-            <a href="./campaign-collectibles.html" class="subpanel-link">COOPER & BT</a>
+            <a href="./campaign-collectibles.html" class="subpanel-link">COOPER, BT, AND MILITIA</a>
+            <a href="./filler" class="subpanel-link">IMC, APEX PREDATORS, AND FAUNA</a>
             <a href="./filler" class="subpanel-link">ACHIEVEMENTS</a>
             <a href="./filler" class="subpanel-link">SPEEDRUN</a>
           </div>
@@ -87,7 +88,8 @@ Perspective is everything. Two Pilots can look at the same map and see two diffe
             <a href="./mp-pilot-guide.html" class="subpanel-link">PILOT</a>
             <a href="./mp-titan-guide.html" class="subpanel-link">TITAN</a>
             <a href="./filler" class="subpanel-link">MINIONS</a>
-            <a href="./filler" class="subpanel-link">MAP & MAP CALLOUTS</a>
+            <a href="./filler" class="subpanel-link">GAMEMODES</a>
+            <a href="./filler" class="subpanel-link">MAP GUIDES AND CALLOUTS</a>
           </div>
         </details>
 
@@ -101,8 +103,7 @@ Perspective is everything. Two Pilots can look at the same map and see two diffe
             <a href="./pilotguide" class="subpanel-link">PILOT</a>
             <a href="./titanguide" class="subpanel-link">TITAN</a>
             <a href="./filler" class="subpanel-link">ENEMY</a>
-            <a href="./mapguide" class="subpanel-link">MAP & MAP CALLOUTS</a>
-            <a href="./filler" class="subpanel-link">SPEEDRUN</a>
+            <a href="./mapguide" class="subpanel-link">MAP</a>
           </div>
         </details>
 
