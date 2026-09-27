@@ -23,7 +23,7 @@
   });
 
   // --- 1. PILOT THEME: Jump-Jet Speed Streaks ---
-  if (theme === 'pilot-theme') {
+  if (theme === '-pilot-theme') {
     const streaks = Array.from({ length: 35 }, () => ({
       x: Math.random() * width,
       y: Math.random() * height,
@@ -58,7 +58,7 @@
   }
 
   // --- 2. TITAN THEME: Shield Grid Energy Arcs ---
-  else if (theme === 'titan-theme') {
+  else if (theme === '-titan-theme') {
     const nodes = Array.from({ length: 25 }, () => ({
       x: Math.random() * width,
       y: Math.random() * height,
@@ -113,7 +113,7 @@
   }
 
   // --- 3. MAP THEME: Radar Sweep & Map Blips ---
-  else if (theme === 'map-theme') {
+  else if (theme === '-map-theme') {
     let sweepAngle = 0;
     const blips = Array.from({ length: 8 }, () => ({
       x: Math.random() * (width * 0.8) + (width * 0.1),
@@ -160,7 +160,7 @@
   }
 
   // --- 4. ENEMY THEME: Battlefield Embers ---
-  else if (theme === 'battlefield-theme') {
+  else if (theme === '-battlefield-theme') {
     const particles = Array.from({ length: 40 }, () => ({
       x: Math.random() * width,
       y: Math.random() * height,

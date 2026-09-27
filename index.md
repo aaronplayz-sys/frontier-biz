@@ -45,10 +45,10 @@ Perspective is everything. Two Pilots can look at the same map and see two diffe
     </div>
   </a>
 
-  <!-- 2. Middle Row Split (Grid Wrapper Only) -->
+  <!-- 2. Middle Row Split (Grid Wrapper) -->
   <div class="hub-row-split">
     
-    <!-- LEFT CARD: Guides (Interactive Container) -->
+    <!-- LEFT CARD: Guides (Interactive Click Container) -->
     <div class="hub-box box-tall box-emerald hub-box-interactive" tabindex="0">
       <div class="box-bg" style="background-image: url('assets/img/2023031.JPG');"></div>
       <div class="box-overlay"></div>
@@ -57,17 +57,17 @@ Perspective is everything. Two Pilots can look at the same map and see two diffe
       <div class="box-content">
         <span class="box-tag">// COMBAT MANUALS \\</span>
         <div class="box-title">GUIDES</div>
-        <span class="box-hint">HOVER TO SELECT &darr;</span>
+        <span class="box-hint">HOVER TO VIEW CATEGORIES &darr;</span>
       </div>
 
-      <!-- Pop-out Submenu -->
+      <!-- Pop-out Submenu Overlay -->
       <div class="box-popout">
         
         <!-- Campaign -->
-        <div class="popout-group">
-          <div class="popout-link">
+        <details class="popout-group">
+          <summary class="popout-link">
             <span class="link-icon">&gt;</span> CAMPAIGN <span class="arrow-right">&rarr;</span>
-          </div>
+          </summary>
           <div class="subpanel">
             <div class="subpanel-header">// CAMPAIGN \\</div>
             <a href="./campaign-walkthrough.html" class="subpanel-link">WALKTHROUGH</a>
@@ -75,13 +75,13 @@ Perspective is everything. Two Pilots can look at the same map and see two diffe
             <a href="./filler" class="subpanel-link">ACHIEVEMENTS</a>
             <a href="./filler" class="subpanel-link">SPEEDRUN</a>
           </div>
-        </div>
+        </details>
 
         <!-- Multiplayer -->
-        <div class="popout-group">
-          <div class="popout-link">
+        <details class="popout-group">
+          <summary class="popout-link">
             <span class="link-icon">&gt;</span> MULTIPLAYER <span class="arrow-right">&rarr;</span>
-          </div>
+          </summary>
           <div class="subpanel">
             <div class="subpanel-header">// MULTIPLAYER \\</div>
             <a href="./mp-pilot-guide.html" class="subpanel-link">PILOT</a>
@@ -89,13 +89,13 @@ Perspective is everything. Two Pilots can look at the same map and see two diffe
             <a href="./filler" class="subpanel-link">MINIONS</a>
             <a href="./filler" class="subpanel-link">MAP & MAP CALLOUTS</a>
           </div>
-        </div>
+        </details>
 
         <!-- Frontier Defense -->
-        <div class="popout-group">
-          <div class="popout-link">
+        <details class="popout-group">
+          <summary class="popout-link">
             <span class="link-icon">&gt;</span> FRONTIER DEFENSE <span class="arrow-right">&rarr;</span>
-          </div>
+          </summary>
           <div class="subpanel">
             <div class="subpanel-header">// FRONTIER DEFENSE \\</div>
             <a href="./pilotguide" class="subpanel-link">PILOT</a>
@@ -104,20 +104,67 @@ Perspective is everything. Two Pilots can look at the same map and see two diffe
             <a href="./mapguide" class="subpanel-link">MAP & MAP CALLOUTS</a>
             <a href="./filler" class="subpanel-link">SPEEDRUN</a>
           </div>
-        </div>
+        </details>
 
       </div>
     </div> <!-- END LEFT CARD -->
 
-    <!-- RIGHT CARD: Wiki -->
-    <a href="./enemy-guide.html" class="hub-box box-tall box-crimson">
+    <!-- RIGHT CARD: Wiki (Interactive Click Container) -->
+    <div class="hub-box box-tall box-crimson hub-box-interactive" tabindex="0">
       <div class="box-bg" style="background-image: url('assets/img/2023031.JPG');"></div>
       <div class="box-overlay"></div>
+      
+      <!-- Main Content -->
       <div class="box-content">
         <span class="box-tag">// DATABASE INTELLIGENCE \\</span>
         <div class="box-title">WIKI</div>
+        <span class="box-hint">HOVER TO VIEW CATEGORIES &darr;</span>
       </div>
-    </a> <!-- END RIGHT CARD -->
+
+      <!-- Pop-out Submenu Overlay -->
+      <div class="box-popout">
+        
+        <!-- Campaign Database -->
+        <details class="popout-group">
+          <summary class="popout-link">
+            <span class="link-icon">&gt;</span> CAMPAIGN WIKI <span class="arrow-right">&rarr;</span>
+          </summary>
+          <div class="subpanel">
+            <div class="subpanel-header">// CAMPAIGN DATA \\</div>
+            <a href="./filler" class="subpanel-link">CHARACTERS & LORE</a>
+            <a href="./filler" class="subpanel-link">MISSION ARCHIVES</a>
+            <a href="./filler" class="subpanel-link">IMC WEAPONRY</a>
+          </div>
+        </details>
+
+        <!-- Multiplayer Database -->
+        <details class="popout-group">
+          <summary class="popout-link">
+            <span class="link-icon">&gt;</span> MULTIPLAYER WIKI <span class="arrow-right">&rarr;</span>
+          </summary>
+          <div class="subpanel">
+            <div class="subpanel-header">// MULTIPLAYER DATA \\</div>
+            <a href="./filler" class="subpanel-link">PILOT KITS & STATS</a>
+            <a href="./filler" class="subpanel-link">TITAN LOADOUTS</a>
+            <a href="./filler" class="subpanel-link">FACTIONS</a>
+          </div>
+        </details>
+
+        <!-- Frontier Defense Database -->
+        <details class="popout-group">
+          <summary class="popout-link">
+            <span class="link-icon">&gt;</span> FRONTIER DEFENSE WIKI <span class="arrow-right">&rarr;</span>
+          </summary>
+          <div class="subpanel">
+            <div class="subpanel-header">// FRONTIER DEFENSE DATA \\</div>
+            <a href="./enemy-guide.html" class="subpanel-link">ENEMY TYPES & WAVE INTEL</a>
+            <a href="./filler" class="subpanel-link">AEGIS RANKS MATRIX</a>
+            <a href="./filler" class="subpanel-link">ARMORY & TRAPS</a>
+          </div>
+        </details>
+
+      </div>
+    </div> <!-- END RIGHT CARD -->
 
   </div> <!-- END MIDDLE ROW SPLIT -->
 
