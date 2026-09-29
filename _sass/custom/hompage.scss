@@ -99,14 +99,14 @@ body.home-page {
     }
 
     .box-title {
-      font-family: 'Share Tech Mono', monospace;
+      font-family: 'Chakra Petch', 'Eurostile', sans-serif;
       font-size: 1.75rem;
       font-weight: 700;
       color: #ffffff !important;
       margin: 0 !important;
       padding: 0 !important;
       border: none !important; /* Removes dotted theme underline */
-      letter-spacing: 0.08em;
+      letter-spacing: 0.12em;
       text-transform: uppercase;
       transition: text-shadow 0.3s ease;
     }
@@ -229,13 +229,13 @@ body.home-page {
 .popout-link {
   width: 85%;
   padding: 0.8rem 1rem;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Chakra Petch', sans-serif;
   font-size: 0.95rem;
   font-weight: 700;
   color: #ffffff !important;
   text-decoration: none !important;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.01em;
   background: rgba(0, 255, 102, 0.08) !important;
   border: 1px solid rgba(0, 255, 102, 0.4) !important;
   clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
@@ -377,9 +377,9 @@ body.home-page {
 .subpanel-link {
   width: 90%;
   padding: 0.7rem 1rem;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Chakra Petch', sans-serif;
   font-size: 0.85rem;
-  font-weight: 700;
+  font-weight: 500;
   color: #ffffff !important;
   text-decoration: none !important;
   text-transform: uppercase;
