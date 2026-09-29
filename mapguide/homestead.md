@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Homestead
-parent: Map Guide
+parent: 🗺️ Map Guide
 nav_order: 5
+custom_class: map-theme
 ---
 
 # Homestead

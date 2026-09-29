@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Difficulty
-parent: Map Guide
+parent: 🗺️ Map Guide
 nav_order: 2
+custom_class: map-theme
 ---
 
 # Difficulty

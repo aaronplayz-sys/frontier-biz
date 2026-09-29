@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Threat Tier Lists
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 3
+custom_class: battlefield-theme
 ---
 
 # Threat Tier Lists

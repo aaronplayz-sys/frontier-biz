@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Motar Titan
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 18
+custom_class: battlefield-theme
 ---
 
 # Motar Titan

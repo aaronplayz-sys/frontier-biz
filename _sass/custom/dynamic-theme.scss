@@ -1,0 +1,75 @@
+/* Shared Canvas Layering across all Dynamic Themes */
+body.pilot-theme,
+body.titan-theme,
+body.map-theme {
+  background-color: #06080c !important;
+  position: relative;
+
+  /* Force pseudo-layer backgrounds behind content */
+  &::before, &::after {
+    z-index: -2 !important;
+  }
+
+  /* Keep layout elements above background canvas */
+  .site-header, .side-bar, .main, .main-content-wrap {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Translucent Content Card */
+  .main-content {
+    background: rgba(10, 14, 22, 0.88);
+    backdrop-filter: blur(10px);
+    border-radius: 4px;
+    padding: 2rem;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.9);
+  }
+}
+
+/* 1. Pilot Guide Theme - Jump-Jet Emerald */
+body.pilot-theme {
+  &::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background: 
+      radial-gradient(circle at 50% 40%, rgba(6, 8, 12, 0.75) 0%, rgba(6, 8, 12, 0.98) 80%),
+      linear-gradient(to top, rgba(0, 255, 102, 0.08) 0%, transparent 40%);
+  }
+  .main-content {
+    border: 1px solid rgba(0, 255, 102, 0.2);
+  }
+}
+
+/* 2. Titan Guide Theme - Vanguard Energy Cyan */
+body.titan-theme {
+  &::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background: 
+      radial-gradient(circle at 50% 40%, rgba(6, 8, 12, 0.75) 0%, rgba(6, 8, 12, 0.98) 80%),
+      linear-gradient(to top, rgba(0, 240, 255, 0.08) 0%, transparent 40%);
+  }
+  .main-content {
+    border: 1px solid rgba(0, 240, 255, 0.2);
+  }
+}
+
+/* 3. Map Guide Theme - Radar Tactical Gold */
+body.map-theme {
+  &::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background: 
+      radial-gradient(circle at 50% 40%, rgba(6, 8, 12, 0.75) 0%, rgba(6, 8, 12, 0.98) 80%),
+      linear-gradient(to top, rgba(255, 157, 0, 0.08) 0%, transparent 40%);
+  }
+  .main-content {
+    border: 1px solid rgba(255, 157, 0, 0.2);
+  }
+}

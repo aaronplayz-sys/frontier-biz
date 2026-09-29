@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Tone (Sniper Titan)
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 17
+custom_class: battlefield-theme
 ---
 
 # Tone (Sniper Titan)

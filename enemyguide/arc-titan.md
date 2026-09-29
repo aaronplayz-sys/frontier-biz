@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Arc Titan
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 15
+custom_class: battlefield-theme
 ---
 
 # Arc Titan

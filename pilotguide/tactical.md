@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Tactical
-parent: Pilot Guide
+parent: 🧑‍✈️ Pilot Guide
 nav_order: 5
+custom_class: pilot-theme
 ---
 
 # Tactical

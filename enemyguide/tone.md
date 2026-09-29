@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Tone
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 16
+custom_class: battlefield-theme
 ---
 
 # Tone

@@ -1,0 +1,108 @@
+/* ==========================================================================
+   Permanent Color-Coded Sidebar Navigation
+   ========================================================================== */
+
+/* Base layout adjustments */
+.nav-list .nav-list-link {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.92rem;
+  transition: all 0.2s ease-in-out;
+  border-left: 3px solid transparent;
+  padding-left: 0.85rem !important;
+  margin: 0.2rem 0;
+
+  &:hover {
+    padding-left: 1.05rem !important;
+  }
+}
+
+/* 1. Home - Slate Blue */
+.nav-list-link[href="/"],
+.nav-list-link[href*="index"] {
+  color: #8c9eff !important;
+  &:hover, &.active {
+    color: #b388ff !important;
+    border-left-color: #b388ff !important;
+    background: linear-gradient(90deg, rgba(179, 136, 255, 0.15) 0%, transparent 100%) !important;
+    text-shadow: 0 0 8px rgba(179, 136, 255, 0.5);
+  }
+}
+
+/* 2. Credits - Neon Violet */
+.nav-list-link[href*="credits"] {
+  color: #e040fb !important;
+  &:hover, &.active {
+    color: #ea80fc !important;
+    border-left-color: #ea80fc !important;
+    background: linear-gradient(90deg, rgba(234, 128, 252, 0.15) 0%, transparent 100%) !important;
+    text-shadow: 0 0 8px rgba(234, 128, 252, 0.5);
+  }
+}
+
+/* 3. Terminology - Ice Cyan */
+.nav-list-link[href*="terminology"] {
+  color: #18ffff !important;
+  &:hover, &.active {
+    color: #84ffff !important;
+    border-left-color: #84ffff !important;
+    background: linear-gradient(90deg, rgba(132, 255, 255, 0.15) 0%, transparent 100%) !important;
+    text-shadow: 0 0 8px rgba(132, 255, 255, 0.5);
+  }
+}
+
+/* 4. Pilot Guide - Emerald Green */
+.nav-list-link[href*="pilot"] {
+  color: #00e676 !important;
+  &:hover, &.active {
+    color: #69f0ae !important;
+    border-left-color: #69f0ae !important;
+    background: linear-gradient(90deg, rgba(105, 240, 174, 0.15) 0%, transparent 100%) !important;
+    text-shadow: 0 0 8px rgba(105, 240, 174, 0.5);
+  }
+}
+
+/* 5. Titan Guide & Aegis - Vanguard Blue */
+.nav-list-link[href*="titan"],
+.nav-list-link[href*="aegis"] {
+  color: #ffbc22!important;
+  &:hover, &.active {
+    color: #ffd380 !important;
+    border-left-color: #ffd380 !important;
+    background: linear-gradient(90deg, rgba(255, 211, 128, 0.15) 0%, transparent 100%) !important;
+    text-shadow: 0 0 8px rgba(255, 211, 128, 0.5);
+  }
+}
+
+/* 6. Enemy Guide & Arc Titan - Crimson Threat Red */
+.nav-list-link[href*="enemy"],
+.nav-list-link[href*="arc"] {
+  color: #e73838 !important;
+  &:hover, &.active {
+    color: #e67a70 !important;
+    border-left-color: #e67a70 !important;
+    background: linear-gradient(90deg, rgba(255, 138, 128, 0.15) 0%, transparent 100%) !important;
+    text-shadow: 0 0 8px rgba(255, 138, 128, 0.5);
+  }
+}
+
+/* 7. Map Guide - Tactical Gold */
+.nav-list-link[href*="map"] {
+  color: #83df6c !important;
+  &:hover, &.active {
+    color: #94ff7f !important;
+    border-left-color: #94ff7f !important;
+    background: linear-gradient(90deg, rgba(148, 255, 127, 0.15) 0%, transparent 100%) !important;
+    text-shadow: 0 0 8px rgba(148, 255, 127, 0.5);
+  }
+}
+
+/* 8. Multiplayer Callouts - Plasma Orange */
+.nav-list-link[href*="callouts"] {
+  color: #40c4ff !important;
+  &:hover, &.active {
+    color: #80e6ff !important;
+    border-left-color: #80e6ff !important;
+    background: linear-gradient(90deg, rgba(128, 230, 255, 0.15) 0%, transparent 100%) !important;
+    text-shadow: 0 0 8px rgba(128, 230, 255, 0.5);
+  }
+}

@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Anti Titain Weapons
-parent: Pilot Guide
+parent: 🧑‍✈️ Pilot Guide
 nav_order: 3
+custom_class: pilot-theme
 ---
 
 # Anti Titain Weapons

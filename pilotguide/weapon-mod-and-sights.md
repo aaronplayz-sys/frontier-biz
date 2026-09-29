@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Weapon Mod and Sights
-parent: Pilot Guide
+parent: 🧑‍✈️ Pilot Guide
 nav_order: 4
+custom_class: pilot-theme
 ---
 
 # Weapon Mod and Sights

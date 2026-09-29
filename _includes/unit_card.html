@@ -1,0 +1,36 @@
+<div class="unit-card threat-{{ include.threat_level | default: 'medium' | downcase }}"
+     data-threat="{{ include.threat_level | default: 'medium' | downcase }}"
+     data-waves="{{ include.waves | default: 'all' }}">
+  <div class="unit-card-header">
+    <div class="unit-info">
+      <span class="unit-faction">// {{ include.faction | default: "IMC AUTOMATED" | upcase }}</span>
+      <h3 class="unit-name">{{ include.name }}</h3>
+    </div>
+    <div class="threat-badge">
+      <span class="threat-label">THREAT LEVEL</span>
+      <span class="threat-val">{{ include.threat_level | default: "MEDIUM" | upcase }}</span>
+    </div>
+  </div>
+  
+  <div class="unit-card-body">
+    <p class="unit-desc">{{ include.description }}</p>
+
+    {% if include.waves %}
+    <div class="unit-wave-tag">
+      <span class="stat-label">ACTIVE WAVES:</span>
+      <span class="stat-val">Wave {{ include.waves }}</span>
+    </div>
+    {% endif %}
+    
+    <div class="unit-stats">
+      <div class="stat-item">
+        <span class="stat-label">CRITICAL WEAKNESS:</span>
+        <span class="stat-val">{{ include.weakness }}</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">TACTICAL COUNTER:</span>
+        <span class="stat-val">{{ include.counter }}</span>
+      </div>
+    </div>
+  </div>
+</div>

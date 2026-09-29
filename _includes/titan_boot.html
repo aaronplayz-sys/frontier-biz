@@ -1,0 +1,83 @@
+<div id="titan-boot-screen" style="display: none;">
+  <div class="hud-scanlines"></div>
+  <div class="terminal-box">
+    <div class="hud-header">
+      <span>// TITAN_OS v2.04</span>
+      <span>NET: FRONTIER_BIZ</span>
+    </div>
+    <div id="boot-log"></div>
+    <div class="progress-track">
+      <div id="progress-bar"></div>
+    </div>
+    <button id="skip-btn" onclick="dismissBootScreen()">[ SKIP INTRO ]</button>
+  </div>
+</div>
+
+<script>
+function dismissBootScreen() {
+  const bootScreen = document.getElementById("titan-boot-screen");
+  if (!bootScreen) return;
+  bootScreen.style.opacity = "0";
+  bootScreen.style.visibility = "hidden";
+  setTimeout(() => { 
+    bootScreen.style.display = "none"; 
+  }, 500);
+  sessionStorage.setItem("titan_booted", "true");
+}
+
+function startBootSequence() {
+  const bootScreen = document.getElementById("titan-boot-screen");
+  const logContainer = document.getElementById("boot-log");
+  const progressBar = document.getElementById("progress-bar");
+  if (!bootScreen || !logContainer || !progressBar) return;
+
+  // Reset DOM states for replay
+  logContainer.innerHTML = "";
+  progressBar.style.width = "0%";
+  bootScreen.style.display = "flex";
+  bootScreen.style.opacity = "1";
+  bootScreen.style.visibility = "visible";
+
+  const bootLogs = [
+    "> INITIALIZING NEURAL LINK PROTOCOLS...",
+    "> CONNECTING TO FRONTIER NETWORK DATASTREAM...",
+    "> LOADING FRONTIER DEFENSE TACTICAL DATABASE...",
+    "> PROTOCOL 3: PROTECT THE PILOT.",
+    "> SYSTEM READY."
+  ];
+
+  let currentStep = 0;
+  const bootInterval = setInterval(() => {
+    if (currentStep < bootLogs.length) {
+      const entry = document.createElement("p");
+      entry.textContent = bootLogs[currentStep];
+      logContainer.appendChild(entry);
+      currentStep++;
+      progressBar.style.width = `${(currentStep / bootLogs.length) * 100}%`;
+    } else {
+      clearInterval(bootInterval);
+      setTimeout(dismissBootScreen, 600);
+    }
+  }, 320);
+}
+
+// Handler for the replay button
+function triggerManualReplay() {
+  sessionStorage.removeItem("titan_booted");
+  const homePath = "{{ '/' | relative_url }}";
+  
+  // If on homepage, trigger animation immediately. Otherwise redirect home.
+  if (window.location.pathname === homePath || window.location.pathname === homePath + "index.html") {
+    startBootSequence();
+  } else {
+    window.location.href = homePath;
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  if (sessionStorage.getItem("titan_booted") === "true") {
+    return;
+  }
+  startBootSequence();
+});
+</script>

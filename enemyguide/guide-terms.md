@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Guide Terms
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 1
+custom_class: battlefield-theme
 ---
 
 # Guide Terms

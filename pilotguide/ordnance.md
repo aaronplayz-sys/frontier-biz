@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Ordnance
-parent: Pilot Guide
+parent: 🧑‍✈️ Pilot Guide
 nav_order: 6
+custom_class: pilot-theme
 ---
 
 # Ordnance

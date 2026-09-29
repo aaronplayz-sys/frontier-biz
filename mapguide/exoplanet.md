@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Exo Planet
-parent: Map Guide
+parent: 🗺️ Map Guide
 nav_order: 6
+custom_class: map-theme
 ---
 
 # Exo Planet

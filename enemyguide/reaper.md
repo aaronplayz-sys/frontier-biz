@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Reaper
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 10
+custom_class: battlefield-theme
 ---
 
 # Reaper

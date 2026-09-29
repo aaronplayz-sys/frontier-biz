@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Ronin
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 14
+custom_class: battlefield-theme
 ---
 
 # Ronin

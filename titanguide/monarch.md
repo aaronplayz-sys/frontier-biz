@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Monarch
-parent: Titan Guide
+parent: 🤖 Titan Guide
 nav_order: 12
+custom_class: titan-theme
 ---
 
 # Monarch

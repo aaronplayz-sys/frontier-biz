@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Angel City
-parent: Map Guide
+parent: 🗺️ Map Guide
 nav_order: 9
+custom_class: map-theme
 ---
 
 # Angel City

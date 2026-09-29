@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Universal Mechanics and Abilities
-parent: Titan Guide
+parent: 🤖 Titan Guide
 nav_order: 1
+custom_class: titan-theme
 ---
 
 # Universal Mechanics And Abilities

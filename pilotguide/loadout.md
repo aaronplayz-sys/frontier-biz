@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Loadout
-parent: Pilot Guide
+parent: 🧑‍✈️ Pilot Guide
 nav_order: 8
+custom_class: pilot-theme
 ---
 
 # Loadout
