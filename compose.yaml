@@ -1,0 +1,21 @@
+name: frontier-biz
+
+services:
+  jekyll:
+    image: frontier-biz:1.2.0
+
+    build:
+      context: .
+      args:
+        APP_UID: ${APP_UID:-1000}
+        APP_GID: ${APP_GID:-1000}
+
+    init: true
+
+    environment:
+      JEKYLL_ENV: ${JEKYLL_ENV:-development}
+
+    ports:
+      - "4000:4000"
+
+    restart: unless-stopped

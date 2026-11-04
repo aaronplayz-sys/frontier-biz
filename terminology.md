@@ -5,7 +5,8 @@ nav_order: 3
 nav_enabled: true
 ---
 
-# A list of terms commonly used in Titianfall 2 and general games. This is here for theos who do not know.
+# A list of terms commonly used in Titianfall 2 and general games. This is here for who do not know.
+## Also contains Frontier Biz lingo, don't be a random, join our community today! 
 
 |              Term              | Meaning |
 | :----------------------------: | :-------: |
