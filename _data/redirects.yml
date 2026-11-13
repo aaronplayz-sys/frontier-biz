@@ -1,0 +1,200 @@
+# Proposed legacy URL redirects for Frontier Biz 2.0.
+# Paths are site-relative and intentionally exclude the deployment baseurl.
+# Do not enable until category routes and generated legacy URLs are confirmed.
+
+redirects:
+  - from: /pilotguide/
+    to: /guides/frontier-defense/pilot/
+    reason: Legacy Pilot index; its source material was predominantly Frontier Defense oriented.
+  - from: /titanguide/
+    to: /guides/frontier-defense/titan/
+    reason: Legacy Titan index; existing Titan guides were Frontier Defense focused.
+  - from: /enemyguide/
+    to: /guides/frontier-defense/enemies/
+    reason: Legacy Enemy index; enemy unit guides and wave references are Frontier Defense content.
+  - from: /mapguide/
+    to: /guides/frontier-defense/maps/
+    reason: Legacy Map index; the original map guides describe Frontier Defense.
+  - from: /multiplayer-callouts/
+    to: /guides/multiplayer/maps/
+    reason: The combined callout article is being split into individual Multiplayer map guides.
+  - from: /pilotguide/universal-mechanics-abilities/
+    to: /guides/frontier-defense/pilot/universal-mechanics/
+    reason: Legacy Pilot article; redirect follows the closest mode-specific successor.
+  - from: /pilotguide/primary-and-sidearm/
+    to: /guides/frontier-defense/pilot/primary-sidearm/
+    reason: Legacy Pilot article; redirect follows the closest mode-specific successor.
+  - from: /pilotguide/anti-titain-weapons/
+    to: /guides/frontier-defense/pilot/anti-titan-weapons/
+    reason: Legacy Pilot article; redirect follows the closest mode-specific successor.
+  - from: /pilotguide/weapon-mod-and-sights/
+    to: /guides/frontier-defense/pilot/weapon-mods-sights/
+    reason: Legacy Pilot article; redirect follows the closest mode-specific successor.
+  - from: /pilotguide/tactical/
+    to: /guides/frontier-defense/pilot/tactical-abilities/
+    reason: Legacy Pilot article; redirect follows the closest mode-specific successor.
+  - from: /pilotguide/ordnance/
+    to: /guides/frontier-defense/pilot/ordnance/
+    reason: Legacy Pilot article; redirect follows the closest mode-specific successor.
+  - from: /pilotguide/kit/
+    to: /guides/frontier-defense/pilot/kits/
+    reason: Legacy Pilot article; redirect follows the closest mode-specific successor.
+  - from: /pilotguide/loadout/
+    to: /guides/frontier-defense/pilot/loadouts/
+    reason: Legacy Pilot article; redirect follows the closest mode-specific successor.
+  - from: /pilotguide/boost/
+    to: /guides/multiplayer/pilot/boosts/
+    reason: Legacy Boost article is Multiplayer-specific.
+  - from: /pilotguide/movement/
+    to: /guides/frontier-defense/pilot/movement/
+    reason: Legacy Pilot article; redirect follows the closest mode-specific successor.
+  - from: /pilotguide/rodeo/
+    to: /guides/frontier-defense/pilot/rodeo/
+    reason: Legacy Pilot article; redirect follows the closest mode-specific successor.
+  - from: /pilotguide/leveling-and-merit-points/
+    to: /guides/frontier-defense/pilot/progression/
+    reason: Legacy Pilot article; redirect follows the closest mode-specific successor.
+  - from: /pilotguide/economy-armory/
+    to: /guides/frontier-defense/pilot/economy-armory/
+    reason: Legacy Pilot article; redirect follows the closest mode-specific successor.
+  - from: /pilotguide/pilot-only-auto-titan/
+    to: /guides/frontier-defense/pilot/pilot-only/
+    reason: Legacy combined article is split; Pilot Only is the closest primary successor, while Auto Titan has a separate shared reference.
+  - from: /pilotguide/titan-meter-battery-farming/
+    to: /guides/frontier-defense/pilot/battery-farming/
+    reason: Legacy combined article is represented by the Frontier Defense Battery Farming guide.
+  - from: /titanguide/universal-mechanics-abilities/
+    to: /guides/frontier-defense/titan/universal-mechanics/
+    reason: Legacy Titan article; destination preserves its Frontier Defense focus or shared-reference status.
+  - from: /titanguide/titanfalls-and-kits/
+    to: /guides/frontier-defense/titan/titanfalls-and-kits/
+    reason: Legacy Titan article; destination preserves its Frontier Defense focus or shared-reference status.
+  - from: /titanguide/titan-kit/
+    to: /guides/reference/titan/titan-kit/
+    reason: Legacy Titan article; destination preserves its Frontier Defense focus or shared-reference status.
+  - from: /titanguide/aegis/
+    to: /guides/frontier-defense/titan/aegis-upgrades/
+    reason: Legacy Titan article; destination preserves its Frontier Defense focus or shared-reference status.
+  - from: /titanguide/titain-survivability/
+    to: /guides/frontier-defense/titan/survivability/
+    reason: Legacy Titan article; destination preserves its Frontier Defense focus or shared-reference status.
+  - from: /titanguide/ion/
+    to: /guides/frontier-defense/titan/ion/
+    reason: Legacy Titan article; destination preserves its Frontier Defense focus or shared-reference status.
+  - from: /titanguide/scorch/
+    to: /guides/frontier-defense/titan/scorch/
+    reason: Legacy Titan article; destination preserves its Frontier Defense focus or shared-reference status.
+  - from: /titanguide/northstar/
+    to: /guides/frontier-defense/titan/northstar/
+    reason: Legacy Titan article; destination preserves its Frontier Defense focus or shared-reference status.
+  - from: /titanguide/ronin/
+    to: /guides/frontier-defense/titan/ronin/
+    reason: Legacy Titan article; destination preserves its Frontier Defense focus or shared-reference status.
+  - from: /titanguide/tone/
+    to: /guides/frontier-defense/titan/tone/
+    reason: Legacy Titan article; destination preserves its Frontier Defense focus or shared-reference status.
+  - from: /titanguide/legion/
+    to: /guides/frontier-defense/titan/legion/
+    reason: Legacy Titan article; destination preserves its Frontier Defense focus or shared-reference status.
+  - from: /titanguide/monarch/
+    to: /guides/frontier-defense/titan/monarch/
+    reason: Legacy Titan article; destination preserves its Frontier Defense focus or shared-reference status.
+  - from: /titanguide/auto-titan/
+    to: /guides/reference/titan/auto-titan/
+    reason: Legacy Titan article; destination preserves its Frontier Defense focus or shared-reference status.
+  - from: /enemyguide/guide-terms/
+    to: /guides/multiplayer/minions/guide-terms/
+    reason: Preserves the approved Multiplayer Minions placement; these entries remain flagged for content review.
+  - from: /enemyguide/universal-mechanics-abitlies/
+    to: /guides/multiplayer/minions/universal-mechanics/
+    reason: Preserves the approved Multiplayer Minions placement; these entries remain flagged for content review.
+  - from: /enemyguide/grunt/
+    to: /guides/frontier-defense/enemies/grunts/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /enemyguide/tick/
+    to: /guides/frontier-defense/enemies/ticks/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /enemyguide/motar-specter/
+    to: /guides/frontier-defense/enemies/mortar-spectres/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /enemyguide/plasma-drone/
+    to: /guides/frontier-defense/enemies/plasma-drones/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /enemyguide/stalker/
+    to: /guides/frontier-defense/enemies/stalkers/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /enemyguide/cloak-drone/
+    to: /guides/frontier-defense/enemies/cloak-drones/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /enemyguide/reaper/
+    to: /guides/frontier-defense/enemies/reapers/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /enemyguide/ion/
+    to: /guides/frontier-defense/enemies/titans/ion/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /enemyguide/scorch/
+    to: /guides/frontier-defense/enemies/titans/scorch/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /enemyguide/northstar-sniper/
+    to: /guides/frontier-defense/enemies/northstar-snipers/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /enemyguide/ronin/
+    to: /guides/frontier-defense/enemies/titans/ronin/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /enemyguide/arc-titan/
+    to: /guides/frontier-defense/enemies/arc-titans/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /enemyguide/tone/
+    to: /guides/frontier-defense/enemies/titans/tone/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /enemyguide/tone-sniper/
+    to: /guides/frontier-defense/enemies/tone-snipers/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /enemyguide/motar-titan/
+    to: /guides/frontier-defense/enemies/mortar-titans/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /enemyguide/legion/
+    to: /guides/frontier-defense/enemies/titans/legion/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /enemyguide/nuke-titan/
+    to: /guides/frontier-defense/enemies/nuke-titans/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /enemyguide/monarch/
+    to: /guides/frontier-defense/enemies/titans/monarch/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /enemyguide/threat-tier-list/
+    to: /guides/frontier-defense/enemies/threat-tier-list/
+    reason: Legacy enemy reference; destination follows the approved catalog classification.
+  - from: /mapguide/minimap/
+    to: /guides/frontier-defense/maps/minimap/
+    reason: Legacy shared minimap page is split; Frontier Defense is the closest legacy-context successor.
+  - from: /mapguide/difficulty/
+    to: /guides/frontier-defense/maps/difficulty/
+    reason: Legacy map page; destination preserves its Frontier Defense context.
+  - from: /mapguide/maplegend/
+    to: /guides/frontier-defense/maps/legend/
+    reason: Legacy map page; destination preserves its Frontier Defense context.
+  - from: /mapguide/forwardbasekodai/
+    to: /guides/frontier-defense/maps/forward-base-kodai/
+    reason: Legacy map page; destination preserves its Frontier Defense context.
+  - from: /mapguide/homestead/
+    to: /guides/frontier-defense/maps/homestead/
+    reason: Legacy map page; destination preserves its Frontier Defense context.
+  - from: /mapguide/exoplanet/
+    to: /guides/frontier-defense/maps/exoplanet/
+    reason: Legacy map page; destination preserves its Frontier Defense context.
+  - from: /mapguide/blackwatercanal/
+    to: /guides/frontier-defense/maps/black-water-canal/
+    reason: Legacy map page; destination preserves its Frontier Defense context.
+  - from: /mapguide/drydock/
+    to: /guides/frontier-defense/maps/drydock/
+    reason: Legacy map page; destination preserves its Frontier Defense context.
+  - from: /mapguide/angelcity./
+    to: /guides/frontier-defense/maps/angel-city/
+    reason: Legacy source filename contains a trailing dot; generated legacy URL must be confirmed from a Jekyll build before enabling this redirect.
+  - from: /mapguide/colony/
+    to: /guides/frontier-defense/maps/colony/
+    reason: Legacy map page; destination preserves its Frontier Defense context.
+  - from: /terminology/
+    to: /guides/reference/terminology/
+    reason: Legacy shared terminology page.

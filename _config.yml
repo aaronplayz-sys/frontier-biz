@@ -1,11 +1,16 @@
 title: Frontier Biz
-description: A group of Titainfall 2 players with a focus on forming partys to tackle PvE modes such as Insane or Master.
+description: A group of Titainfall 2 players with a focus on forming partys to tackle PvE modes, PvP, and campaign.
 theme: just-the-docs
 color_scheme: fbiz
 logo: "/assets/img/logo.png"
 favicon_ico: "/assets/img/favicon.ico"
 url: https://aaroplayzgaming.com/frontier-biz/
 permalink: pretty
+
+collections:
+  guides:
+    output: true
+    permalink: /guides/:path/
 
 aux_links:
   Github: https://github.com/aaronplayz-sys/frontier-biz/
@@ -86,6 +91,11 @@ footer_content: "Copyright © 2023-2026 Frontier Biz & aaronplayz-sys. All right
 
 # Sitemap configuration
 defaults:
+  - scope:
+      path: ""
+      type: guides
+    values:
+      layout: default
   - scope:
       path: "assets"
     values:
