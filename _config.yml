@@ -95,7 +95,7 @@ defaults:
       path: ""
       type: guides
     values:
-      layout: default
+      layout: guide
   - scope:
       path: "assets"
     values:

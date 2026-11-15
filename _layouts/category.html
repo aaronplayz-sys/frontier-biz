@@ -1,0 +1,64 @@
+---
+layout: default
+---
+{%- comment -%}
+  Category landing-page layout.
+  The page supplies category_id; all display metadata and guide membership
+  are resolved from _data/categories.yml and _data/guides.yml.
+{%- endcomment -%}
+{%- assign category_matches = site.data.categories | where: "id", page.category_id -%}
+{%- assign category = category_matches | first -%}
+
+<article class="guide-category guide-category--{{ category.id | default: 'unmatched' | slugify }}">
+  {% if category %}
+    <header class="guide-category-header">
+      <p class="guide-eyebrow">FRONTIER BIZ <span aria-hidden="true">/</span> CATEGORY</p>
+      <h1 class="guide-category-title">{{ category.title | escape }}</h1>
+
+      {% if category.description %}
+        <p class="guide-category-description">{{ category.description | escape }}</p>
+      {% endif %}
+
+      {% if category.modes and category.modes.size > 0 %}
+        <ul class="guide-category-modes" aria-label="Applicable game modes">
+          {% for mode in category.modes %}
+            <li class="guide-category-mode guide-mode--{{ mode | slugify }}">
+              {% case mode %}
+                {% when "campaign" %}Campaign
+                {% when "multiplayer" %}Multiplayer
+                {% when "frontier-defense" %}Frontier Defense
+                {% else %}{{ mode | replace: "-", " " | capitalize }}
+              {% endcase %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </header>
+
+    {% if content and content != "" %}
+      <div class="guide-category-intro">
+        {{ content }}
+      </div>
+    {% endif %}
+
+    {% include guide-list.html category=category %}
+  {% else %}
+    <header class="guide-category-header">
+      <p class="guide-eyebrow">FRONTIER BIZ <span aria-hidden="true">/</span> CATEGORY PREVIEW</p>
+      {% if page.title %}
+        <h1 class="guide-category-title">{{ page.title | escape }}</h1>
+      {% endif %}
+      {% if page.category_id == nil or page.category_id == empty %}
+        <p class="guide-layout-notice" role="status">
+          This category page is not connected to the category catalog yet.
+          Add a <code>category_id</code> value to its front matter.
+        </p>
+      {% else %}
+        <p class="guide-layout-error" role="alert">
+          No category catalog entry was found for <code>{{ page.category_id | escape }}</code>.
+          Check the ID against <code>_data/categories.yml</code>.
+        </p>
+      {% endif %}
+    </header>
+  {% endif %}
+</article>

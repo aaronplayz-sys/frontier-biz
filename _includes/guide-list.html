@@ -1,0 +1,29 @@
+{%- comment -%}
+  Ordered guide list for a category.
+  Required: include.category (one record from _data/categories.yml).
+  Category guide_ids determine display order; this include does not sort alphabetically.
+{%- endcomment -%}
+{%- assign category = include.category -%}
+
+{% if category and category.guide_ids and category.guide_ids.size > 0 %}
+  <div class="guide-list" aria-label="{{ category.title | escape }} guides">
+    {% for guide_id in category.guide_ids %}
+      {% assign guide_matches = site.data.guides | where: "id", guide_id %}
+      {% assign guide = guide_matches | first %}
+      {% if guide %}
+        {% include guide-card.html guide=guide %}
+      {% else %}
+        <p class="guide-list-error" role="alert">
+          Catalog error: category <code>{{ category.id | escape }}</code>
+          references missing guide ID <code>{{ guide_id | escape }}</code>.
+        </p>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% elsif category %}
+  <p class="guide-list-empty">No guides have been assigned to this category yet.</p>
+{% else %}
+  <p class="guide-list-error" role="alert">
+    No category record was supplied to the guide list.
+  </p>
+{% endif %}

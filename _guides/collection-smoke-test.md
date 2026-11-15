@@ -1,9 +1,8 @@
-
 ---
 title: Collection Smoke Test
 ---
 
-# Collection Smoke Test
+## Collection Smoke Test
 
 This is a temporary document used to verify the Frontier Biz 2.0 Jekyll guides collection.
 
