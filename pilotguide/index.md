@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Pilot Guide
+title: 🧑‍✈️ Pilot Guide
 nav_order: 4
 nav_enabled: true
+custom_class: pilot-theme
 ---
 
 # Pilot Guide

@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Enemy Guide
+title: 💀 Enemy Guide
 nav_order: 6
 nav_enabled: true
+custom_class: battlefield-theme
 ---
 
-# Enemy Guide
+# 💀 Enemy Guide
 
 ## All guides in this section assumes Frontier Defense gamemode ONLY with the difficulty of Master or Insane.

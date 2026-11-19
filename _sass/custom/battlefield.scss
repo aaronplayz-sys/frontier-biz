@@ -1,0 +1,32 @@
+/* Battlefield Theme Layering Fix */
+body.battlefield-theme {
+  background-color: #06080c !important;
+  position: relative;
+
+  /* Force background grid and horizon glow behind text */
+  &::before,
+  &::after {
+    z-index: -2 !important;
+  }
+
+  /* Elevate documentation elements above the canvas layer */
+  .site-header,
+  .side-bar,
+  .main,
+  .main-content-wrap,
+  .unit-card,
+  .tactical-filter-bar {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Solid semi-opaque backing for guide text */
+  .main-content {
+    background: rgba(10, 14, 22, 0.88);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 240, 255, 0.15);
+    border-radius: 4px;
+    padding: 2rem;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.9);
+  }
+}

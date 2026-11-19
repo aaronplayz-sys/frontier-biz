@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Minimap
-parent: Map Guide
+parent: 🗺️ Map Guide
 nav_order: 1
+custom_class: map-theme
 ---
 
 # Minimap

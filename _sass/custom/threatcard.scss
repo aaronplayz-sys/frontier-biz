@@ -1,0 +1,125 @@
+/* Titanfall Unit Threat Cards */
+.unit-card {
+  position: relative;
+  background: rgba(10, 14, 22, 0.85);
+  border: 1px solid rgba(0, 240, 255, 0.2);
+  border-left: 4px solid var(--threat-color, #00f0ff);
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px));
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.7), 0 0 15px var(--threat-glow, rgba(0, 240, 255, 0.2));
+  }
+
+  /* Threat Level Color Variables */
+  &.threat-critical {
+    --threat-color: #ff2a2a;
+    --threat-glow: rgba(255, 42, 42, 0.35);
+  }
+  &.threat-high {
+    --threat-color: #ff9d00;
+    --threat-glow: rgba(255, 157, 0, 0.35);
+  }
+  &.threat-medium {
+    --threat-color: #ffeb3b;
+    --threat-glow: rgba(255, 235, 59, 0.35);
+  }
+  &.threat-low {
+    --threat-color: #00ff66;
+    --threat-glow: rgba(0, 255, 102, 0.35);
+  }
+
+  .unit-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .unit-faction {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.68rem;
+    color: rgba(255, 255, 255, 0.45);
+    letter-spacing: 0.1em;
+    display: block;
+  }
+
+  .unit-name {
+    margin: 0.2rem 0 0 0;
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-family: 'Share Tech Mono', monospace;
+    letter-spacing: 0.05em;
+  }
+
+  .threat-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--threat-color);
+    padding: 0.25rem 0.6rem;
+    clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));
+
+    .threat-label {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.55rem;
+      color: rgba(255, 255, 255, 0.6);
+      letter-spacing: 0.05em;
+    }
+
+    .threat-val {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.85rem;
+      font-weight: bold;
+      color: var(--threat-color);
+      text-shadow: 0 0 6px var(--threat-glow);
+      letter-spacing: 0.08em;
+    }
+  }
+
+  .unit-desc {
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 0 0 1rem 0;
+    line-height: 1.5;
+  }
+
+  .unit-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    background: rgba(0, 0, 0, 0.35);
+    padding: 0.6rem 0.85rem;
+    border: 1px dashed rgba(255, 255, 255, 0.12);
+
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
+
+    .stat-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .stat-label {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 0.62rem;
+      color: rgba(0, 240, 255, 0.85);
+      letter-spacing: 0.05em;
+    }
+
+    .stat-val {
+      font-size: 0.82rem;
+      color: #ffffff;
+      font-weight: 500;
+    }
+  }
+}

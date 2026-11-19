@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Drydock
-parent: Map Guide
+parent: 🗺️ Map Guide
 nav_order: 7
+custom_class: map-theme
 ---
 
 # Drydock

@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Boost
-parent: Pilot Guide
+parent: 🧑‍✈️ Pilot Guide
 nav_order: 9
+custom_class: pilot-theme
 ---
 
 # Boost

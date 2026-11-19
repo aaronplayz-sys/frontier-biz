@@ -1,0 +1,43 @@
+{%- comment -%}
+  Reusable guide card.
+  Required: include.guide (one record from _data/guides.yml).
+{%- endcomment -%}
+{%- assign guide = include.guide -%}
+{%- if guide -%}
+  <article class="guide-card guide-card--{{ guide.status | default: 'planned' | slugify }}">
+    <h3 class="guide-card-title">
+      <a href="{{ guide.permalink | relative_url }}">{{ guide.title | escape }}</a>
+    </h3>
+
+    {% if guide.description %}
+      <p class="guide-card-description">{{ guide.description | escape }}</p>
+    {% endif %}
+
+    <div class="guide-card-meta">
+      {% if guide.modes and guide.modes.size > 0 %}
+        <ul class="guide-card-modes" aria-label="Applicable game modes">
+          {% for mode in guide.modes %}
+            <li class="guide-card-mode guide-mode--{{ mode | slugify }}">
+              {% case mode %}
+                {% when "campaign" %}Campaign
+                {% when "multiplayer" %}Multiplayer
+                {% when "frontier-defense" %}Frontier Defense
+                {% else %}{{ mode | replace: "-", " " | capitalize }}
+              {% endcase %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      {% if guide.status and guide.status != "published" %}
+        <span class="guide-card-status guide-card-status--{{ guide.status | slugify }}">
+          {{ guide.status | replace: "_", " " | capitalize }}
+        </span>
+      {% endif %}
+    </div>
+  </article>
+{%- else -%}
+  <p class="guide-list-error" role="alert">
+    A guide card was requested without a valid guide record.
+  </p>
+{%- endif -%}

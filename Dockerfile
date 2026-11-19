@@ -1,62 +1,89 @@
 FROM ruby:3.4.10-slim
 
-ENV DEBIAN_FRONTEND=noninteractive
+ARG DEBIAN_FRONTEND=noninteractive
+ARG APP_UID=1000
+ARG APP_GID=1000
 
-LABEL authors="aaronplayz-sys" \
-      description="Docker image for Frontier Biz guides (Dev & Prod)" \
-      version="1.1.0"
+LABEL org.opencontainers.image.authors="aaronplayz-sys" \
+      org.opencontainers.image.descripption="Docker image for Frontier Biz guides" \
+      org.opencontainers.image.version="2.0.0"
 
-# Install system dependencies
-RUN apt-get update -y && \
-    apt-get install -y --no-install-recommends \
+# Dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    bash \
     build-essential \
     curl \
     git \
     imagemagick \
-    libmagickwand-dev \
-    pkg-config \
-    locales \
     inotify-tools \
+    libmagickwand-dev \
+    locales \
     nodejs \
     npm \
-    procps \
+    pkg-config \
     zlib1g-dev && \
-    # Set up locales
-    sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
-    locale-gen en_US.UTF-8 && \
-    # Clean up cache
-    apt-get clean && \
-    apt-get autoclean && \
-    rm -rf /var/lib/apt/lists/* /var/cache/apt/archives /var/tmp/*
+    sed -i 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && \
+    locale-gen && \
+    rm -rf /var/lib/apt/lists/* var/cache/apt/archives/*
 
+# Environment
 ENV EXECJS_RUNTIME=Node \
-    JEKYLL_ENV=production \
     LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8 \
-    NODE_ENV=production
+    BUNDLE_FROZEN=TRUE
+
+# Create a non-root user
+RUN groupadd --gid "${APP_GID}" jekyll && \
+    useradd --uid "${APP_UID}" \
+        --gid jekyll \
+        --home-dir /usr/src/app \
+        --no-create-home \
+        --shell /usr/sbin/nologin \
+        jekyll && \
+    mkdir -p /usr/src/app && \
+    chown jekyll:jekyll /usr/src/app
 
 WORKDIR /usr/src/app
 
-# --- Ruby gems (cached layer) ---
+# Install Bundler
+RUN gem install bundler -v 4.0.3 --no-document
+
+# Install Ruby dependencies
 COPY Gemfile Gemfile.lock ./
-RUN gem install bundler && \
-    bundle install --jobs=4 --retry=3
 
-# --- Node packages (cached layer) ---
+RUN --mount=type=cache,target=/usr/local/bundle/cache \
+    bundle install --jobs 4 --retry 3
+
+# Install Node.js dependencies
 COPY package.json package-lock.json ./
-RUN npm ci --omit=dev
+RUN --mount=type=cache,target=/root/.npm \
+    npm ci --include=dev
 
-# --- Application code ---
-COPY . .
+# Copy the application code
+COPY --chown=jekyll:jekyll . .
 
-# Strip Windows line endings (CRLF → LF), install entrypoint to standard bin path, and make executable
-RUN sed -i 's/\r//' bin/entrypoint.sh && \
-    install -m 755 bin/entrypoint.sh /usr/local/bin/entrypoint.sh
+# Setup Entrypoint
+RUN sed -i 's/\r$//' bin/entrypoint.sh && \
+    install -m 0755 bin/entrypoint.sh /usr/local/bin/entrypoint.sh
 
+# Ensure application files are owned by the non-root user
+RUN mkdir -p \
+        /usr/src/app/.jekyll-cache \
+        /usr/src/app/_site \
+    && chown -R jekyll:jekyll /usr/src/app
+
+# Drop to non-root user
+USER jekyll
+
+# Expose Jekyll and LiveReload ports
 EXPOSE 4000 35729
 
-HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
-    CMD curl -f http://localhost:4000 || exit 1
+# Healthcheck
+HEALTHCHECK --interval=30s \
+    --timeout=10s \
+    --start-period=60s \
+    --retries=3 \
+    CMD curl -fsS http://127.0.0.1:4000/ >/dev/null || exit 1
 
-ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
+ENTRYPOINT ["/usr/bin/bash", "/usr/local/bin/entrypoint.sh"]

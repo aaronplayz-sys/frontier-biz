@@ -1,0 +1,57 @@
+<div class="tactical-filter-bar">
+  <div class="filter-group">
+    <label for="threat-select">// THREAT ASSESSMENT</label>
+    <select id="threat-select" onchange="filterUnits()">
+      <option value="all">ALL THREAT LEVELS</option>
+      <option value="critical">CRITICAL</option>
+      <option value="high">HIGH</option>
+      <option value="medium">MEDIUM</option>
+      <option value="low">LOW</option>
+    </select>
+  </div>
+
+  <div class="filter-group">
+    <label for="wave-select">// DEFENSE WAVE</label>
+    <select id="wave-select" onchange="filterUnits()">
+      <option value="all">ALL WAVES (1-5)</option>
+      <option value="1">WAVE 1</option>
+      <option value="2">WAVE 2</option>
+      <option value="3">WAVE 3</option>
+      <option value="4">WAVE 4</option>
+      <option value="5">WAVE 5</option>
+    </select>
+  </div>
+
+  <div id="filter-counter" class="filter-status">SHOWING ALL TARGETS</div>
+</div>
+
+<script>
+function filterUnits() {
+  const threatVal = document.getElementById('threat-select').value;
+  const waveVal = document.getElementById('wave-select').value;
+  const cards = document.querySelectorAll('.unit-card');
+  const counter = document.getElementById('filter-counter');
+  let visibleCount = 0;
+
+  cards.forEach(card => {
+    const cardThreat = card.getAttribute('data-threat');
+    const cardWaves = card.getAttribute('data-waves').split(',').map(w => w.trim());
+
+    const matchesThreat = (threatVal === 'all' || cardThreat === threatVal);
+    const matchesWave = (waveVal === 'all' || cardWaves.includes('all') || cardWaves.includes(waveVal));
+
+    if (matchesThreat && matchesWave) {
+      card.style.display = 'block';
+      setTimeout(() => { card.style.opacity = '1'; }, 10);
+      visibleCount++;
+    } else {
+      card.style.opacity = '0';
+      card.style.display = 'none';
+    }
+  });
+
+  if (counter) {
+    counter.textContent = `TARGETS IDENTIFIED: ${visibleCount} / ${cards.length}`;
+  }
+}
+</script>

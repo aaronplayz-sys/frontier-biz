@@ -1,0 +1,15 @@
+services:
+  jekyll:
+    environment:
+      JEKYLL_ENV: development
+    volumes:
+      - .:/usr/src/app
+      - jekyll_cache:/usr/src/app/.jekyll-cache
+      - jekyll_site:/usr/src/app/_site
+    ports:
+      - "35729:35729"
+    restart: "no"
+
+volumes:
+  jekyll_cache:
+  jekyll_site:

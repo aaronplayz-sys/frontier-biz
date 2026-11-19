@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Scorch
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 12
+custom_class: battlefield-theme
 ---
 
 # Scorch

@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Movement
-parent: Pilot Guide
+parent: 🧑‍✈️ Pilot Guide
 nav_order: 11
+custom_class: pilot-theme
 ---
 
 # Movement

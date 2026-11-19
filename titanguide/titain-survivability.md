@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Titan Survivability
-parent: Titan Guide
+parent: 🤖 Titan Guide
 nav_order: 5
+custom_class: titan-theme
 ---
 
 # Titan Survivability

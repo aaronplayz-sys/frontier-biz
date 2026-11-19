@@ -1,0 +1,6 @@
+services:
+  jekyll:
+    environment:
+      JEKYLL_ENV: production
+
+    restart: unless-stopped
