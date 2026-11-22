@@ -91,20 +91,20 @@
   order: 1
   guide_ids:
   - mp-pilot-universal-mechanics
+  - mp-pilot-movement
+  - mp-pilot-loadout
   - mp-pilot-primary-sidearm
   - mp-pilot-anti-titan-weapons
   - mp-pilot-weapon-mods-sights
   - mp-pilot-tactical
   - mp-pilot-ordnance
   - mp-pilot-kit
-  - mp-pilot-loadout
   - mp-pilot-boost
-  - mp-pilot-movement
-  - mp-pilot-rodeo
-  - mp-pilot-progression
   - mp-pilot-versus-pilot
   - mp-pilot-versus-titan
   - mp-pilot-versus-minions
+  - mp-pilot-rodeo
+  - mp-pilot-progression
 - id: mp-titan
   title: Titan
   description: Titan mechanics, chassis guides, and combat guidance for Multiplayer.
