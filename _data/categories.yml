@@ -152,13 +152,13 @@
   - mp-mode-attrition
   - mp-mode-bounty-hunt
   - mp-mode-amped-hardpoint
-  - mp-mode-last-titan-standing
   - mp-mode-capture-the-flag
+  - mp-mode-last-titan-standing
   - mp-mode-pilots-vs-pilots
   - mp-mode-live-fire
   - mp-mode-titan-brawl
-  - mp-mode-mix-tape
   - mp-mode-coliseum
+  - mp-mode-mix-tape
 - id: mp-maps
   title: Maps and Callouts
   description: Multiplayer map layouts, landmarks, minimaps, and callout references.
