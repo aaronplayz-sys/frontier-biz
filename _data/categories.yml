@@ -136,11 +136,11 @@
   - mp-minion-guide-terms
   - mp-minion-universal-mechanics
   - mp-minion-drop-ship
-  - mp-minion-evac-ship
   - mp-minion-grunt
   - mp-minion-specter
   - mp-minion-stalker
   - mp-minion-reaper
+  - mp-minion-evac-ship
   - mp-minion-bounty
 - id: mp-gamemodes
   title: Game Modes
