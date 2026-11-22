@@ -38,12 +38,12 @@
   - campaign-fauna-prowler
   - campaign-fauna-flyer
   - campaign-enemy-grunt
-  - campaign-enemy-spectre
   - campaign-enemy-shield-grunt
-  - campaign-enemy-turret
-  - campaign-enemy-tick
+  - campaign-enemy-spectre
   - campaign-enemy-stalker
+  - campaign-enemy-tick
   - campaign-enemy-drone
+  - campaign-enemy-turret
   - campaign-enemy-reaper
   - campaign-titan-brute
   - campaign-titan-ion
