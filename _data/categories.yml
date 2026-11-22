@@ -166,29 +166,29 @@
   - multiplayer
   order: 5
   guide_ids:
-  - mp-map-minimap
   - mp-map-legend
-  - mp-map-forward-base-kodai
-  - mp-map-boomtown
-  - mp-map-homestead
-  - mp-map-exoplanet
-  - mp-map-black-water-canal
-  - mp-map-eden
-  - mp-map-drydock
-  - mp-map-crash-site
-  - mp-map-complex
+  - mp-map-minimap
   - mp-map-angel-city
+  - mp-map-black-water-canal
+  - mp-map-boomtown
   - mp-map-colony
+  - mp-map-complex
+  - mp-map-crash-site
+  - mp-map-deck
+  - mp-map-drydock
+  - mp-map-eden
+  - mp-map-exoplanet
+  - mp-map-forward-base-kodai
   - mp-map-glitch
+  - mp-map-homestead
+  - mp-map-meadow
   - mp-map-relic
-  - mp-map-war-games
   - mp-map-rise
   - mp-map-stacks
-  - mp-map-deck
-  - mp-map-meadow
   - mp-map-traffic
   - mp-map-township
   - mp-map-uma
+  - mp-map-war-games
 - id: fd-pilot
   title: Pilot
   description: Pilot mechanics, equipment, and strategies for Frontier Defense.
