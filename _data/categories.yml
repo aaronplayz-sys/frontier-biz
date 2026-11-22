@@ -239,26 +239,26 @@
   guide_ids:
   - fd-enemy-guide-terms
   - fd-enemy-universal-mechanics
+  - fd-enemy-ai-behavior
+  - fd-enemy-threat-tier-list
   - fd-enemy-grunt
   - fd-enemy-tick
   - fd-enemy-mortar-specter
   - fd-enemy-plasma-drone
-  - fd-enemy-stalker
   - fd-enemy-cloak-drone
+  - fd-enemy-stalker
   - fd-enemy-reaper
+  - fd-enemy-arc-titan
   - fd-enemy-ion
   - fd-enemy-scorch
   - fd-enemy-northstar-sniper
   - fd-enemy-ronin
-  - fd-enemy-arc-titan
   - fd-enemy-tone
   - fd-enemy-tone-sniper
   - fd-enemy-mortar-titan
   - fd-enemy-legion
   - fd-enemy-nuke-titan
   - fd-enemy-monarch
-  - fd-enemy-ai-behavior
-  - fd-enemy-threat-tier-list
   - fd-enemy-unit-database
 - id: fd-maps
   title: Maps and Callouts
