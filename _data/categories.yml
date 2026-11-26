@@ -25,9 +25,9 @@
   guide_ids:
   - campaign-character-cooper
   - campaign-character-bt
-  - campaign-militia-friendly-titans
   - campaign-character-sarah-briggs
   - campaign-faction-six-four
+  - campaign-militia-friendly-titans
 - id: campaign-enemies-fauna
   title: Enemies and Fauna
   description: Reference material for campaign enemies, Apex Predators, and wildlife.
