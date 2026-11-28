@@ -334,3 +334,40 @@
     }
   }
 }
+
+/* Guide table of contents */
+.guide-content ul#markdown-toc {
+  list-style: none !important;
+  margin: 1.5rem 0 2rem;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid #00bcd4;
+  background: rgba(128, 128, 128, 0.08);
+  border-radius: 0 6px 6px 0;
+
+  li {
+    list-style: none !important;
+
+    &::before {
+      content: none !important;
+      display: none !important;
+    }
+  }
+
+  > li {
+    margin: 0.35rem 0;
+  }
+
+  ul {
+    list-style: none !important;
+    margin: 0.25rem 0 0.5rem;
+    padding-left: 1.25rem;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
