@@ -1,0 +1,1969 @@
+
+# ==========================================
+# FRONTIER DEFENSE — PILOT
+# ==========================================
+
+- id: fd-pilot-universal-mechanics
+  title: "Universal Mechanics"
+  description: "Core Pilot mechanics, controls, and systems relevant to Frontier Defense."
+  modes: [frontier-defense]
+  categories: [fd-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/universal-mechanics-abilities.md]
+  permalink: /guides/frontier-defense/pilot/universal-mechanics/
+
+- id: fd-pilot-primary-sidearm
+  title: "Primary and Sidearm Weapons"
+  description: "Pilot primary and secondary weapons, their characteristics, and Frontier Defense applications."
+  modes: [frontier-defense]
+  categories: [fd-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/primary-and-sidearm.md]
+  permalink: /guides/frontier-defense/pilot/primary-sidearm/
+
+- id: fd-pilot-anti-titan-weapons
+  title: "Anti-Titan Weapons"
+  description: "Anti-Titan weapon mechanics, damage, and strategies for defending against enemy Titans."
+  modes: [frontier-defense]
+  categories: [fd-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/anti-titain-weapons.md]
+  permalink: /guides/frontier-defense/pilot/anti-titan-weapons/
+
+- id: fd-pilot-weapon-mods-sights
+  title: "Weapon Mods and Sights"
+  description: "Pilot weapon modifications and optics, with emphasis on their effectiveness in Frontier Defense."
+  modes: [frontier-defense]
+  categories: [fd-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/weapon-mod-and-sights.md]
+  permalink: /guides/frontier-defense/pilot/weapon-mods-sights/
+
+- id: fd-pilot-tactical
+  title: "Tactical Abilities"
+  description: "Pilot tactical abilities, their mechanics, and their uses in Frontier Defense."
+  modes: [frontier-defense]
+  categories: [fd-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/tactical.md]
+  permalink: /guides/frontier-defense/pilot/tactical-abilities/
+
+- id: fd-pilot-ordnance
+  title: "Ordnance"
+  description: "Pilot grenades and ordnance, including their mechanics and applications against enemy forces."
+  modes: [frontier-defense]
+  categories: [fd-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/ordnance.md]
+  permalink: /guides/frontier-defense/pilot/ordnance/
+
+- id: fd-pilot-kit
+  title: "Pilot Kits"
+  description: "Pilot kit options, their effects, and recommendations for Frontier Defense."
+  modes: [frontier-defense]
+  categories: [fd-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/kit.md]
+  permalink: /guides/frontier-defense/pilot/kits/
+
+- id: fd-pilot-loadout
+  title: "Pilot Loadouts"
+  description: "Pilot loadout configuration and recommendations for different Frontier Defense situations."
+  modes: [frontier-defense]
+  categories: [fd-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/loadout.md]
+  permalink: /guides/frontier-defense/pilot/loadouts/
+
+- id: fd-pilot-economy-armory
+  title: "Economy and Armory"
+  description: "Credits, purchases, Armory equipment, and resource management during Frontier Defense matches."
+  modes: [frontier-defense]
+  categories: [fd-pilot]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [pilotguide/economy-armory.md]
+  permalink: /guides/frontier-defense/pilot/economy-armory/
+
+- id: fd-pilot-movement
+  title: "Movement"
+  description: "Pilot movement mechanics and techniques for navigating maps and responding to enemy waves."
+  modes: [frontier-defense]
+  categories: [fd-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/movement.md]
+  permalink: /guides/frontier-defense/pilot/movement/
+
+- id: fd-pilot-rodeo
+  title: "Rodeo"
+  description: "Rodeo mechanics and strategies for interacting with enemy Titans in Frontier Defense."
+  modes: [frontier-defense]
+  categories: [fd-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/rodeo.md]
+  permalink: /guides/frontier-defense/pilot/rodeo/
+
+- id: fd-pilot-battery-farming
+  title: "Battery Farming"
+  description: "Strategies for obtaining and using Titan batteries to support your team's defenses."
+  modes: [frontier-defense]
+  categories: [fd-pilot]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [pilotguide/battery-farming.md]
+  permalink: /guides/frontier-defense/pilot/battery-farming/
+
+- id: fd-pilot-only
+  title: "Pilot-Only Strategies"
+  description: "Strategies for contributing to Frontier Defense without relying on a deployed Titan."
+  modes: [frontier-defense]
+  categories: [fd-pilot]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [pilotguide/pilot-only.md]
+  permalink: /guides/frontier-defense/pilot/pilot-only/
+
+- id: fd-pilot-progression
+  title: "Leveling and Merit Points"
+  description: "Progression systems, experience, merit points, and unlocks relevant to Frontier Defense."
+  modes: [frontier-defense]
+  categories: [fd-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/leveling-and-merit-points.md]
+  permalink: /guides/frontier-defense/pilot/progression/
+
+# ==========================================
+# FRONTIER DEFENSE — TITAN
+# ==========================================
+
+- id: fd-titan-universal-mechanics
+  title: "Universal Titan Mechanics"
+  description: "Core Titan systems, controls, abilities, and combat mechanics in Frontier Defense."
+  modes: [frontier-defense]
+  categories: [fd-titan]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [titanguide/universal-mechanics-abilities.md]
+  permalink: /guides/frontier-defense/titan/universal-mechanics/
+
+- id: fd-titan-titanfalls-and-kits
+  title: "Titanfalls and Kits"
+  description: "Titan deployment, Titanfall mechanics, and Titan configuration considerations in Frontier Defense."
+  modes: [frontier-defense]
+  categories: [fd-titan]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [titanguide/titanfalls-and-kits.md]
+  permalink: /guides/frontier-defense/titan/titanfalls-and-kits/
+
+- id: fd-titan-aegis
+  title: "Aegis Upgrades"
+  description: "Aegis rank progression, upgrade unlocks, and their effects on Titan performance."
+  modes: [frontier-defense]
+  categories: [fd-titan]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [titanguide/aegis.md]
+  permalink: /guides/frontier-defense/titan/aegis-upgrades/
+
+- id: fd-titan-survivability
+  title: "Titan Survivability"
+  description: "Titan health, defensive options, survival strategies, and ways to remain effective during enemy waves."
+  modes: [frontier-defense]
+  categories: [fd-titan]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [titanguide/titain-survivability.md]
+  permalink: /guides/frontier-defense/titan/survivability/
+
+- id: fd-titan-ion
+  title: "Ion"
+  description: "Ion's weapons, abilities, energy management, and strategies for Frontier Defense."
+  modes: [frontier-defense]
+  categories: [fd-titan]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [titanguide/ion.md]
+  permalink: /guides/frontier-defense/titan/ion/
+
+- id: fd-titan-scorch
+  title: "Scorch"
+  description: "Scorch's weapons, abilities, area denial, and strategies for Frontier Defense."
+  modes: [frontier-defense]
+  categories: [fd-titan]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [titanguide/scorch.md]
+  permalink: /guides/frontier-defense/titan/scorch/
+
+- id: fd-titan-northstar
+  title: "Northstar"
+  description: "Northstar's weapons, flight capabilities, positioning, and strategies for Frontier Defense."
+  modes: [frontier-defense]
+  categories: [fd-titan]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [titanguide/northstar.md]
+  permalink: /guides/frontier-defense/titan/northstar/
+
+- id: fd-titan-ronin
+  title: "Ronin"
+  description: "Ronin's weapons, mobility, defensive tools, and strategies for Frontier Defense."
+  modes: [frontier-defense]
+  categories: [fd-titan]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [titanguide/ronin.md]
+  permalink: /guides/frontier-defense/titan/ronin/
+
+- id: fd-titan-tone
+  title: "Tone"
+  description: "Tone's weapons, target acquisition, defensive tools, and strategies for Frontier Defense."
+  modes: [frontier-defense]
+  categories: [fd-titan]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [titanguide/tone.md]
+  permalink: /guides/frontier-defense/titan/tone/
+
+- id: fd-titan-legion
+  title: "Legion"
+  description: "Legion's weapons, ammunition management, defensive tools, and strategies for Frontier Defense."
+  modes: [frontier-defense]
+  categories: [fd-titan]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [titanguide/legion.md]
+  permalink: /guides/frontier-defense/titan/legion/
+
+- id: fd-titan-monarch
+  title: "Monarch"
+  description: "Monarch's upgrade core, chassis progression, survivability, and strategies for Frontier Defense."
+  modes: [frontier-defense]
+  categories: [fd-titan]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [titanguide/monarch.md]
+  permalink: /guides/frontier-defense/titan/monarch/
+
+# ==========================================
+# FRONTIER DEFENSE — ENEMIES
+# ==========================================
+
+- id: fd-enemy-guide-terms
+  title: "Enemy Guide Terms"
+  description: "Reference for enemy classifications, terminology, and conventions used throughout Frontier Defense guides."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: unknown
+  migration_status: review_required
+  permalink: /guides/frontier-defense/enemies/guide-terms/
+
+- id: fd-enemy-universal-mechanics
+  title: "Enemy Universal Mechanics"
+  description: "Reference for shared enemy mechanics, behaviors, and systems encountered in Frontier Defense."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: unknown
+  migration_status: review_required
+  permalink: /guides/frontier-defense/enemies/universal-mechanics/
+
+- id: fd-enemy-grunt
+  title: "Grunts"
+  description: "Enemy reference covering Grunt types, equipment, behavior, and threats to the Harvester."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/grunt.md]
+  permalink: /guides/frontier-defense/enemies/grunts/
+
+- id: fd-enemy-tick
+  title: "Ticks"
+  description: "Enemy reference covering Tick behavior, deployment, targeting, and defensive countermeasures."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/tick.md]
+  permalink: /guides/frontier-defense/enemies/ticks/
+
+- id: fd-enemy-mortar-specter
+  title: "Mortar Spectres"
+  description: "Enemy reference covering Mortar Spectre deployment, artillery attacks, and strategies for stopping them."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/motar-specter.md]
+  permalink: /guides/frontier-defense/enemies/mortar-spectres/
+
+- id: fd-enemy-plasma-drone
+  title: "Plasma Drones"
+  description: "Enemy reference covering Plasma Drone behavior, attacks, and threats to Titans and the Harvester."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/plasma-drone.md]
+  permalink: /guides/frontier-defense/enemies/plasma-drones/
+
+- id: fd-enemy-stalker
+  title: "Stalkers"
+  description: "Enemy reference covering Stalker behavior, combat capabilities, and strategies for countering them."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/stalker.md]
+  permalink: /guides/frontier-defense/enemies/stalkers/
+
+- id: fd-enemy-cloak-drone
+  title: "Cloak Drones"
+  description: "Enemy reference covering Cloak Drone behavior and the protection they provide to nearby enemy forces."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/cloak-drone.md]
+  permalink: /guides/frontier-defense/enemies/cloak-drones/
+
+- id: fd-enemy-reaper
+  title: "Reapers"
+  description: "Enemy reference covering Reaper behavior, attacks, deployment, and threat management."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/reaper.md]
+  permalink: /guides/frontier-defense/enemies/reapers/
+
+- id: fd-enemy-ion
+  title: "Enemy Ion Titans"
+  description: "Enemy Titan reference covering Ion loadouts, attack patterns, and defensive responses."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/ion.md]
+  permalink: /guides/frontier-defense/enemies/titans/ion/
+
+- id: fd-enemy-scorch
+  title: "Enemy Scorch Titans"
+  description: "Enemy Titan reference covering Scorch loadouts, area denial, attack patterns, and counterplay."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/scorch.md]
+  permalink: /guides/frontier-defense/enemies/titans/scorch/
+
+- id: fd-enemy-northstar-sniper
+  title: "Northstar Snipers"
+  description: "Enemy reference covering Northstar Sniper positioning, ranged attacks, and countermeasures."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/northstar-sniper.md]
+  permalink: /guides/frontier-defense/enemies/northstar-snipers/
+
+- id: fd-enemy-ronin
+  title: "Enemy Ronin Titans"
+  description: "Enemy Titan reference covering Ronin attack patterns, mobility, and defensive responses."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/ronin.md]
+  permalink: /guides/frontier-defense/enemies/titans/ronin/
+
+- id: fd-enemy-arc-titan
+  title: "Arc Titans"
+  description: "Enemy reference covering Arc Titan mechanics, attacks, and threats to friendly Titans."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/arc-titan.md]
+  permalink: /guides/frontier-defense/enemies/arc-titans/
+
+- id: fd-enemy-tone
+  title: "Enemy Tone Titans"
+  description: "Enemy Titan reference covering Tone's tracking systems, missile attacks, and counterplay."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/tone.md]
+  permalink: /guides/frontier-defense/enemies/titans/tone/
+
+- id: fd-enemy-tone-sniper
+  title: "Tone Snipers"
+  description: "Enemy reference covering Tone Sniper positioning, ranged attacks, and defensive responses."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/tone-sniper.md]
+  permalink: /guides/frontier-defense/enemies/tone-snipers/
+
+- id: fd-enemy-mortar-titan
+  title: "Mortar Titans"
+  description: "Enemy reference covering Mortar Titan artillery behavior, positioning, and strategies for stopping bombardments."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/motar-titan.md]
+  permalink: /guides/frontier-defense/enemies/mortar-titans/
+
+- id: fd-enemy-legion
+  title: "Enemy Legion Titans"
+  description: "Enemy Titan reference covering Legion's weapons, firing modes, and countermeasures."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/legion.md]
+  permalink: /guides/frontier-defense/enemies/titans/legion/
+
+- id: fd-enemy-nuke-titan
+  title: "Nuke Titans"
+  description: "Enemy reference covering Nuke Titan behavior, detonation threats, and methods for preventing Harvester damage."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/nuke-titan.md]
+  permalink: /guides/frontier-defense/enemies/nuke-titans/
+
+- id: fd-enemy-monarch
+  title: "Enemy Monarch Titans"
+  description: "Enemy Titan reference covering Monarch upgrades, abilities, and strategies for handling enemy Monarchs."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/monarch.md]
+  permalink: /guides/frontier-defense/enemies/titans/monarch/
+
+- id: fd-enemy-ai-behavior
+  title: "Enemy AI Behavior"
+  description: "Reference explaining enemy targeting, movement, priorities, and behavior patterns during Frontier Defense waves."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/frontier-defense/enemies/ai-behavior/
+
+- id: fd-enemy-threat-tier-list
+  title: "Enemy Threat Tier List"
+  description: "Comparative reference ranking Frontier Defense enemies by threat and strategic priority."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/threat-tier-list.md]
+  permalink: /guides/frontier-defense/enemies/threat-tier-list/
+
+- id: fd-enemy-unit-database
+  title: "Enemy Unit Database"
+  description: "Structured reference database of Frontier Defense enemy units, characteristics, and combat information."
+  modes: [frontier-defense]
+  categories: [fd-enemy]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [enemyguide/enemy-unit-db.md]
+  permalink: /guides/frontier-defense/enemies/unit-database/
+
+# ==========================================
+# FRONTIER DEFENSE — MAPS AND CALLOUTS
+# ==========================================
+
+- id: fd-pilot-minimap
+  title: "Minimap"
+  description: "Frontier Defense minimap symbols, navigation, and battlefield awareness, including difficulty-specific considerations."
+  modes: [frontier-defense]
+  categories: [fd-maps]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [mapguide/minimap.md]
+  permalink: /guides/frontier-defense/maps/minimap/
+
+- id: fd-map-difficulty
+  title: "Map Difficulty"
+  description: "Reference explaining map difficulty differences and their effects on Frontier Defense gameplay."
+  modes: [frontier-defense]
+  categories: [fd-maps]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [mapguide/difficulty.md]
+  permalink: /guides/frontier-defense/maps/difficulty/
+
+- id: fd-map-legend
+  title: "Map Legend"
+  description: "Reference for Frontier Defense map symbols, enemy spawn locations, defensive equipment, and Harvester-related markers."
+  modes: [frontier-defense]
+  categories: [fd-maps]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [mapguide/maplegend.md]
+  permalink: /guides/frontier-defense/maps/legend/
+
+- id: fd-map-forward-base-kodai
+  title: "Forward Base Kodai"
+  description: "Frontier Defense map reference covering enemy spawns, routes, defensive positions, and Harvester protection."
+  modes: [frontier-defense]
+  categories: [fd-maps]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [mapguide/forwardbasekodai.md]
+  permalink: /guides/frontier-defense/maps/forward-base-kodai/
+
+- id: fd-map-homestead
+  title: "Homestead"
+  description: "Frontier Defense map reference covering enemy spawns, routes, defensive positions, and Harvester protection."
+  modes: [frontier-defense]
+  categories: [fd-maps]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [mapguide/homestead.md]
+  permalink: /guides/frontier-defense/maps/homestead/
+
+- id: fd-map-exoplanet
+  title: "Exoplanet"
+  description: "Frontier Defense map reference covering enemy spawns, routes, defensive positions, and Harvester protection."
+  modes: [frontier-defense]
+  categories: [fd-maps]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [mapguide/exoplanet.md]
+  permalink: /guides/frontier-defense/maps/exoplanet/
+
+- id: fd-map-black-water-canal
+  title: "Black Water Canal"
+  description: "Frontier Defense map reference covering enemy spawns, routes, defensive positions, and Harvester protection."
+  modes: [frontier-defense]
+  categories: [fd-maps]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [mapguide/blackwatercanal.md]
+  permalink: /guides/frontier-defense/maps/black-water-canal/
+
+- id: fd-map-drydock
+  title: "Drydock"
+  description: "Frontier Defense map reference covering enemy spawns, routes, defensive positions, and Harvester protection."
+  modes: [frontier-defense]
+  categories: [fd-maps]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [mapguide/drydock.md]
+  permalink: /guides/frontier-defense/maps/drydock/
+
+- id: fd-map-angel-city
+  title: "Angel City"
+  description: "Frontier Defense map reference covering enemy spawns, routes, defensive positions, and Harvester protection."
+  modes: [frontier-defense]
+  categories: [fd-maps]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [mapguide/angelcity..md]
+  permalink: /guides/frontier-defense/maps/angel-city/
+
+- id: fd-map-colony
+  title: "Colony"
+  description: "Frontier Defense map reference covering enemy spawns, routes, defensive positions, and Harvester protection."
+  modes: [frontier-defense]
+  categories: [fd-maps]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [mapguide/colony.md]
+  permalink: /guides/frontier-defense/maps/colony/
+
+- id: fd-map-war-games
+  title: "War Games"
+  description: "Frontier Defense map reference covering enemy spawns, routes, defensive positions, and Harvester protection."
+  modes: [frontier-defense]
+  categories: [fd-maps]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/frontier-defense/maps/war-games/
+
+- id: fd-map-rise
+  title: "Rise"
+  description: "Frontier Defense map reference covering enemy spawns, routes, defensive positions, and Harvester protection."
+  modes: [frontier-defense]
+  categories: [fd-maps]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/frontier-defense/maps/rise/
+
+
+
+# ==========================================
+# MULTIPLAYER — PILOT
+# ==========================================
+
+- id: mp-pilot-universal-mechanics
+  title: "Universal Mechanics"
+  description: "Core Pilot mechanics, controls, and systems relevant to Multiplayer gameplay."
+  modes: [multiplayer]
+  categories: [mp-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/universal-mechanics-abilities.md]
+  permalink: /guides/multiplayer/pilot/universal-mechanics/
+
+- id: mp-pilot-primary-sidearm
+  title: "Primary and Sidearm Weapons"
+  description: "Primary and secondary Pilot weapons, their characteristics, and Multiplayer applications."
+  modes: [multiplayer]
+  categories: [mp-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/primary-and-sidearm.md]
+  permalink: /guides/multiplayer/pilot/primary-sidearm/
+
+- id: mp-pilot-anti-titan-weapons
+  title: "Anti-Titan Weapons"
+  description: "Anti-Titan weapons, their mechanics, and strategies for engaging enemy Titans."
+  modes: [multiplayer]
+  categories: [mp-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/anti-titain-weapons.md]
+  permalink: /guides/multiplayer/pilot/anti-titan-weapons/
+
+- id: mp-pilot-weapon-mods-sights
+  title: "Weapon Mods and Sights"
+  description: "Pilot weapon modifications, optics, and their effects on weapon performance."
+  modes: [multiplayer]
+  categories: [mp-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/weapon-mod-and-sights.md]
+  permalink: /guides/multiplayer/pilot/weapon-mods-sights/
+
+- id: mp-pilot-tactical
+  title: "Tactical Abilities"
+  description: "Pilot tactical abilities, their mechanics, and their uses in Multiplayer combat."
+  modes: [multiplayer]
+  categories: [mp-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/tactical.md]
+  permalink: /guides/multiplayer/pilot/tactical-abilities/
+
+- id: mp-pilot-ordnance
+  title: "Ordnance"
+  description: "Pilot grenades and other ordnance, including their mechanics and combat applications."
+  modes: [multiplayer]
+  categories: [mp-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/ordnance.md]
+  permalink: /guides/multiplayer/pilot/ordnance/
+
+- id: mp-pilot-kit
+  title: "Pilot Kits"
+  description: "Pilot kit options, their effects, and their impact on Multiplayer loadouts."
+  modes: [multiplayer]
+  categories: [mp-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/kit.md]
+  permalink: /guides/multiplayer/pilot/kits/
+
+- id: mp-pilot-loadout
+  title: "Pilot Loadouts"
+  description: "Pilot loadout configuration and recommendations for different Multiplayer playstyles."
+  modes: [multiplayer]
+  categories: [mp-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/loadout.md]
+  permalink: /guides/multiplayer/pilot/loadouts/
+
+- id: mp-pilot-boost
+  title: "Boosts"
+  description: "Pilot Boost options, activation requirements, and strategic uses in Multiplayer."
+  modes: [multiplayer]
+  categories: [mp-pilot]
+  status: planned
+  source_status: existing
+  migration_status: not_started
+  source_paths: [pilotguide/boost.md]
+  permalink: /guides/multiplayer/pilot/boosts/
+
+- id: mp-pilot-movement
+  title: "Movement"
+  description: "Pilot movement mechanics, advanced techniques, and ways to maintain momentum."
+  modes: [multiplayer]
+  categories: [mp-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/movement.md]
+  permalink: /guides/multiplayer/pilot/movement/
+
+- id: mp-pilot-rodeo
+  title: "Rodeo"
+  description: "Rodeo mechanics, Titan battery interactions, and strategies for attacking enemy Titans."
+  modes: [multiplayer]
+  categories: [mp-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/rodeo.md]
+  permalink: /guides/multiplayer/pilot/rodeo/
+
+- id: mp-pilot-progression
+  title: "Leveling and Merit Points"
+  description: "Multiplayer progression systems, experience, merit points, and unlocks."
+  modes: [multiplayer]
+  categories: [mp-pilot]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [pilotguide/leveling-and-merit-points.md]
+  permalink: /guides/multiplayer/pilot/progression/
+
+- id: mp-pilot-versus-pilot
+  title: "Pilot vs. Pilot"
+  description: "Combat strategies for engaging enemy Pilots, including positioning, movement, and weapon matchups."
+  modes: [multiplayer]
+  categories: [mp-pilot]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/pilot/versus-pilot/
+
+- id: mp-pilot-versus-titan
+  title: "Pilot vs. Titan"
+  description: "Strategies for fighting Titans as a Pilot, including anti-Titan weapons, rodeos, and positioning."
+  modes: [multiplayer]
+  categories: [mp-pilot]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/pilot/versus-titan/
+
+- id: mp-pilot-versus-minions
+  title: "Pilot vs. Minions"
+  description: "Strategies for fighting AI-controlled minions and using them to support Multiplayer objectives."
+  modes: [multiplayer]
+  categories: [mp-pilot]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/pilot/versus-minions/
+
+# ==========================================
+# MULTIPLAYER — TITAN
+# ==========================================
+
+- id: mp-titan-universal-mechanics
+  title: "Universal Titan Mechanics"
+  description: "Core Titan systems, controls, defensive mechanics, and combat fundamentals in Multiplayer."
+  modes: [multiplayer]
+  categories: [mp-titan]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/titan/universal-mechanics/
+
+- id: mp-titan-titanfalls-and-kits
+  title: "Titanfalls and Kits"
+  description: "Titan deployment, Titanfall mechanics, and the role of Titan configurations in Multiplayer."
+  modes: [multiplayer]
+  categories: [mp-titan]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/titan/titanfalls-and-kits/
+
+- id: mp-titan-ion
+  title: "Ion"
+  description: "Ion's weapons, abilities, defensive tools, and Multiplayer combat strategies."
+  modes: [multiplayer]
+  categories: [mp-titan]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/titan/ion/
+
+- id: mp-titan-scorch
+  title: "Scorch"
+  description: "Scorch's weapons, abilities, area denial, and Multiplayer combat strategies."
+  modes: [multiplayer]
+  categories: [mp-titan]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/titan/scorch/
+
+- id: mp-titan-northstar
+  title: "Northstar"
+  description: "Northstar's weapons, flight capabilities, positioning, and Multiplayer combat strategies."
+  modes: [multiplayer]
+  categories: [mp-titan]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/titan/northstar/
+
+- id: mp-titan-ronin
+  title: "Ronin"
+  description: "Ronin's weapons, mobility, defensive tools, and Multiplayer combat strategies."
+  modes: [multiplayer]
+  categories: [mp-titan]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/titan/ronin/
+
+- id: mp-titan-tone
+  title: "Tone"
+  description: "Tone's weapons, target acquisition, defensive tools, and Multiplayer combat strategies."
+  modes: [multiplayer]
+  categories: [mp-titan]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/titan/tone/
+
+- id: mp-titan-legion
+  title: "Legion"
+  description: "Legion's weapons, ammunition management, defensive tools, and Multiplayer combat strategies."
+  modes: [multiplayer]
+  categories: [mp-titan]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/titan/legion/
+
+- id: mp-titan-monarch
+  title: "Monarch"
+  description: "Monarch's upgrade core, chassis progression, survivability, and Multiplayer combat strategies."
+  modes: [multiplayer]
+  categories: [mp-titan]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/titan/monarch/
+
+- id: mp-titan-versus-pilot
+  title: "Titan vs. Pilot"
+  description: "Strategies for identifying, countering, and surviving attacks from enemy Pilots."
+  modes: [multiplayer]
+  categories: [mp-titan]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/titan/versus-pilot/
+
+- id: mp-titan-versus-titan
+  title: "Titan vs. Titan"
+  description: "Titan matchups, positioning, engagement tactics, and strategies for Titan combat."
+  modes: [multiplayer]
+  categories: [mp-titan]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/titan/versus-titan/
+
+- id: mp-titan-versus-minions
+  title: "Titan vs. Minions"
+  description: "Strategies for engaging AI-controlled minions and using Titan capabilities against ground forces."
+  modes: [multiplayer]
+  categories: [mp-titan]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/titan/versus-minions/
+
+# ==========================================
+# MULTIPLAYER — MINIONS
+# ==========================================
+
+- id: mp-minion-guide-terms
+  title: "Minion Guide Terms"
+  description: "Reference for terminology and classifications used when discussing Multiplayer minions."
+  modes: [multiplayer]
+  categories: [mp-minions]
+  status: planned
+  source_status: existing
+  migration_status: review_required
+  source_paths: [enemyguide/guide-terms.md]
+  permalink: /guides/multiplayer/minions/guide-terms/
+
+- id: mp-minion-universal-mechanics
+  title: "Minion Universal Mechanics"
+  description: "Reference for minion mechanics and behaviors, pending review and adaptation for Multiplayer."
+  modes: [multiplayer]
+  categories: [mp-minions]
+  status: planned
+  source_status: existing
+  migration_status: review_required
+  source_paths: [enemyguide/universal-mechanics-abitlies.md]
+  permalink: /guides/multiplayer/minions/universal-mechanics/
+
+- id: mp-minion-drop-ship
+  title: "Drop Ships"
+  description: "Reference covering minion deployment, drop ship behavior, and their role in Multiplayer matches."
+  modes: [multiplayer]
+  categories: [mp-minions]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/minions/drop-ships/
+
+- id: mp-minion-evac-ship
+  title: "Evacuation Ships"
+  description: "Reference covering evacuation ship behavior, extraction opportunities, and related match mechanics."
+  modes: [multiplayer]
+  categories: [mp-minions]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/minions/evacuation-ships/
+
+- id: mp-minion-grunt
+  title: "Grunts"
+  description: "Multiplayer Grunt types, behavior, combat characteristics, and their role in match objectives."
+  modes: [multiplayer]
+  categories: [mp-minions]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/minions/grunts/
+
+- id: mp-minion-specter
+  title: "Spectres"
+  description: "Multiplayer Spectre behavior, capabilities, and interactions with match objectives."
+  modes: [multiplayer]
+  categories: [mp-minions]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/minions/spectres/
+
+- id: mp-minion-stalker
+  title: "Stalkers"
+  description: "Multiplayer Stalker behavior, capabilities, and combat characteristics."
+  modes: [multiplayer]
+  categories: [mp-minions]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/minions/stalkers/
+
+- id: mp-minion-reaper
+  title: "Reapers"
+  description: "Multiplayer Reaper behavior, combat capabilities, and their impact on match flow."
+  modes: [multiplayer]
+  categories: [mp-minions]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/minions/reapers/
+
+- id: mp-minion-bounty
+  title: "Bounty Hunt Targets"
+  description: "Reference covering Bounty Hunt AI targets, their behavior, and their value to match objectives."
+  modes: [multiplayer]
+  categories: [mp-minions]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/minions/bounty-hunt-targets/
+
+# ==========================================
+# MULTIPLAYER — GAME MODES
+# ==========================================
+
+- id: mp-mode-attrition
+  title: "Attrition"
+  description: "Rules, scoring, objectives, and strategies for the Attrition game mode."
+  modes: [multiplayer]
+  categories: [mp-gamemodes]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/game-modes/attrition/
+
+- id: mp-mode-bounty-hunt
+  title: "Bounty Hunt"
+  description: "Rules, banking, AI targets, and strategies for the Bounty Hunt game mode."
+  modes: [multiplayer]
+  categories: [mp-gamemodes]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/game-modes/bounty-hunt/
+
+- id: mp-mode-amped-hardpoint
+  title: "Amped Hardpoint"
+  description: "Hardpoint objectives, amplification mechanics, scoring, and team strategies."
+  modes: [multiplayer]
+  categories: [mp-gamemodes]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/game-modes/amped-hardpoint/
+
+- id: mp-mode-last-titan-standing
+  title: "Last Titan Standing"
+  description: "Round rules, Titan survival, team coordination, and strategies for Last Titan Standing."
+  modes: [multiplayer]
+  categories: [mp-gamemodes]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/game-modes/last-titan-standing/
+
+- id: mp-mode-capture-the-flag
+  title: "Capture the Flag"
+  description: "Flag objectives, movement, defense, and team strategies for Capture the Flag."
+  modes: [multiplayer]
+  categories: [mp-gamemodes]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/game-modes/capture-the-flag/
+
+- id: mp-mode-pilots-vs-pilots
+  title: "Pilots vs. Pilots"
+  description: "Rules, scoring, and combat strategies for the Pilot-only game mode."
+  modes: [multiplayer]
+  categories: [mp-gamemodes]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/game-modes/pilots-vs-pilots/
+
+- id: mp-mode-live-fire
+  title: "Live Fire"
+  description: "Round objectives, survival, positioning, and team strategies for Live Fire."
+  modes: [multiplayer]
+  categories: [mp-gamemodes]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/game-modes/live-fire/
+
+- id: mp-mode-titan-brawl
+  title: "Titan Brawl"
+  description: "Titan-only combat rules, scoring, and strategies for Titan Brawl."
+  modes: [multiplayer]
+  categories: [mp-gamemodes]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/game-modes/titan-brawl/
+
+- id: mp-mode-mix-tape
+  title: "Mixtape"
+  description: "Reference explaining the Mixtape playlist, its rotating modes, and playlist considerations."
+  modes: [multiplayer]
+  categories: [mp-gamemodes]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/game-modes/mixtape/
+
+- id: mp-mode-coliseum
+  title: "Coliseum"
+  description: "Coliseum rules, loadout considerations, and strategies for one-on-one Pilot combat."
+  modes: [multiplayer]
+  categories: [mp-gamemodes]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/game-modes/coliseum/
+
+# ==========================================
+# MULTIPLAYER — MAPS AND CALLOUTS
+# ==========================================
+
+- id: mp-map-minimap
+  title: "Minimap"
+  description: "Multiplayer minimap symbols, awareness, and navigation for reading the battlefield."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [mapguide/minimap.md]
+  permalink: /guides/multiplayer/maps/minimap/
+
+- id: mp-map-legend
+  title: "Map Legend"
+  description: "Multiplayer map symbols, callout conventions, and visual references for map communication."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/maps/legend/
+
+- id: mp-map-forward-base-kodai
+  title: "Forward Base Kodai"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Forward Base Kodai."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [multiplayer-callouts.md]
+  permalink: /guides/multiplayer/maps/forward-base-kodai/
+
+- id: mp-map-boomtown
+  title: "Boomtown"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Boomtown."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [multiplayer-callouts.md]
+  permalink: /guides/multiplayer/maps/boomtown/
+
+- id: mp-map-homestead
+  title: "Homestead"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Homestead."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [multiplayer-callouts.md]
+  permalink: /guides/multiplayer/maps/homestead/
+
+- id: mp-map-exoplanet
+  title: "Exoplanet"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Exoplanet."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [multiplayer-callouts.md]
+  permalink: /guides/multiplayer/maps/exoplanet/
+
+- id: mp-map-black-water-canal
+  title: "Black Water Canal"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Black Water Canal."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [multiplayer-callouts.md]
+  permalink: /guides/multiplayer/maps/black-water-canal/
+
+- id: mp-map-eden
+  title: "Eden"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Eden."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [multiplayer-callouts.md]
+  permalink: /guides/multiplayer/maps/eden/
+
+- id: mp-map-drydock
+  title: "Drydock"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Drydock."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [multiplayer-callouts.md]
+  permalink: /guides/multiplayer/maps/drydock/
+
+- id: mp-map-crash-site
+  title: "Crash Site"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Crash Site."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [multiplayer-callouts.md]
+  permalink: /guides/multiplayer/maps/crash-site/
+
+- id: mp-map-complex
+  title: "Complex"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Complex."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [multiplayer-callouts.md]
+  permalink: /guides/multiplayer/maps/complex/
+
+- id: mp-map-angel-city
+  title: "Angel City"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Angel City."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [multiplayer-callouts.md]
+  permalink: /guides/multiplayer/maps/angel-city/
+
+- id: mp-map-colony
+  title: "Colony"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Colony."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [multiplayer-callouts.md]
+  permalink: /guides/multiplayer/maps/colony/
+
+- id: mp-map-glitch
+  title: "Glitch"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Glitch."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [multiplayer-callouts.md]
+  permalink: /guides/multiplayer/maps/glitch/
+
+- id: mp-map-relic
+  title: "Relic"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Relic."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [multiplayer-callouts.md]
+  permalink: /guides/multiplayer/maps/relic/
+
+- id: mp-map-war-games
+  title: "War Games"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for War Games."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [multiplayer-callouts.md]
+  permalink: /guides/multiplayer/maps/war-games/
+
+- id: mp-map-rise
+  title: "Rise"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Rise."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: split
+  migration_status: not_started
+  source_paths: [multiplayer-callouts.md]
+  permalink: /guides/multiplayer/maps/rise/
+
+- id: mp-map-stacks
+  title: "Stacks"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Stacks."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/maps/stacks/
+
+- id: mp-map-deck
+  title: "Deck"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Deck."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/maps/deck/
+
+- id: mp-map-meadow
+  title: "Meadow"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Meadow."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/maps/meadow/
+
+- id: mp-map-traffic
+  title: "Traffic"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Traffic."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/maps/traffic/
+
+- id: mp-map-township
+  title: "Township"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Township."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/maps/township/
+
+- id: mp-map-uma
+  title: "Uma"
+  description: "Multiplayer map layout, landmarks, routes, and location callouts for Uma."
+  modes: [multiplayer]
+  categories: [mp-maps]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/multiplayer/maps/uma/
+
+
+# _data/guides.yml
+#
+# Master guide registry for Frontier Biz 2.0.
+# Category membership and display order are maintained in categories.yml.
+
+# ==========================================
+# CAMPAIGN — MISSION WALKTHROUGHS
+# ==========================================
+
+- id: campaign-walkthrough-bt-7274
+  title: "BT 7274"
+  description: "Walkthrough for the opening campaign mission, including objectives, encounters, and progression."
+  modes: [campaign]
+  categories: [campaign-walkthrough]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/walkthroughs/bt-7274/
+
+- id: campaign-walkthrough-blood-and-rust
+  title: "Blood and Rust"
+  description: "Mission walkthrough covering objectives, combat encounters, and progression."
+  modes: [campaign]
+  categories: [campaign-walkthrough]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/walkthroughs/blood-and-rust/
+
+- id: campaign-walkthrough-into-the-abyss
+  title: "Into the Abyss"
+  description: "Mission walkthrough covering objectives, combat encounters, and progression."
+  modes: [campaign]
+  categories: [campaign-walkthrough]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/walkthroughs/into-the-abyss/
+
+- id: campaign-walkthrough-effect-and-cause
+  title: "Effect and Cause"
+  description: "Mission walkthrough covering objectives, time-shifting mechanics, and progression."
+  modes: [campaign]
+  categories: [campaign-walkthrough]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/walkthroughs/effect-and-cause/
+
+- id: campaign-walkthrough-the-beacon
+  title: "The Beacon"
+  description: "Mission walkthrough covering objectives, facility exploration, and combat encounters."
+  modes: [campaign]
+  categories: [campaign-walkthrough]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/walkthroughs/the-beacon/
+
+- id: campaign-walkthrough-trial-by-fire
+  title: "Trial by Fire"
+  description: "Mission walkthrough covering objectives, Titan combat, and progression."
+  modes: [campaign]
+  categories: [campaign-walkthrough]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/walkthroughs/trial-by-fire/
+
+- id: campaign-walkthrough-the-ark
+  title: "The Ark"
+  description: "Mission walkthrough covering objectives, combat encounters, and key events."
+  modes: [campaign]
+  categories: [campaign-walkthrough]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/walkthroughs/the-ark/
+
+- id: campaign-walkthrough-the-fold-weapon
+  title: "The Fold Weapon"
+  description: "Final mission walkthrough covering objectives, encounters, and the campaign conclusion."
+  modes: [campaign]
+  categories: [campaign-walkthrough]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/walkthroughs/the-fold-weapon/
+
+# ==========================================
+# CAMPAIGN — CHARACTERS AND FACTIONS
+# ==========================================
+
+- id: campaign-character-cooper
+  title: "Jack Cooper"
+  description: "Character reference covering Jack Cooper's background, role, and development throughout the campaign."
+  modes: [campaign]
+  categories: [campaign-characters]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/characters/jack-cooper/
+
+- id: campaign-character-bt
+  title: "BT-7274"
+  description: "Character reference covering BT-7274, his capabilities, personality, and relationship with Cooper."
+  modes: [campaign]
+  categories: [campaign-characters]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/characters/bt-7274/
+
+- id: campaign-militia-friendly-titans
+  title: "Militia Friendly Titans"
+  description: "Reference covering friendly Militia Titans encountered throughout the campaign."
+  modes: [campaign]
+  categories: [campaign-characters]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/characters/militia-friendly-titans/
+
+- id: campaign-character-sarah-briggs
+  title: "Sarah Briggs"
+  description: "Character reference covering Sarah Briggs and her role in the Militia."
+  modes: [campaign]
+  categories: [campaign-characters]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/characters/sarah-briggs/
+
+- id: campaign-faction-six-four
+  title: "The 6-4"
+  description: "Faction reference covering the 6-4, its members, and its role in the campaign."
+  modes: [campaign]
+  categories: [campaign-characters]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/factions/the-6-4/
+
+# ==========================================
+# CAMPAIGN — IMC, APEX PREDATORS, AND FAUNA
+# ==========================================
+
+- id: campaign-fauna-prowler
+  title: "Prowlers"
+  description: "Fauna reference covering Prowler behavior, encounters, and combat considerations."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/prowlers/
+
+- id: campaign-fauna-flyer
+  title: "Flyers"
+  description: "Fauna reference covering Flyer behavior, encounters, and environmental presence."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/flyers/
+
+- id: campaign-enemy-grunt
+  title: "Grunts"
+  description: "Enemy reference covering IMC Grunt equipment, behavior, and combat encounters."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/grunts/
+
+- id: campaign-enemy-spectre
+  title: "Spectres"
+  description: "Enemy reference covering Spectre behavior, capabilities, and combat encounters."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/spectres/
+
+- id: campaign-enemy-shield-grunt
+  title: "Shielded Grunts"
+  description: "Enemy reference covering shielded Grunt equipment, defensive capabilities, and tactics."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/shielded-grunts/
+
+- id: campaign-enemy-turret
+  title: "Automated Turrets"
+  description: "Enemy reference covering automated turret behavior, targeting, and countermeasures."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/automated-turrets/
+
+- id: campaign-enemy-tick
+  title: "Ticks"
+  description: "Enemy reference covering Tick behavior, deployment, and combat threats."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/ticks/
+
+- id: campaign-enemy-stalker
+  title: "Stalkers"
+  description: "Enemy reference covering Stalker capabilities, behavior, and combat encounters."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/stalkers/
+
+- id: campaign-enemy-drone
+  title: "Drones"
+  description: "Enemy reference covering aerial drone behavior, capabilities, and combat encounters."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/drones/
+
+- id: campaign-enemy-reaper
+  title: "Reapers"
+  description: "Enemy reference covering Reaper capabilities, behavior, and Titan-scale threats."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/reapers/
+
+- id: campaign-titan-brute
+  title: "Brute"
+  description: "Titan reference covering the Brute loadout, weapons, abilities, and combat encounters."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/titans/brute/
+
+- id: campaign-titan-ion
+  title: "Ion"
+  description: "Titan reference covering Ion's weapons, abilities, and campaign encounters."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/titans/ion/
+
+- id: campaign-titan-scorch
+  title: "Scorch"
+  description: "Titan reference covering Scorch's weapons, abilities, and campaign encounters."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/titans/scorch/
+
+- id: campaign-titan-northstar
+  title: "Northstar"
+  description: "Titan reference covering Northstar's weapons, abilities, and campaign encounters."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/titans/northstar/
+
+- id: campaign-titan-ronin
+  title: "Ronin"
+  description: "Titan reference covering Ronin's weapons, abilities, and campaign encounters."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/titans/ronin/
+
+- id: campaign-titan-tone
+  title: "Tone"
+  description: "Titan reference covering Tone's weapons, abilities, and campaign encounters."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/titans/tone/
+
+- id: campaign-titan-legion
+  title: "Legion"
+  description: "Titan reference covering Legion's weapons, abilities, and campaign encounters."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/titans/legion/
+
+- id: campaign-character-kane
+  title: "Kane"
+  description: "Apex Predator reference covering Kane's background, Titan loadout, and campaign encounters."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/apex-predators/kane/
+
+- id: campaign-character-ash
+  title: "Ash"
+  description: "Apex Predator reference covering Ash's background, Titan loadout, and campaign encounters."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/apex-predators/ash/
+
+- id: campaign-character-richter
+  title: "Richter"
+  description: "Apex Predator reference covering Richter's background, Titan loadout, and campaign encounters."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/apex-predators/richter/
+
+- id: campaign-character-viper
+  title: "Viper"
+  description: "Apex Predator reference covering Viper's background, Northstar loadout, and campaign encounters."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/apex-predators/viper/
+
+- id: campaign-character-sloan
+  title: "Sloan"
+  description: "Apex Predator reference covering Sloan's background, Titan loadout, and campaign encounters."
+  modes: [campaign]
+  categories: [campaign-enemies-fauna]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/enemies/apex-predators/sloan/
+
+# ==========================================
+# CAMPAIGN — ACHIEVEMENTS
+# ==========================================
+
+- id: campaign-achievement-pilot-helmets
+  title: "Every Nook and Cranny"
+  description: "Achievement guide for locating all Pilot helmets hidden throughout the campaign."
+  modes: [campaign]
+  categories: [campaign-achievements]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/achievements/every-nook-and-cranny/
+
+- id: campaign-achievement-annihilation
+  title: "Annihilation"
+  description: "Achievement guide explaining the requirements and recommended approach for Annihilation."
+  modes: [campaign]
+  categories: [campaign-achievements]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/achievements/annihilation/
+
+- id: campaign-achievement-i-know-kung-fu
+  title: "I Know Kung Fu"
+  description: "Achievement guide explaining the requirements and recommended approach for I Know Kung Fu."
+  modes: [campaign]
+  categories: [campaign-achievements]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/achievements/i-know-kung-fu/
+
+# ==========================================
+# CAMPAIGN — SPEEDRUNNING
+# ==========================================
+
+- id: campaign-speedrun-gauntlet
+  title: "The Gauntlet"
+  description: "Speedrun guide covering movement techniques, route optimization, and time-saving strategies."
+  modes: [campaign]
+  categories: [campaign-speedrun]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/speedrun/the-gauntlet/
+
+- id: campaign-speedrun-bt-7274
+  title: "BT 7274"
+  description: "Mission speedrun guide covering routing, movement, and time-saving techniques."
+  modes: [campaign]
+  categories: [campaign-speedrun]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/speedrun/bt-7274/
+
+- id: campaign-speedrun-blood-and-rust
+  title: "Blood and Rust"
+  description: "Mission speedrun guide covering routing, movement, and time-saving techniques."
+  modes: [campaign]
+  categories: [campaign-speedrun]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/speedrun/blood-and-rust/
+
+- id: campaign-speedrun-into-the-abyss
+  title: "Into the Abyss"
+  description: "Mission speedrun guide covering routing, movement, and time-saving techniques."
+  modes: [campaign]
+  categories: [campaign-speedrun]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/speedrun/into-the-abyss/
+
+- id: campaign-speedrun-effect-and-cause
+  title: "Effect and Cause"
+  description: "Mission speedrun guide covering routing, time-shifting mechanics, and time-saving techniques."
+  modes: [campaign]
+  categories: [campaign-speedrun]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/speedrun/effect-and-cause/
+
+- id: campaign-speedrun-the-beacon
+  title: "The Beacon"
+  description: "Mission speedrun guide covering routing, movement, and time-saving techniques."
+  modes: [campaign]
+  categories: [campaign-speedrun]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/speedrun/the-beacon/
+
+- id: campaign-speedrun-trial-by-fire
+  title: "Trial by Fire"
+  description: "Mission speedrun guide covering Titan combat, routing, and time-saving techniques."
+  modes: [campaign]
+  categories: [campaign-speedrun]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/speedrun/trial-by-fire/
+
+- id: campaign-speedrun-the-ark
+  title: "The Ark"
+  description: "Mission speedrun guide covering routing, combat encounters, and time-saving techniques."
+  modes: [campaign]
+  categories: [campaign-speedrun]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/speedrun/the-ark/
+
+- id: campaign-speedrun-the-fold-weapon
+  title: "The Fold Weapon"
+  description: "Final mission speedrun guide covering routing, combat encounters, and time-saving techniques."
+  modes: [campaign]
+  categories: [campaign-speedrun]
+  status: planned
+  source_status: new
+  migration_status: not_started
+  permalink: /guides/campaign/speedrun/the-fold-weapon/
+
+# ==========================================
+# SHARED — GENERAL REFERENCE
+# ==========================================
+
+- id: shared-terminology
+  title: "Titanfall 2 Terminology"
+  description: "A shared glossary of Titanfall 2 terminology, abbreviations, and gameplay vocabulary."
+  modes:
+    - multiplayer
+    - frontier-defense
+  categories:
+    - shared-reference
+  status: planned
+  source_status: shared
+  migration_status: not_started
+  source_paths:
+    - terminology.md
+  permalink: /guides/reference/terminology/
+  tags: [terminology, glossary]
+
+# ==========================================
+# SHARED — TITAN REFERENCE
+# ==========================================
+
+- id: shared-titan-kit
+  title: "Titan Kit"
+  description: "Reference covering Titan kits, their effects, mechanics, and applications across game modes."
+  modes:
+    - multiplayer
+    - frontier-defense
+  categories:
+    - mp-titan
+    - fd-titan
+    - shared-titan-reference
+  status: planned
+  source_status: shared
+  migration_status: not_started
+  source_paths:
+    - titanguide/titan-kit.md
+  permalink: /guides/reference/titan/titan-kit/
+  tags: [titan, kits, customization]
+
+- id: shared-titan-auto-titan
+  title: "Auto Titan"
+  description: "Reference covering Auto Titan behavior, commands, limitations, and mode-specific considerations."
+  modes:
+    - multiplayer
+    - frontier-defense
+  categories:
+    - mp-titan
+    - fd-titan
+    - shared-titan-reference
+  status: planned
+  source_status: shared
+  migration_status: not_started
+  source_paths:
+    - titanguide/auto-titan.md
+  permalink: /guides/reference/titan/auto-titan/
+  tags: [titan, auto-titan, ai]

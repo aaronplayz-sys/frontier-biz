@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Stalker
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 8
+custom_class: battlefield-theme
 ---
 
 # Stalker

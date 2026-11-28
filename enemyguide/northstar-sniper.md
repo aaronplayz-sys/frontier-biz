@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Northstar (Sniper Titan)
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 13
+custom_class: battlefield-theme
 ---
 
 # Northstar (Sniper Titan)

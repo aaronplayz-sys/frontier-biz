@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Legion
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 19
+custom_class: battlefield-theme
 ---
 
 # Legion

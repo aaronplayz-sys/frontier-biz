@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Motar Specter
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 6
+custom_class: battlefield-theme
 ---
 
 # Motar Specter

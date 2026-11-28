@@ -1,0 +1,74 @@
+---
+layout: default
+---
+{%- comment -%}
+  Frontier Biz guide layout
+  The Markdown document only needs a stable `guide_id` in its front matter.
+  Display metadata is sourced from _data/guides.yml.
+{%- endcomment -%}
+{%- assign guide_matches = site.data.guides | where: "id", page.guide_id -%}
+{%- assign guide = guide_matches | first -%}
+
+<article class="guide-page">
+  <header class="guide-header">
+    {% if guide %}
+      <p class="guide-eyebrow">FRONTIER BIZ <span aria-hidden="true">/</span> GUIDE</p>
+      <h1 class="guide-title">{{ guide.title | escape }}</h1>
+
+      {% if guide.description %}
+        <p class="guide-description">{{ guide.description | escape }}</p>
+      {% endif %}
+
+      {% if guide.modes and guide.modes.size > 0 %}
+        <ul class="guide-metadata" aria-label="Applicable game modes">
+          {% for mode in guide.modes %}
+            <li class="guide-metadata-item guide-mode guide-mode--{{ mode | slugify }}">
+              {% case mode %}
+                {% when "campaign" %}Campaign
+                {% when "multiplayer" %}Multiplayer
+                {% when "frontier-defense" %}Frontier Defense
+                {% else %}{{ mode | replace: "-", " " | capitalize }}
+              {% endcase %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      {% if guide.tags and guide.tags.size > 0 %}
+        <ul class="guide-tags" aria-label="Guide topics">
+          {% for tag in guide.tags %}
+            <li class="guide-tag">{{ tag | replace: "-", " " | escape }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      {% if guide.status and guide.status != "published" %}
+        <p class="guide-status guide-status--{{ guide.status | slugify }}">
+          <span class="guide-status-label">Content status:</span>
+          {{ guide.status | replace: "_", " " | capitalize }}
+        </p>
+      {% endif %}
+    {% else %}
+      <p class="guide-eyebrow">FRONTIER BIZ <span aria-hidden="true">/</span> GUIDE PREVIEW</p>
+      {% if page.title %}
+        <h1 class="guide-title">{{ page.title | escape }}</h1>
+      {% endif %}
+
+      {% if page.guide_id == nil or page.guide_id == empty %}
+        <p class="guide-layout-notice" role="status">
+          This collection document is not connected to the guide catalog yet. Add a
+          <code>guide_id</code> value to its front matter when it is ready to become a guide.
+        </p>
+      {% else %}
+        <p class="guide-layout-error" role="alert">
+          No guide catalog entry was found for <code>{{ page.guide_id | escape }}</code>.
+          Check the ID against <code>_data/guides.yml</code>.
+        </p>
+      {% endif %}
+    {% endif %}
+  </header>
+
+  <div class="guide-content">
+    {{ content }}
+  </div>
+</article>

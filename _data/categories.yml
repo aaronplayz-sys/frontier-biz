@@ -1,0 +1,300 @@
+# Category registry for Frontier Biz 2.0.
+# Guide metadata lives in _data/guides.yml; this file controls grouping and order.
+
+- id: campaign-walkthrough
+  title: Mission Walkthroughs
+  description: Mission-by-mission walkthroughs covering objectives, encounters, and progression.
+  modes:
+  - campaign
+  order: 1
+  guide_ids:
+  - campaign-walkthrough-bt-7274
+  - campaign-walkthrough-blood-and-rust
+  - campaign-walkthrough-into-the-abyss
+  - campaign-walkthrough-effect-and-cause
+  - campaign-walkthrough-the-beacon
+  - campaign-walkthrough-trial-by-fire
+  - campaign-walkthrough-the-ark
+  - campaign-walkthrough-the-fold-weapon
+- id: campaign-characters
+  title: Characters and Factions
+  description: Profiles and reference material for key characters and factions in the campaign.
+  modes:
+  - campaign
+  order: 2
+  guide_ids:
+  - campaign-character-cooper
+  - campaign-character-bt
+  - campaign-character-sarah-briggs
+  - campaign-faction-six-four
+  - campaign-militia-friendly-titans
+- id: campaign-enemies-fauna
+  title: Enemies and Fauna
+  description: Reference material for campaign enemies, Apex Predators, and wildlife.
+  modes:
+  - campaign
+  order: 3
+  guide_ids:
+  - campaign-fauna-prowler
+  - campaign-fauna-flyer
+  - campaign-enemy-grunt
+  - campaign-enemy-shield-grunt
+  - campaign-enemy-spectre
+  - campaign-enemy-stalker
+  - campaign-enemy-tick
+  - campaign-enemy-drone
+  - campaign-enemy-turret
+  - campaign-enemy-reaper
+  - campaign-titan-brute
+  - campaign-titan-ion
+  - campaign-titan-scorch
+  - campaign-titan-northstar
+  - campaign-titan-ronin
+  - campaign-titan-tone
+  - campaign-titan-legion
+  - campaign-character-kane
+  - campaign-character-ash
+  - campaign-character-richter
+  - campaign-character-viper
+  - campaign-character-sloan
+- id: campaign-achievements
+  title: Achievements
+  description: Guides for unlocking campaign achievements.
+  modes:
+  - campaign
+  order: 4
+  guide_ids:
+  - campaign-achievement-pilot-helmets
+  - campaign-achievement-annihilation
+  - campaign-achievement-i-know-kung-fu
+- id: campaign-speedrun
+  title: Speedrunning
+  description: Campaign speedrun routes, techniques, and mission-specific strategies.
+  modes:
+  - campaign
+  order: 5
+  guide_ids:
+  - campaign-speedrun-gauntlet
+  - campaign-speedrun-bt-7274
+  - campaign-speedrun-blood-and-rust
+  - campaign-speedrun-into-the-abyss
+  - campaign-speedrun-effect-and-cause
+  - campaign-speedrun-the-beacon
+  - campaign-speedrun-trial-by-fire
+  - campaign-speedrun-the-ark
+  - campaign-speedrun-the-fold-weapon
+- id: mp-pilot
+  title: Pilot
+  description: Pilot mechanics, equipment, movement, and combat guidance for Multiplayer.
+  modes:
+  - multiplayer
+  order: 1
+  guide_ids:
+  - mp-pilot-universal-mechanics
+  - mp-pilot-movement
+  - mp-pilot-loadout
+  - mp-pilot-primary-sidearm
+  - mp-pilot-anti-titan-weapons
+  - mp-pilot-weapon-mods-sights
+  - mp-pilot-tactical
+  - mp-pilot-ordnance
+  - mp-pilot-kit
+  - mp-pilot-boost
+  - mp-pilot-versus-pilot
+  - mp-pilot-versus-titan
+  - mp-pilot-versus-minions
+  - mp-pilot-rodeo
+  - mp-pilot-progression
+- id: mp-titan
+  title: Titan
+  description: Titan mechanics, chassis guides, and combat guidance for Multiplayer.
+  modes:
+  - multiplayer
+  order: 2
+  guide_ids:
+  - mp-titan-universal-mechanics
+  - mp-titan-titanfalls-and-kits
+  - mp-titan-ion
+  - mp-titan-scorch
+  - mp-titan-northstar
+  - mp-titan-ronin
+  - mp-titan-tone
+  - mp-titan-legion
+  - mp-titan-monarch
+  - mp-titan-versus-titan
+  - mp-titan-versus-pilot
+  - mp-titan-versus-minions
+  - shared-titan-kit
+  - shared-titan-auto-titan
+- id: mp-minions
+  title: Minions
+  description: Reference material for AI-controlled minions and related Multiplayer systems.
+  modes:
+  - multiplayer
+  order: 3
+  guide_ids:
+  - mp-minion-guide-terms
+  - mp-minion-universal-mechanics
+  - mp-minion-drop-ship
+  - mp-minion-grunt
+  - mp-minion-specter
+  - mp-minion-stalker
+  - mp-minion-reaper
+  - mp-minion-evac-ship
+  - mp-minion-bounty
+- id: mp-gamemodes
+  title: Game Modes
+  description: Rules, objectives, and strategies for Titanfall 2 Multiplayer modes.
+  modes:
+  - multiplayer
+  order: 4
+  guide_ids:
+  - mp-mode-attrition
+  - mp-mode-bounty-hunt
+  - mp-mode-amped-hardpoint
+  - mp-mode-capture-the-flag
+  - mp-mode-last-titan-standing
+  - mp-mode-pilots-vs-pilots
+  - mp-mode-live-fire
+  - mp-mode-titan-brawl
+  - mp-mode-coliseum
+  - mp-mode-mix-tape
+- id: mp-maps
+  title: Maps and Callouts
+  description: Multiplayer map layouts, landmarks, minimaps, and callout references.
+  modes:
+  - multiplayer
+  order: 5
+  guide_ids:
+  - mp-map-legend
+  - mp-map-minimap
+  - mp-map-angel-city
+  - mp-map-black-water-canal
+  - mp-map-boomtown
+  - mp-map-colony
+  - mp-map-complex
+  - mp-map-crash-site
+  - mp-map-deck
+  - mp-map-drydock
+  - mp-map-eden
+  - mp-map-exoplanet
+  - mp-map-forward-base-kodai
+  - mp-map-glitch
+  - mp-map-homestead
+  - mp-map-meadow
+  - mp-map-relic
+  - mp-map-rise
+  - mp-map-stacks
+  - mp-map-traffic
+  - mp-map-township
+  - mp-map-uma
+  - mp-map-war-games
+- id: fd-pilot
+  title: Pilot
+  description: Pilot mechanics, equipment, and strategies for Frontier Defense.
+  modes:
+  - frontier-defense
+  order: 1
+  guide_ids:
+  - fd-pilot-universal-mechanics
+  - fd-pilot-primary-sidearm
+  - fd-pilot-anti-titan-weapons
+  - fd-pilot-weapon-mods-sights
+  - fd-pilot-tactical
+  - fd-pilot-ordnance
+  - fd-pilot-kit
+  - fd-pilot-loadout
+  - fd-pilot-economy-armory
+  - fd-pilot-movement
+  - fd-pilot-rodeo
+  - fd-pilot-battery-farming
+  - fd-pilot-only
+  - fd-pilot-progression
+- id: fd-titan
+  title: Titan
+  description: Titan mechanics, chassis guides, upgrades, and strategies for Frontier Defense.
+  modes:
+  - frontier-defense
+  order: 2
+  guide_ids:
+  - fd-titan-universal-mechanics
+  - fd-titan-titanfalls-and-kits
+  - fd-titan-aegis
+  - fd-titan-survivability
+  - fd-titan-ion
+  - fd-titan-scorch
+  - fd-titan-northstar
+  - fd-titan-ronin
+  - fd-titan-tone
+  - fd-titan-legion
+  - fd-titan-monarch
+  - shared-titan-kit
+  - shared-titan-auto-titan
+- id: fd-enemy
+  title: Enemies
+  description: Enemy unit references, mechanics, behaviors, and threat assessments for Frontier Defense.
+  modes:
+  - frontier-defense
+  order: 3
+  guide_ids:
+  - fd-enemy-guide-terms
+  - fd-enemy-universal-mechanics
+  - fd-enemy-ai-behavior
+  - fd-enemy-threat-tier-list
+  - fd-enemy-grunt
+  - fd-enemy-tick
+  - fd-enemy-mortar-specter
+  - fd-enemy-plasma-drone
+  - fd-enemy-cloak-drone
+  - fd-enemy-stalker
+  - fd-enemy-reaper
+  - fd-enemy-arc-titan
+  - fd-enemy-ion
+  - fd-enemy-scorch
+  - fd-enemy-northstar-sniper
+  - fd-enemy-ronin
+  - fd-enemy-tone
+  - fd-enemy-tone-sniper
+  - fd-enemy-mortar-titan
+  - fd-enemy-legion
+  - fd-enemy-nuke-titan
+  - fd-enemy-monarch
+  - fd-enemy-unit-database
+- id: fd-maps
+  title: Maps and Callouts
+  description: Frontier Defense map layouts, minimaps, difficulty, and defensive callouts.
+  modes:
+  - frontier-defense
+  order: 4
+  guide_ids:
+  - fd-pilot-minimap
+  - fd-map-difficulty
+  - fd-map-legend
+  - fd-map-forward-base-kodai
+  - fd-map-homestead
+  - fd-map-exoplanet
+  - fd-map-black-water-canal
+  - fd-map-drydock
+  - fd-map-angel-city
+  - fd-map-colony
+  - fd-map-war-games
+  - fd-map-rise
+- id: shared-reference
+  title: General Reference
+  description: Shared terminology and reference material for Titanfall 2.
+  modes:
+  - multiplayer
+  - frontier-defense
+  order: 1
+  guide_ids:
+  - shared-terminology
+- id: shared-titan-reference
+  title: Titan Reference
+  description: Shared Titan mechanics, systems, and reference material.
+  modes:
+  - multiplayer
+  - frontier-defense
+  order: 2
+  guide_ids:
+  - shared-titan-kit
+  - shared-titan-auto-titan

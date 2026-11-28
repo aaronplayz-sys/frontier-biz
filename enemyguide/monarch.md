@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Monarch
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 21
+custom_class: battlefield-theme
 ---
 
 # Monarch

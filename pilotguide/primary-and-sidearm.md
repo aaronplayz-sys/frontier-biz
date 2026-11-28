@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Primary and Sidearm
-parent: Pilot Guide
+parent: 🧑‍✈️ Pilot Guide
 nav_order: 2
+custom_class: pilot-theme
 ---
 
 # Primary and Sidearm

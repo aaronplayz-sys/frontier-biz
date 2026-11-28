@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Pilot Only
-parent: Pilot Guide
+parent: 🧑‍✈️ Pilot Guide
 nav_order: 14
+custom_class: pilot-theme
 ---
 
 # Pilot Only

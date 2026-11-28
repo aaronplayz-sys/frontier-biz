@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Map Legend
-parent: Map Guide
+parent: 🗺️ Map Guide
 nav_order: 3
+custom_class: map-theme
 ---
 
 ## Map Legend

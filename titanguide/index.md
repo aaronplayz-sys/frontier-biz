@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Titan Guide
+title: 🤖 Titan Guide
 nav_order: 5
 nav_enabled: true
+custom_class: titan-theme
 ---
 
 # Titan Guide

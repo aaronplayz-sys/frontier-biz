@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Plasma Drone
-parent: Enemy Guide
+parent: 💀 Enemy Guide
 nav_order: 7
+custom_class: battlefield-theme
 ---
 
 # Plasma Drone

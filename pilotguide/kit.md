@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Kit
-parent: Pilot Guide
+parent: 🧑‍✈️ Pilot Guide
 nav_order: 7
+custom_class: pilot-theme
 ---
 
 # Kit

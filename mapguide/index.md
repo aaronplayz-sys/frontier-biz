@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Map Guide
+title: 🗺️ Map Guide
 nav_order: 7
 nav_enabled: true
+custom_class: map-theme
 ---
 
 # Map Guide
