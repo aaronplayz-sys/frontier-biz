@@ -377,3 +377,8 @@
   max-width: 80rem;
   margin-inline: auto;
 }
+
+/* Note callout refinement */
+blockquote.note {
+  background-color: rgba(197, 42, 158, 0.07);
+}
